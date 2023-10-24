@@ -2,7 +2,8 @@ site_name: Dacumentation
 
 theme:
   name: material
-  
+  logo: images/cdrLogo.png
+  favicon: images/cdrLogo.png
   palette: 
 
     # Palette toggle for light mode
@@ -16,6 +17,7 @@ theme:
       toggle:
         icon: material/lightbulb-outline
         name: Switch to light mode
+
 features:
     - navigation.tabs
     - navigation.path
