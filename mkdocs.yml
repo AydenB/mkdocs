@@ -1,0 +1,8 @@
+site_name: Dacumentation
+
+theme:
+  name: material
+
+features:
+    - navigation.tabs
+    - navigation.path
