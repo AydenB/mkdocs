@@ -17,7 +17,11 @@ theme:
       toggle:
         icon: material/lightbulb-outline
         name: Switch to light mode
+plugins:
+  - search
 
 features:
     - navigation.tabs
     - navigation.path
+    - search.highlight
+    - search.suggest
