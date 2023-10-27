@@ -17,11 +17,96 @@ theme:
       toggle:
         icon: material/lightbulb-outline
         name: Switch to light mode
-plugins:
-  - search
 
-features:
+  features:
+    - announce.dismiss
+    - content.action.edit
+    - content.action.view
+    - content.code.annotate
+    - content.code.copy
+    - content.tooltips
+    # - header.autohide
+    # - navigation.expand
+    - navigation.footer
+    - navigation.indexes
+    # - navigation.instant
+    # - navigation.instant.prefetch
+    # - navigation.instant.progress
+    # - navigation.prune
+    - navigation.sections
     - navigation.tabs
-    - navigation.path
+    # - navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
     - search.highlight
+    - search.share
     - search.suggest
+    - toc.follow
+    
+  
+  # Page tree
+nav:
+  - Home:
+      - Intro: 
+        - index.md
+      - User Guides: user-guide/Accounts Payable.md
+      - Quick Reference: quick-refrence-guide/Accounts Payable QRG.md
+      - How to: lorem.md
+      - Tutorials: lorem.md
+  - User Guides:
+    - Accounts Payable: user-guide/Accounts Payable.md
+    - Accounts Receivable: user-guide/Accounts Receivable.md
+    - AP Check Forms: user-guide/AP Check Forms.md
+    - Billing File Maintenance: Billing File Maintenance.md
+    - Billing: user-guide/Billing.md
+    - Customer File Maintenance: user-guide/Customer File Maintenance.md
+    - DAC Closing Procedures: user-guide/Dac Closing Procedures.md
+    - DAC Data Library Files: user-guide/DAC Data Library Files.md
+    - DAC Default System Options: user-guide/DAC Default System Options.md
+    - DAC Report Samples: user-guide/DAC Report Samples.md
+    - EDI: user-guide/EDI.md
+    - Entire System Save: user-guide/Entire System Save.md
+    - General Ledger: user-guide/General Ledger.md
+    - Getting Started: user-guide/getting-started.md
+    - Item File Maintenance: user-guide/Item File Maintenance.md
+    - Order Books: user-guide/Order Books.md
+    - Outbound Email and Doc Distribution: user-guide/Outbound Email and Doc Distribution.md
+    - Physical Inventory: user-guide/Physical Inventory.md
+    - Picker Productivity: user-guide/Picker Productivity.md
+    - Pre-book Orders: user-guide/Pre-book Orders.md
+    - Purchasing: user-guide/Purchasing.md
+    - Retail Shelf Labels: user-guide/Retail Shelf Labels.md
+    - RF Warehouse Systems: user-guide/RF Warehouse System.md
+    - Sales Analysis Reports: user-guide/Sales Analysis Reports.md
+    - System File Maintenance: user-guide/System File Maintenance.md
+    - Tax System: user-guide/Tax System.md
+    - Vendor Billing: user-guide/Vendor Billing.md
+    - Vendor Receivables: user-guide/Vendor Receivable.md
+    - Vendors: user-guide/Vendor.md
+    - Warehousing: user-guide/Warehousing.md 
+  - Quick Reference:
+    - Accounts Payable : quick-refrence-guide/Accounts Payable QRG.md
+    - Accounts Receivable: quick-refrence-guide/Accounts Receivable QRG.md
+    - Billing Auto: quick-refrence-guide/Billing Auto.md
+    - Billing Manual: quick-refrence-guide/Billing Manual.md
+    - Closing: quick-refrence-guide/Closing.md
+    - Contracts: quick-refrence-guide/Contracts.md
+    - Customers: quick-refrence-guide/Customers.md
+    - DAC Colors: quick-refrence-guide/DAC Colors.md
+    - DAC Symbols: quick-refrence-guide/DAC Symbols.md
+    - Global Price Change: quick-refrence-guide/Global Price Changing.md
+    - Item Location Quantity: quick-refrence-guide/Item Location Quantity.md
+    - Location Quantity Transfer: quick-refrence-guide/Location Quantity Transfer.md
+    - New General Ledger Accounts: quick-refrence-guide/New General Ledger Accounts.md
+    - Price Inquiry: quick-refrence-guide/Price Inquiry.md
+    - Purchasing: quick-refrence-guide/Purchasing QRG.md
+    - Voiding Posted Orders: quick-refrence-guide/Voiding Posted Orders.md
+  - How To:
+    - lorem.md
+    - Requirements:
+      - Image processing: lorem.md
+      - Caching: lorem.md
+  - Tutorial:
+    - lorem.md
+    - Admonitions: lorem.md
+    - Tooltips: lorem.md
