@@ -656,26 +656,32 @@ Center (3,n) field. Contact CDR support personnel for additional information.
 17. Enter *YES* for the **A/P Auto Tape Recon** (3,a) field if monthly reconciliation with the bank is handled electronically. Contact CDR personnel for additional information.
 
 18. Enter  Y for the Print A/P Remittance Rpt (1,a) field to print a remittance report, similar to a check stub, for EFT payments.  
-19. Enter  Y (yes) for the GL Act# on AP Chk Reg-Y/N (1,a) field to designate that the account numbers which are debited in the General Ledger (when posting invoices) are printed on the check register. Refer to Working With A/P Item Records for information about the G/L Acct Number field which is used to designate these account numbers. 
+19. Enter  Y (yes) for the GL Act# on AP Chk Reg-Y/N (1,a) field to designate that the account numbers which are debited in the General Ledger (when posting invoices) are printed on the check register. Refer to Working With A/P Item Records for information about the G/L Acct Number field which is used to designate these account numbers.
 20. If A/P laser printer checks are used, enter one of the following values for the A/P Laser Check?(No/1/2) (1,a) field to designate the type of printer used. If the continous form check is used, enter N (no). Refer to the A/P Check Forms document for additional information.
     - *1* a printer with IPDS (intelligent printer data stream) capability is used for printing the checks.
     - *2* a printer without IPDS capability is used for printing the checks.  
-21.  Enter  Y (yes) for the Use GL hdr desc 2 for dtl (1,a) field to designate that text 
-entered for the Desc 2 field of the Journal Entry screen is printed as the journl 
-entry’s detail information; otherwise, the account name/description from the chart 
-of account is used.  
-22.  Enter  *YES for the Print Invoice Entry Edit (6,a) field to designate that the 
-Invoice Entry Edit List is automatically printed when an A/P invoice batch is 
-posted.  
-23.  Enter  *YES for the Allow Auto EFT & Man Chks (6,a) field to designate 
-that EFT and manual check payments can be automatically posted when users 
-enter vendor invoices. Refer to Automatically Posting Manual Payments and 
-Automatically Posting EFT Payments for additional information. 
-24.  Press <Enter&gt;.  
-25.  Press <Enter&gt; when prompted to confirm. The Work With A/P Options  screen 
-appears.                                                                  
+21. Enter  Y (yes) for the Use GL hdr desc 2 for dtl (1,a) field to designate that text entered for the Desc 2 field of the Journal Entry screen is printed as the journl entry’s detail information; otherwise, the account name/description from the chart of account is used.
+
+22. Enter  *YES for the Print Invoice Entry Edit (6,a) field to designate that the
+Invoice Entry Edit List is automatically printed when an A/P invoice batch is posted.
+  
+23. Enter  *YES for the Allow Auto EFT & Man Chks(6,a) field to designate that EFT and manual check payments can be automatically posted when users enter vendor invoices. Refer to Automatically Posting Manual Payments and Automatically Posting EFT Payments for additional information.
+
+24. Press &lt;Enter&gt;.  
+
+25. Press &lt;Enter&gt; when prompted to confirm. The Work With A/P Options screen appears.
 
 ### Working With Recurring Invoice Records
+
+After the vendor records are added, the Vendor Maintenance and Recurring Invoice Maintenance screens are used to add recurring invoice records. These are used to quickly and accuarately process invoices for expenses such as monthly rent payments.
+
+[Refer to Printing Multiple Reference Lines](#printing-multiple-refrence-lines) for information about using recurring invoices to print multiple text lines on a check stub.
+
+The instructions given below, which describe adding recurring invoice records, can also be followed to edit a record.
+
+1. Select option 1 (Vendor) from the A/P File Maintenance screen. The Vendor Maintenance screen appears.
+
+2. Enter 7 (Recurring Invoices) in the selection column of the desired vendor’s record, and press &lt;Enter&gt;. The Recurring Invoice Maintenance (Display) screen appears with recurring invoice records if any have been previously added for the vendor
 
 ## Working With Vendor Invoices
 
