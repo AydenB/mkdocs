@@ -1,10 +1,10 @@
 # DACSI Trader Portal User Guide
 
-## 1. Introduction
+## Introduction
 
 Welcome to DACSI Trader Portal, a web-based mailbox management system for CDR's EDI Services. This guide will help you get started and make the most of the features available to you.
 
-## 2. Getting Started
+## Getting Started
 
 Retailers will receive an "Access Key" from their Distributor. This key is your ticket to access your mailbox within DACSI Trader Portal. To log in, visit [dacsi.cdrsoftware.com](https://dacsi.cdrsoftware.com) and use the provided Access Key.
 
