@@ -64,6 +64,7 @@ nav:
     - DAC Data Library Files: user-guide/DAC Data Library Files.md
     - DAC Default System Options: user-guide/DAC Default System Options.md
     - DAC Report Samples: user-guide/DAC Report Samples.md
+    - DACSI Trader Portal: how-to/DAC Trader.md
     - EDI: user-guide/EDI.md
     - Entire System Save: user-guide/Entire System Save.md
     - General Ledger: user-guide/General Ledger.md
@@ -102,11 +103,9 @@ nav:
     - Purchasing: quick-refrence-guide/Purchasing QRG.md
     - Voiding Posted Orders: quick-refrence-guide/Voiding Posted Orders.md
   - How To:
-    - lorem.md
     - Requirements:
       - Image processing: lorem.md
       - Caching: lorem.md
   - Tutorial:
-    - lorem.md
     - Admonitions: lorem.md
     - Tooltips: lorem.md
