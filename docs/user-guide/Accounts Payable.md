@@ -163,14 +163,14 @@ The Company Maintenance screen is used to add at least one company record before
 5. Press &lt;Enter&gt;. The Company Maintenance screen is redisplayed.
 
 6. Enter data for the following fields:\
-    • **Name** (40,a) - the name of the company.\
-    • **Address line 1** (30,a) - the company’s street number and street name, or post office box number.\
-    • Optional: **Address line 2** (30,a) - remaining portion of the company’s address, such as post office box number if not entered for Address Line 1.\
-    • **City** (20,a) - the city of the company’s mailing address.\
-    • **State** (2,a) - the state of the company’s mailing address.\
-    • **Postal code** (5-9,n) - the zip code and 4-digit extension of the company’s mailing address.\
-    • Optional: **Phone number** (10,n) - the company’s area code and telephone number.\
-    • Optional: **Fax number** (10,n) - the company’s area code and telephone number for fax transmission\
+    - **Name** (40,a) - the name of the company.\
+    - **Address line 1** (30,a) - the company’s street number and street name, or post office box number.\
+    - Optional: **Address line 2** (30,a) - remaining portion of the company’s address, such as post office box number if not entered for Address Line 1.\
+    - **City** (20,a) - the city of the company’s mailing address.\
+    - **State** (2,a) - the state of the company’s mailing address.\
+    - **Postal code** (5-9,n) - the zip code and 4-digit extension of the company’s mailing address.\
+    - Optional: **Phone number** (10,n) - the company’s area code and telephone number.\
+    - Optional: **Fax number** (10,n) - the company’s area code and telephone number for fax transmission\
 
 7. Enter Y (yes) for the **G/L interface** (1,a) field to designate that Accounts Payable data is transferred automatically to General Ledger. If the DAC General Ledger System is not used, enter N (no).
     > Note: If the General Ledger System is not used, but chart of account numbers that are created using the General Ledger System are used, Y must be entered for the **G/L interface** field.
@@ -191,9 +191,9 @@ Refer to [Selecting The Default Company](#selecting-the-default-company) for inf
 1. Select option 11 (User Profile) from the A/P File Maintenance screen. The User Profile Maintenance (Add) screen appears without values for the **User, User name, Cmp** and **Company name** fields if no user profile records have been added.
 2. If necessary, press &lt;F9&gt; (Go to 'Add' mode) to display the User Profile Maintenance (Add) screen.
 3. Enter data for the following fields for each user:
-• **User** (10,a) - the username which the user enters to sign on the system.\
-• **User name** (30,a) - the user’s name.\
-• **Cmp** (3,a) - a company code designating the user’s default company. If necessary, enter ? and press &lt;Enter&gt; to select a company code from the Company Selection screen.\
+- **User** (10,a) - the username which the user enters to sign on the system.\
+- **User name** (30,a) - the user’s name.\
+- **Cmp** (3,a) - a company code designating the user’s default company. If necessary, enter ? and press &lt;Enter&gt; to select a company code from the Company Selection screen.\
     >Note: If the value of the **Cmp** field is later changed in the user profile record of a user who is currently signed on, that user must sign off and sign on before the change takes affect.
 
 4. Press &lt;Enter&gt; and &lt;F9&gt; (Go to 'Change' mode) when data entry is complete. The User Profile Maintenance (Change) screen appears.
@@ -684,6 +684,85 @@ The instructions given below, which describe adding recurring invoice records, c
 2. Enter 7 (Recurring Invoices) in the selection column of the desired vendor’s record, and press &lt;Enter&gt;. The Recurring Invoice Maintenance (Display) screen appears with recurring invoice records if any have been previously added for the vendor
 
 ## Working With Vendor Invoices
+
+The Invoice Entry/Update application (option 1 of the Accounts Payable screen) is primarily used to add and edit batches of vendor invoices. The application is also used to post invoices to General Ledger.
+
+Credit memos are handled by the A/P System in the same manner as invoices; therefore, references to “invoices” below also include credit memos.
+
+The Debit/Credit Maintenance application (option 2 of the Accounts Payable screen) is used to credit and debit vendor invoices which are posted, but not yet paid.
+
+If the DAC Purchasing System is used to transfer purchase orders to Accounts Payable, vendor invoices are automatically added for A/P users who can edit (if necessary) the invoices before posting them.
+
+Below are the screens used during the process of working with vendor invoices.
+
+The A/P Invoice Posting (Enter) screen is used to begin the invoice batch entry and editing processes. The F8 (Select batch) key is used to select previously entered invoice batches including those automatically added if the DAC Purchasing System is used to transfer purchase orders to Accounts Payable.
+
+The **Posting date** field, which designates the posting date of the invoice batch, used for posting entries to the General Ledger if B is entered for the **Inv jrnl entry method** field of a company record. Refer to Working With Company A/P Options for additional information.
+
+The **Control total** field designates the total net amount of all the invoices of a batch.
+
+The Batch Selection screen is used to select invoice batches for deleting, editing and posting, including those automatically added if the DAC Purchasing System is used to transfer purchase orders to Accounts Payable. The *P=Print Edit List* option of this screen is used to print a detailed report of the invoices of a batch.
+
+The A/P Invoice Posting (Add) screen is used to add an individual invoice to an invoice batch. It also appears when users are selecting batches to edit and post.
+
+The values of the **Voucher** and **Batch** fields appearing on the screen above are automatically generated by the Accounts Payable System, and cannot be changed by the user.
+
+The cost center number appearing for the **Dft cost center** field, which can be changed by the user, defaults from the cost center number of the **A/P account number** field of the company’s A/P options. Refer to [Working With Company A/P Options](#working-with-company-ap-options) for additional information.
+
+The value of the **Dft cost center** field is used as the default value of the **Cost Center** field (described below) when A/P items are added to the invoice.
+
+During the course of entering an invoice, the following function keys can be used:
+
+- F4 (Invoice review) - allows users to display information about all the previously entered invoices of the batch. If the Invoice Review screen (see below) does not appear after pressing <F4>, no invoices have been added to the batch.
+
+- F14 (Recurring invoices) - allows users to add a recurring invoice to the batch.
+
+- F16 (Vendor Maintenance) - interrupts the entry of an invoice to allow users to work with A/P vendor records. Refer to Working With Vendor Records for additional information.
+
+The Invoice Review screen appears after pressing <F4> (Invoice review) at the A/P Invoice Posting screens. During the course of using the Invoice Review screen, the following options can be used:
+
+- *2=Change* - the A/P Invoice Posting (Change) screen appears (see below). The user can make numerous changes to the invoice including editing, adding and deleting items.
+
+- *4=Delete* - the invoice is deleted from the batch. After entering *4* in the selection column next to the voucher number of the desired invoice, press <Enter>.
+
+The values of the following fields (listed in alphabetical order) are system-generated when POs are transferred to Accounts Payable from DAC Purchasing:
+
+- **Cost Center** - the cost center number which is used when posting the invoice. The value of the **Dft cost center** field (described above) is used as the default value of the **Cost Center** field. The Cost Center field name will be different if another value is entered for the **Cost cntr hdr** field of the Company Maintenance (G/L) screen. Refer to Working With Company G/L Options for additional information.
+
+- **Desc** (30,a) - the A/P item’s description. Refer to [Working With A/P Item Records](#working-with-ap-item-records) for additonal information.
+
+- **Disc due** - the date by which the vendor must receive payment for the distributor to qualify for a cash discount. Refer to Working With Terms Records for information about the **Disc due days** and **Disc due dte** fields which are used to calculate the discount due date. Also refer to [Working With A/P Options](#working-with-ap-options) for information about the **Take A/P Disc If Past Due Date** field which can be used to make discounted payments to vendors when an invoice is past due.
+
+- **Discount** - *Y* (yes) designates that the distributor can qualify for a cash discount for the item, and the calculated amount of the discount appears. Refer to Working With A/P Item Records for information about the Discount allowed field.
+
+    Refer to Working With Company A/P Options for information about the Allow discount override field which designates if the values of the Discount fields can be changed when processing invoice batches.
+
+- **Due date** - the date by which the vendor must receive payment before the invoice is considered past due. Refer to Working With Terms Records for information about calculating the payment due date.
+
+- **G/L Account** - the account number that is debited when posting the invoice. Refer to [Working With A/P Item Records](#working-with-ap-item-records) for information about the **G/L Account** field.
+  
+    > Note: The G/L Account field name will be different if another value is entered for the Account header field of the Company Maintenance (G/L) screen. Refer to [Working With Company G/L Options](#working-with-company-gl-options) for additional information.
+
+- **Inv.** - vendor’s invoice number.
+
+- **Inv date** - vendor’s invoice date is used for posting entries to General Ledger if I is entered for the **Inv jrnl entry method** field of a company record.
+  
+- **Item** - an A/P item code. Refer to [Working With A/P Item Records](#working-with-ap-item-records) for additional information. Refer to [Calculating An A/P Allowance](#calculating-an-ap-allowance) for information about using the **Item**, **Price** and **Qty** fields to calculate an allowance for an invoice.
+
+- **Pay date** - the date by which the distributor intends to pay the vendor. Refer to [Working With A/P Options](#working-with-ap-options) for information about using the **Default Pay Date From** field to designate the default pay date. Also refer to [Working With A/P Options](#working-with-ap-options) for information about using the **A/P Check Date** field to designate that the pay date is used for posting entries to the payment journal.
+
+- **Price** - the item’s net cost. The default value of the **Price** field appears if it was entered for the **Actual cost** field of the A/P item’s record. Refer to [Working With A/P Item Records](#working-with-ap-item-records) for additional information. Also refer to [Calculating An A/P Allowance](#calculating-an-ap-allowance) for information about using the **Item**, **Price** and **Qty** fields to calculate an allowance for an invoice.
+  
+- **Rcv Dte** - the date on which the order was received from the vendor. The value of the **Rcv Dte** field is used to print the A/P Tobacco Invoice Report. Refer to [Working With Accounts Payable Reports](#working-with-accounts-payable-reports) for additional information.
+  
+- **Ref** - text printed on check stubs, the A/P Invoice Transaction Register report, and A/P invoice journal reports. When purchase orders are transferred to Accounts Payable from DAC Purchasing, the PO numbers are automatically entered for the **Ref** field.
+  
+    Refer to Printing Multiple Reference Lines for information about printing a check stub containing more than one line of text.
+
+- **Terms** - the vendor’s payment terms.
+- **Vendor** - vendor code.
+
+The A/P DR/CR Maintenance screen is used to credit and debit vendor invoices which are posted, but not yet paid. Refer to [Adjusting A Posted Invoice](#adjusting-a-posted-invoice) for additional information.
 
 ### Adding An Invoice Batch
 
