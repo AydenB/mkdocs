@@ -697,7 +697,7 @@ Below are the screens used during the process of working with vendor invoices.
 
 The A/P Invoice Posting (Enter) screen is used to begin the invoice batch entry and editing processes. The F8 (Select batch) key is used to select previously entered invoice batches including those automatically added if the DAC Purchasing System is used to transfer purchase orders to Accounts Payable.
 
-The **Posting date** field, which designates the posting date of the invoice batch, used for posting entries to the General Ledger if B is entered for the **Inv jrnl entry method** field of a company record. Refer to Working With Company A/P Options for additional information.
+The **Posting date** field, which designates the posting date of the invoice batch, used for posting entries to the General Ledger if B is entered for the **Inv jrnl entry method** field of a company record. Refer to [Working With Company A/P Options](#working-with-company-ap-options) for additional information.
 
 The **Control total** field designates the total net amount of all the invoices of a batch.
 
@@ -713,7 +713,7 @@ The value of the **Dft cost center** field is used as the default value of the *
 
 During the course of entering an invoice, the following function keys can be used:
 
-- F4 (Invoice review) - allows users to display information about all the previously entered invoices of the batch. If the Invoice Review screen (see below) does not appear after pressing <F4>, no invoices have been added to the batch.
+- F4 (Invoice review) - allows users to display information about all the previously entered invoices of the batch. If the Invoice Review screen (see below) does not appear after pressing &lt;F4&gt;, no invoices have been added to the batch.
 
 - F14 (Recurring invoices) - allows users to add a recurring invoice to the batch.
 
