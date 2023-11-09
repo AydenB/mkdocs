@@ -717,27 +717,27 @@ During the course of entering an invoice, the following function keys can be use
 
 - F14 (Recurring invoices) - allows users to add a recurring invoice to the batch.
 
-- F16 (Vendor Maintenance) - interrupts the entry of an invoice to allow users to work with A/P vendor records. Refer to Working With Vendor Records for additional information.
+- F16 (Vendor Maintenance) - interrupts the entry of an invoice to allow users to work with A/P vendor records. Refer to [Working With Vendor Records](#working-with-vendor-records) for additional information.
 
-The Invoice Review screen appears after pressing <F4> (Invoice review) at the A/P Invoice Posting screens. During the course of using the Invoice Review screen, the following options can be used:
+The Invoice Review screen appears after pressing &lt;F4&gt; (Invoice review) at the A/P Invoice Posting screens. During the course of using the Invoice Review screen, the following options can be used:
 
 - *2=Change* - the A/P Invoice Posting (Change) screen appears (see below). The user can make numerous changes to the invoice including editing, adding and deleting items.
 
-- *4=Delete* - the invoice is deleted from the batch. After entering *4* in the selection column next to the voucher number of the desired invoice, press <Enter>.
+- *4=Delete* - the invoice is deleted from the batch. After entering *4* in the selection column next to the voucher number of the desired invoice, press &lt;enter&gt;.
 
 The values of the following fields (listed in alphabetical order) are system-generated when POs are transferred to Accounts Payable from DAC Purchasing:
 
-- **Cost Center** - the cost center number which is used when posting the invoice. The value of the **Dft cost center** field (described above) is used as the default value of the **Cost Center** field. The Cost Center field name will be different if another value is entered for the **Cost cntr hdr** field of the Company Maintenance (G/L) screen. Refer to Working With Company G/L Options for additional information.
+- **Cost Center** - the cost center number which is used when posting the invoice. The value of the **Dft cost center** field (described above) is used as the default value of the **Cost Center** field. The Cost Center field name will be different if another value is entered for the **Cost cntr hdr** field of the Company Maintenance (G/L) screen. Refer to [Working With Company G/L Options](#working-with-company-gl-options) for additional information.
 
 - **Desc** (30,a) - the A/P item’s description. Refer to [Working With A/P Item Records](#working-with-ap-item-records) for additonal information.
 
 - **Disc due** - the date by which the vendor must receive payment for the distributor to qualify for a cash discount. Refer to Working With Terms Records for information about the **Disc due days** and **Disc due dte** fields which are used to calculate the discount due date. Also refer to [Working With A/P Options](#working-with-ap-options) for information about the **Take A/P Disc If Past Due Date** field which can be used to make discounted payments to vendors when an invoice is past due.
 
-- **Discount** - *Y* (yes) designates that the distributor can qualify for a cash discount for the item, and the calculated amount of the discount appears. Refer to Working With A/P Item Records for information about the Discount allowed field.
+- **Discount** - *Y* (yes) designates that the distributor can qualify for a cash discount for the item, and the calculated amount of the discount appears. Refer to [Working With A/P Item Records](#working-with-ap-item-records) for information about the Discount allowed field.
 
-    Refer to Working With Company A/P Options for information about the Allow discount override field which designates if the values of the Discount fields can be changed when processing invoice batches.
+    Refer to [Working With Company A/P Options](#working-with-company-ap-options) for information about the Allow discount override field which designates if the values of the Discount fields can be changed when processing invoice batches.
 
-- **Due date** - the date by which the vendor must receive payment before the invoice is considered past due. Refer to Working With Terms Records for information about calculating the payment due date.
+- **Due date** - the date by which the vendor must receive payment before the invoice is considered past due. Refer to [Working With Terms Records](#working-with-terms-records) for information about calculating the payment due date.
 
 - **G/L Account** - the account number that is debited when posting the invoice. Refer to [Working With A/P Item Records](#working-with-ap-item-records) for information about the **G/L Account** field.
   
@@ -757,9 +757,10 @@ The values of the following fields (listed in alphabetical order) are system-gen
   
 - **Ref** - text printed on check stubs, the A/P Invoice Transaction Register report, and A/P invoice journal reports. When purchase orders are transferred to Accounts Payable from DAC Purchasing, the PO numbers are automatically entered for the **Ref** field.
   
-    Refer to Printing Multiple Reference Lines for information about printing a check stub containing more than one line of text.
+    Refer to [Printing Multiple Reference Lines](#printing-multiple-refrence-lines) for information about printing a check stub containing more than one line of text.
 
 - **Terms** - the vendor’s payment terms.
+  
 - **Vendor** - vendor code.
 
 The A/P DR/CR Maintenance screen is used to credit and debit vendor invoices which are posted, but not yet paid. Refer to [Adjusting A Posted Invoice](#adjusting-a-posted-invoice) for additional information.
