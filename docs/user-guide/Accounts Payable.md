@@ -767,6 +767,68 @@ The A/P DR/CR Maintenance screen is used to credit and debit vendor invoices whi
 
 ### Adding An Invoice Batch
 
+The instructions which follow describe using the A/P Invoice Posting screen to enter an invoice batch containing vendor invoices. Refer to Adding A Credit Memo below for information about including credit memos in an invoice batch.
+
+Refer to Working With Vendor Invoices above for detailed information about the fields used in the following instructions.
+
+1. Select option 1 (Invoice Entry/Update) from the Accounts Payable screen. The A/P Invoice Posting (Enter) screen appears.
+
+2. Enter a date for the Posting date field to designate the posting date of the invoice batch.
+
+3. Enter an amount for the Control total field to designate the total amount due for all the invoices that will be added to the batch. If the total amount is not known, an estimate of the total must be entered to continue. The actual total amount can be changed after all the invoices are added.
+   >Note: Zero cannot be entered for the Control total field.
+
+4. Press &lt;Enter&gt;. The A/P Invoice Posting (Add) screen appears.
+
+5. Enter a vendor code for the **Vendor** field to designate the vendor from whom the invoice was received. If necessary, enter *?* and press &lt;Enter&gt; to select a vendor code from the Vendor Select screen.
+
+6. To add a recurring invoice, press &lt;F14&gt; (Recurring invoices), and select the desired recurring invoice record from the Recurring Invoice Selection screen. If recurring invoices are used to print a check stub containing more than one line of text, select the invoices in the correct order. Refer to [Printing Multiple Reference Lines](#printing-multiple-refrence-lines) for additional information.
+
+7. Enter the vendor’s invoice number for the **Inv**. field. If the number was previously entered for the vendor, the warning message *Another voucher exists for this vendor invoice* appears.
+
+8. Enter one of the following values for the **Pymt type** field:
+    - *P* - designates that a system-generated check will be used to pay the vendor.
+    - M - designates that a hand-written check will be used to pay the vendor.
+    - *E* - designates that an EFT payment will be used to pay the vendor.
+ The **Pymt type** field can be left blank to designate that a system-generated check will be used.
+
+9. Enter the vendor’s invoice date for the **Inv date** field, and press &lt;Enter&gt;.
+
+10. The following information is automatically generated, but can be changed by the user:
+    - **Terms** - the vendor’s payment terms. If necessary, delete the previously entered code, enter ? and press &lt;Enter&gt; to select a different terms code from the Vendor Terms Select screen.
+
+        If the value of the **Terms** field is changed by the user, delete the values for the **Due date**, **Pay date** and **Disc due** fields, and press &lt;Enter&gt; to regenerate them.
+
+    - Optional: **Rcv Dte** - the date on which the order was received from the vendor.
+    - **Due date** - the date by which the vendor must receive payment before the invoice is considered past due.
+    - **Pay date** - the date by which the distributor intends to pay the vendor.
+    - Optional: **Disc due** - the date by which the vendor must receive payment for the distributor to qualify for a cash discount.
+
+11. Enter data for the following fields as necessary:
+    - **Ref** - text printed on check stubs, the A/P Invoice Transaction Register report, and A/P invoice journal reports.
+    - **Check #** - when a hand-written check is used, the check’s number can be entered to automatically process the invoice’s payment when the invoice batch is posted. Refer to Working With Manual Payments below for additional information.
+    - **Auto. Post EFT's** - when an EFT payment is used, enter Y (yes) to atuomatically process the invoice’s payment when the invoice batch is posted. Refer to Working With EFT Payments below for additional information.
+
+12. To add an A/P item to the invoice, enter an A/P item code for the Item field, and press &lt;Enter&gt;; or enter *?* and press &lt;Enter&gt; to select an item code from the Item Selection screen.
+
+    Most of the following information is system-generated, but can be changed by the user:
+     - **Desc** - the A/P item’s description.
+     - **Qty** - the quantity of the item if greater than 1.
+     - **Price** - the item’s net cost.
+     - **Cost Center** - the cost center number which is used when posting the invoice.
+     - **G/L Account** - the account number that is debited when posting the invoice.
+     - **Discount** - if Y (yes) appears designating that the distributor can qualify for a cash discount for the item, the calculated amount of the discount appears.
+
+13. Continue adding A/P items, if necessary, or press &lt;Enter&gt; when data entry of the invoice is complete.
+
+14. Press &lt;Enter&gt; when prompted to confirm. The A/P Invoice Posting (Add) screen is redisplayed with a new voucher number.
+
+15. Continue adding invoices to the batch, and press one of the following when data entry is complete:
+     - &lt;F3&gt; to exit without posting the batch.
+     - &lt;F4&gt; to post the batch. Refer to Posting An Invoice Batch for additional information.
+
+    >Note: If necessary, press &lt;F4&gt; (Invoice review) *before* entering any values for another invoice; otherwise, the data must be re-entered after reviewing the other invoices of the batch.
+
 #### Calculating An A/P Allowance
 
 #### Printing Multiple Refrence Lines
