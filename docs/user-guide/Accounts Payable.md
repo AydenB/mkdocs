@@ -2,15 +2,15 @@
 
 Before “getting started” with DAC Accounts Payable (A/P) System, users should refer to the Introduction of the Getting Started document for information about DAC data, screens and menus.
 
-![Alt text](/images/AP_mainmenu.png)
+![Alt text](../images/AP_mainmenu.png)
 
 After selecting option 11 (Accounts Payable) of the DAC Main Operations Menu screen, the Accounts Payable screen appears.
 
-![Alt text](/images/AP_APMenu.png)
+![Alt text](../images/AP_APMenu.png)
 
 Users can press &lt;F3&gt; to redisplay the Main Operations Menu screen.
 
-Refer to the [Accounts Payable Quick Reference Guide](<../DAC Refrence Guides/Accounts Payable QRG.md>) for an overview of the use of the Accounts Payable System.
+Refer to the [Accounts Payable Quick Reference Guide](<../quick-refrence-guide/Accounts Payable QRG.md>) for an overview of the use of the Accounts Payable System.
 
 For information about transferring purchase orders to Accounts Payable, and the report which is printed when transfers occur, refer to Transferring Purchase Orders To Accounts Payable of the Purchasing document.
 
@@ -60,7 +60,7 @@ The steps below are followed to create the necessary records before the Accounts
 **Step 16**: Use the Vendor Maintenance screen to add data concerning recurring payments. Refer to [Working With Recurring Invoice Records](#working-with-recurring-invoice-records) for additional information.
 >Note: The Special Item application (option 4 of the A/P File Maintenance screen) and Entity application (option 10 of the A/P File Maintenance screen) are no longer used due to system upgrades.
 
-Refer to the [Accounts Payable Quick Reference Guide](/Quick%20Reference%20Guide/Accounts%20Payable%20Quick%20Reference%20Guide.md) for an overview of the use of the Accounts Payable System
+Refer to the [Accounts Payable Quick Reference Guide](<../quick-refrence-guide/Accounts Payable QRG.md>) for an overview of the use of the Accounts Payable System
 
 ## Accounts Payable and General Ledger Account Numbers
 
@@ -70,16 +70,16 @@ If the DAC [General Ledger](<General Ledger.md>) (G/L) System is used, credit an
 
 The General Ledger account number which is credited when invoice batches are posted is designated by the A/P account number field (see below) of the company A/P options
 
-![Alt text](../../images/AP_CompanyMaintenanceAP.png)
+![Alt text](../images/AP_CompanyMaintenanceAP.png)
 
 Refer to Working With Company A/P Options for additional information.
 
 The various G/L account numbers which are debited when invoice batches are posted are designated by a user-named field (see below) of the A/P item records. Refer to Working With A/P Item Records for additional information
-![Alt text](../../images/AP_ItemInquiry.png)
+![Alt text](../images/AP_ItemInquiry.png)
 
 >Note: The specific name of this A/P item record field is designated by the value of the **Account header** field (see below) of a company’s G/L options. Refer to Working With Company G/L Options for additional information.
 
-![Alt text](../..//images/AP_CompanyMaintenanceGL.png)
+![Alt text](../images/AP_CompanyMaintenanceGL.png)
 
 When invoice batches are posted, a single debit journal entry is created in G/L for each detail line of an invoice.
 Refer to Working With Company A/P Options for information about the:
@@ -98,19 +98,19 @@ Payment processing includes:
 
 The General Ledger account number which is debited when payments are processed is designated by the A/P account number field (see below) of the company A/P options.
 
-![Alt text](../../images/AP_CompanyMaintenanceAP.png)
+![Alt text](../images/AP_CompanyMaintenanceAP.png)
 
 Refer to Working With Company A/P Options for additional information. The G/L account numbers which are credited when payments are processed (also referred to as the cash account number and the discount number) are designated by the following fields:
 
 - **Cost Center** and **G/L Account** # fields (see below) of the bank records. Refer to Working With Bank Records for additional information.
 
-    ![Alt text](../../images/AP_BankMaintenance.png)
+    ![Alt text](../images/AP_BankMaintenance.png)
 
 >Note: The specific names of these bank record fields are designated by the values of the Cost cntr hdr and Account header fields of a company’s G/L options (as described above)
 
 - **Discount account** field (see below) of the company A/P options.
 
-    ![Alt text](../../images/AP_CompanyMaintenanceAP.png)
+    ![Alt text](../images/AP_CompanyMaintenanceAP.png)
 Refer to Working With Company A/P Options for additional information.
 
 When payments are processed, a single credit journal entry is created in G/L (for both the cash account number and the discount number) for each individual payment (printed check, manually-written check and EFT transaction).
@@ -138,21 +138,21 @@ The Accounts Payable File Maintenance applications are used to create:
 
 After selecting option 11 from the Main Operations Menu screen, the Accounts Payable screen appears.
 
-![Alt text](../../images/AP_APMenu.png)
+![Alt text](../images/AP_APMenu.png)
 
 After selecting option 20 (A/P File Maint.) from the Accounts Payable screen, the A/P File Maintenance screen appears.
 
-![Alt text](../../images/AP_APFileMaintenance.png)
+![Alt text](../images/AP_APFileMaintenance.png)
 
 ## Working With Company Records
 
 The Company Maintenance screen is used to add at least one company record before the Accounts Payable System is used. Multiple companies must be set up if users track retained earnings or net profit and loss for more than one entity, such as multiple warehouses or divisions. Refer to [Working With Company G/L Options](#working-with-company-gl-options) for additional information.
 
-![Alt text](../../images/AP_APFileMaintenance.png)
+![Alt text](../images/AP_APFileMaintenance.png)
 
 1. Select option 7 (Company) from the A/P File Maintenance screen. The Company Maintenance (Change) screen appears.
 
-    ![Alt text](../../images/AP_CompanyMaintenance.png)
+    ![Alt text](../images/AP_CompanyMaintenance.png)
 
 2. If necessary, enter ? for the **Company** (3,a) field and press &lt;Enter&gt; to display a list of the previously added company records on the Company Selection screen.If desired, 1 (Select Request) can be entered in the selection column to display, edit or delete a company record, or the user can press &lt;F3&gt; to display the Company Maintenance (Add) screen.
 
