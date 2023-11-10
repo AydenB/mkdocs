@@ -831,7 +831,43 @@ Refer to Working With Vendor Invoices above for detailed information about the f
 
 #### Calculating An A/P Allowance
 
+When adding an invoice batch, users can include an allowance for an invoice. The screen below illustrates how to add an A/P item and use the **Qty** and **Price** fields for calculating the allowance.
+
+Unlike a cash discount, an A/P allowance is included in the invoice’s total payment due which appears for the **Inv total** field at the top of the screen. Also, allowances are realized when invoices are posted, whereas cash discounts are not “received” until payments are posted to the payment journal.
+
+When including an allowance, enter data for the following fields as described below:
+
+- **Qty** (7,n) - enter the number, and press &lt;Field Minus&gt; (not &lt;Field Exit&gt;).
+  
+    >Note: A letter appears ((such as *J*, *K* and *L* when *1*, *2* and *3* are entered, respectively) or a combination of characters appear (such as *1*)  when *10* is entered), but it is converted to a number when data entry is complete.
+
+- **Price** (7.2,n) - enter the number, and press &lt;Field Exit&gt; (not &lt;Field Minus&gt;).
+
+    >Note: The amount appears as a positive number, but a negative number appears for the Ext Amt field when data entry is complete.
+
 #### Printing Multiple Refrence Lines
+
+Multiple references lines can be printed on a check stub if a single check is printed for multiple vouchers. Refer to Working With A/P Options for information about using the **A/P Check Date** field to designate how many checks are printed.
+
+To print a check stub containing more than one line of text, users can add and post an invoice batch which contains a single, nearly-identical invoice for each text line.
+
+When adding the invoice batch, the following exceptions are made:
+
+- **Ref** - the first line of text is entered for the first invoice, the second line of text is entered for the second invoice, and so on.
+  
+- **Price** - the total amount due to the vendor is entered for the first invoice, and 0 (*zero*) is entered for all the other invoices.
+  
+After the invoice batch is posted, all the corresponding vouchers must be included in the same payment batch for processing. Refer to Editing A Payment Batch for information about using the F6 (Add invoice) function key.
+
+Users can also use recurring invoices to print multiple text lines on a check stub.
+
+When adding the recurring invoice records, the following exceptions are made:
+
+- **Reference** - the first line of text is entered for the first recurring invoice, the second line of text is entered for the second recurring invoice, and so on.
+
+- **Price** - the total amount due to the vendor is entered for the first recurring invoice, and 0 (*zero*) is entered for the remaining invoices.
+
+After adding the recurring invoices to an invoice batch, and posting the batch, all the corresponding vouchers must be included in the same payment batch for processing.
 
 ### Editing An Invoice Batch
 
@@ -852,6 +888,32 @@ Refer to Working With Vendor Invoices above for detailed information about the f
 #### A/P Debit/Credit G/L Journal Register
 
 ## Working With Payments
+
+After vouchers are created, the Auto Payment Selection application (option 4 of the Accounts Payable screen) is primarily used to add, edit (if necessary) and accept batches of vouchers for which system-generated checks will be printed. Refer to [Working With Manual Payments](#working-with-manual-payments) and [Working With EFT Payments](#working-with-eft-payments) for information about entering data concerning hand-written checks and electronic fund transfers, respectively.
+
+>Note: Credit memos are handled by the A/P System in the same manner as invoices; therefore, references to “vouchers” refers to those created for credit memos as well as invoices.
+
+Before adding payment batches, the Edit Voucher Pay Date application can be used to change the pay date, due date and payment type of a posted invoice’s voucher.
+
+After payment batches are accepted for check processing, the Print Checks application is used to print checks and a check register, and to post payments to the General Ledger. Refer to [Accounts Payable And General Ledger Account Numbers](#accounts-payable-and-general-ledger-account-numbers) for additional information.
+
+Below are the screens used during the process of working with voucher payments.
+
+The Auto Payment Selection (Enter) screen is used to add a payment batch by selecting the vouchers of previously posted invoices. The F8 function key is used to display previously created batches.
+
+The Batch Selection screen is used to select payment batches for deleting, editing, accepting for payment, and check printing. The *P=Print Batch* option of this screen is used to print a detailed report of the vouchers in a payment batch.
+
+The A/P Payment Selection screen appears after vouchers are selected for a payment batch. During the course of adding a payment batch, the following options can be used:
+
+- *4=Delete* - a voucher can be deleted from the batch. Note: When a voucher is deleted from a payment batch, its corresponding vendor invoice is not deleted from the A/P system.
+- *8=Details* - the Payment Detail Maintenance screen appears (see below) at which the user can make partial payments and changes to discount amounts prior to accepting the payment batch.
+
+Refer to Accepting A Payment Batch for information about using the F4 (Accept batch) function key which appears on the A/P Payment Selection screen.
+
+The A/P Invoice Selection screen appears after pressing &lt;F6&gt; (Add invoice) on the A/P Payment Selection screen. Refer to Editing A Payment Batch for information about using the *1=Select* option of this screen.
+
+The Invoice Pay Date Maintenance screen is used to change the due date, pay date 
+and payment type of a voucher.
 
 ### Adding A Payment Batch
 
