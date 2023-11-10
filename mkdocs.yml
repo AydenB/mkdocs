@@ -77,6 +77,7 @@ nav:
     - Pre-book Orders: user-guide/Pre-book Orders.md
     - Purchasing: user-guide/Purchasing.md
     - Retail Shelf Labels: user-guide/Retail Shelf Labels.md
+    - Returns Management: user-guide/Returns Management.md
     - RF Warehouse Systems: user-guide/RF Warehouse System.md
     - Sales Analysis Reports: user-guide/Sales Analysis Reports.md
     - System File Maintenance: user-guide/System File Maintenance.md
@@ -97,15 +98,15 @@ nav:
     - DAC Symbols: quick-refrence-guide/DAC Symbols.md
     - Global Price Change: quick-refrence-guide/Global Price Changing.md
     - Item Location Quantity: quick-refrence-guide/Item Location Quantity.md
+    - Item Quantity Method: quick-refrence-guide/Item QTY Method.md
     - Location Quantity Transfer: quick-refrence-guide/Location Quantity Transfer.md
     - New General Ledger Accounts: quick-refrence-guide/New General Ledger Accounts.md
     - Price Inquiry: quick-refrence-guide/Price Inquiry.md
     - Purchasing: quick-refrence-guide/Purchasing QRG.md
     - Voiding Posted Orders: quick-refrence-guide/Voiding Posted Orders.md
   - How To:
-    - Requirements:
-      - Image processing: lorem.md
-      - Caching: lorem.md
+    - Quotes: how-to/QuoteSOP.md 
+    - ShipRight: how-to/shipright.md
   - Tutorial:
     - Admonitions: lorem.md
     - Tooltips: lorem.md
