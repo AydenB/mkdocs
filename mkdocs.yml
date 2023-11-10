@@ -57,7 +57,7 @@ nav:
     - Accounts Payable: user-guide/Accounts Payable.md
     - Accounts Receivable: user-guide/Accounts Receivable.md
     - AP Check Forms: user-guide/AP Check Forms.md
-    - Billing File Maintenance: Billing File Maintenance.md
+    - Billing File Maintenance: user-guide/Billing File Maintenance.md
     - Billing: user-guide/Billing.md
     - Customer File Maintenance: user-guide/Customer File Maintenance.md
     - DAC Closing Procedures: user-guide/Dac Closing Procedures.md
@@ -82,8 +82,8 @@ nav:
     - System File Maintenance: user-guide/System File Maintenance.md
     - Tax System: user-guide/Tax System.md
     - Vendor Billing: user-guide/Vendor Billing.md
-    - Vendor Receivables: user-guide/Vendor Receivable.md
-    - Vendors: user-guide/Vendor.md
+    - Vendor Receivables: user-guide/Vendor Receivables.md
+    - Vendors: user-guide/Vendors.md
     - Warehousing: user-guide/Warehousing.md 
   - Quick Reference:
     - Accounts Payable : quick-refrence-guide/Accounts Payable QRG.md
