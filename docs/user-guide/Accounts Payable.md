@@ -871,6 +871,88 @@ After adding the recurring invoices to an invoice batch, and posting the batch, 
 
 ### Editing An Invoice Batch
 
+The instructions which follow describe using the A/P Invoice Posting screens to edit and delete the invoices of a batch, and delete an entire invoice batch before it is posted. Refer to the following sections for additional information about making changes:
+
+- [Adding A Credit Memo](#adding-a-credit-memo)- users can adjust posted or unposted invoices.
+
+- [Adjusting A Posted Invoice](#adjusting-a-posted-invoice) - users can enter adjustments and override system-generated discounts after posting invoice batches.
+
+- [Adding A Payment Batch](#adding-a-payment-batch) - users can change payment amounts, and override system-generated discounts prior to accepting payment batches. Note: When a voucher is deleted from a batch, it is not delete from the A/P system.
+
+- [Editing A Voucher](#editing-a-voucher) - users can change a voucher’s pay date, due date and payment type after its corresponding invoice is posted.
+
+1. Select option 1 (Invoice Entry/Update) from the Accounts Payable screen. The A/P Invoice Posting (Enter) screen appears.
+
+2. Press &lt;F8&gt; (Select batch). The Batch Selection screen appears with the unposted invoice batches listed by invoice batch number. These batches include those with invoices added by transferring purchase orders to Accounts Payable from DAC Purchasing.
+
+   During the course of editing invoice batches, the following fields can be used to locate the desired batch:
+
+   - **Batch** - enter a batch number and press &lt;Enter&gt; to redisplay the list beginning with the designated batch.
+  
+   - **Posted** - enter a posting date and press &lt;Enter&gt; to limit the list to batches with a specific posting date.
+
+   - **Control total** - enter an amount and press &lt;Enter&gt; to limit the list to batches of the specified amount.
+
+   - **Created by** - enter a username and press &lt;Enter&gt; to limit the list to batches added (or transferred from Purchasing) by the specified user.
+
+   - **Workstation** - enter a job (or terminal) name and press &lt;Enter&gt; to limit the list to batches created by the specified job or at the specified terminal.
+
+   - **Date** - enter a date and press &lt;Enter&gt; to limit the list to batches added (or transferred from Purchasing) on the specified date.
+
+3. To delete an entire batch of invoices, locate the esired batch (use &lt;Page Down&gt; if necessary) and enter 4 (Delete) in the selection column next to its batch number.  
+
+    Press &lt;Enter&gt;. The screen’s list is redisplayed without the deleted batch.
+
+4. To print a detailed report of the invoices of a batch (see below), enter P (Print Edit List) in the selection column next to the batch number of the desired batch, and press &lt;Enter&gt;.
+
+5. To edit the invoices of a batch, locate the desired batch (use &lt;Page Down&gt; if necessary), and enter 1 (Select) in the selection column next to its batch number.
+
+6. Press &lt;Enter&gt;. The A/P Invoice Posting (Enter) screen appears with the posting date, control total and batch number of the desired invoice batch.
+
+7. If necessary, users can change the following values of the selected invoice batch:
+
+    - **Posting date** - the posting date of the invoice batch.
+
+    - **Control total** - the total amount due for all the invoices of the batch.
+
+8. Press &lt;Enter&gt;. The A/P Invoice Posting (Add) screen appears at which users can add new invoices to the batch. Refer to [Adding An Invoice Batch](#adding-an-invoice-batch) (beginning with step 5) for additional information.
+
+9. Press &lt;F4&gt; (Invoice review). The Invoice Review screen appears with the invoices previously added to the batch.
+
+    The following fields of the Invoice Review screen can change as invoices are added to the batch, deleted from the batch, or edited.
+
+   - **Disc** - the total of the payment discounts for which the distributor qualifies.
+
+   - **Net** - the total payment due of all the invoices of the batch less the total of the payment discounts.
+
+   - **Batch Total** - the total payment due for all the invoices of the batch.
+
+10. To delete an invoice of the batch, locate the desired invoice (use &lt;Page Down&gt; if necessary), and enter 4 (Delete) in the selection column next to its voucher number.  Press &lt;Enter&gt;. The screen’s list is redisplayed without the deleted invoice.
+
+11. To edit an invoice of the batch, locate the desired invoice (use &lt;Page Down&gt; if necessary), and enter 2 (Change) in the selection column next to its voucher number.
+
+    Press &lt;Enter&gt;. The A/P Invoice Posting (Change) screen appears.
+
+    Refer to [Adding An Invoice Batch](#adding-an-invoice-batch) for detailed descriptions of all the fields of this screen.  
+
+    If the values of the **Terms** or **Inv date** fields are changed by the user, delete the previously entered values for the **Due date**, **Pay date** and **Disc due** fields. If a change of terms involving a discount is made, the user should also delete the previously calculated discount amounts. The discount amount should also be deleted if the value of the **Price** field is changed. All the deleted values will be recalculated by the A/P System when editing is completed.  
+
+    Press &lt;Enter&gt; when editing is complete.
+
+    Press &lt;Enter&gt; when prompted to confirm. The Invoice Review screen appears.  
+
+    If the values of the **Control total** and **Batch Total** fields differ, make a note of the new value of the Batch Total field. The invoice batch cannot be posted unless the values of both fields are identical. Changing the value of the **Control total** field is described below.
+
+12. If necessary, users can repeat the previous instructions to continue editing the invoices of the batch, or press &lt;F3&gt; (Exit). The A/P Invoice Posting (Add) screen appears.
+
+13. Press &lt;F3&gt; to exit. The A/P Invoice Posting (Enter) screen appears.
+
+14. If necessary, users can change the values of the **Posting date** and **Control total** fields.  
+
+    If the value of the **Posting date** field or the **Control total** field is changed, press &lt;Enter&gt;. When the A/P Invoice Posting (Add) screen appears, press &lt;F3&gt; to exit. The A/P Invoice Posting (Enter) screen appears.
+
+15. Press &lt;F3&gt; to exit. The Accounts Payable screen appears.
+
 #### Invoice Entry Edit List
 
 ### Adding A Credit Memo
@@ -912,8 +994,7 @@ Refer to Accepting A Payment Batch for information about using the F4 (Accept ba
 
 The A/P Invoice Selection screen appears after pressing &lt;F6&gt; (Add invoice) on the A/P Payment Selection screen. Refer to Editing A Payment Batch for information about using the *1=Select* option of this screen.
 
-The Invoice Pay Date Maintenance screen is used to change the due date, pay date 
-and payment type of a voucher.
+The Invoice Pay Date Maintenance screen is used to change the due date, pay date and payment type of a voucher.
 
 ### Adding A Payment Batch
 
