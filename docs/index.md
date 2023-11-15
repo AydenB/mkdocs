@@ -6,7 +6,7 @@ In short, content matters. We interviewed and surveyed hundreds of customers and
 
 Our focus was not only on the experience, but also on the content we create and how each of you consume it. For years customers have told us to go beyond walls of text with feature-level content and help them implement solutions to their business problems. We knew that the content we delivered and the platform we built must make it easy for customers to learn and deploy solutions.
 
-We realized that to get the overall experience right we needed to start from scratch; from this effort comes https://docs.cdrsoftware.com – a new hope for documentation at CDR.
+We realized that to get the overall experience right we needed to start from scratch; from this effort comes <https://docs.cdrsoftware.com> – a new hope for documentation at CDR.
 
 ## Key features
 
