@@ -191,15 +191,16 @@ Refer to [Selecting The Default Company](#selecting-the-default-company) for inf
 1. Select option 11 (User Profile) from the A/P File Maintenance screen. The User Profile Maintenance (Add) screen appears without values for the **User, User name, Cmp** and **Company name** fields if no user profile records have been added.
 2. If necessary, press &lt;F9&gt; (Go to 'Add' mode) to display the User Profile Maintenance (Add) screen.
 3. Enter data for the following fields for each user:
+
 - **User** (10,a) - the username which the user enters to sign on the system.\
 - **User name** (30,a) - the user’s name.\
 - **Cmp** (3,a) - a company code designating the user’s default company. If necessary, enter ? and press &lt;Enter&gt; to select a company code from the Company Selection screen.\
     >Note: If the value of the **Cmp** field is later changed in the user profile record of a user who is currently signed on, that user must sign off and sign on before the change takes affect.
 
-4. Press &lt;Enter&gt; and &lt;F9&gt; (Go to 'Change' mode) when data entry is complete. The User Profile Maintenance (Change) screen appears.
-5. To delete a user profile record, enter 4 (Delete request) in the selection column of the desired record, and press &lt;Enter&gt;. Press &lt;Page Down&gt; or use the User restrictor field at the top of the screen to locate the desired record.
+1. Press &lt;Enter&gt; and &lt;F9&gt; (Go to 'Change' mode) when data entry is complete. The User Profile Maintenance (Change) screen appears.
+2. To delete a user profile record, enter 4 (Delete request) in the selection column of the desired record, and press &lt;Enter&gt;. Press &lt;Page Down&gt; or use the User restrictor field at the top of the screen to locate the desired record.
 
-6. Press &lt;F3&gt; to exit. The A/P File Maintenance screen appears.
+3. Press &lt;F3&gt; to exit. The A/P File Maintenance screen appears.
   
 ### Selecting An Alternative Company
 
@@ -242,7 +243,7 @@ If necessary, the Select Alternative Company application can be used before work
     - Optional: **A/P aging bucket 3 name** - a description of the third aging bucket, such as 61 to 90.
     - Optional: **A/P aging bucket 3 days** - the number of days which an invoice cannot exceed to be included in the third bucket.
     - Optional: **A/P aging bucket 4 name** - a description of the fourth aging bucket, such as 91 - 120.
-    - Optional: **A/P aging bucket 4 days** - the number of days which an invoice cannot exceed to be included in the fourth bucket. 
+    - Optional: **A/P aging bucket 4 days** - the number of days which an invoice cannot exceed to be included in the fourth bucket.
         > Note: When using the Vendor Account Inquiry application to display four columns of aging figures, the amount calculate for the fourth bucket is combined with the fifth bucket, and displayed in the far right column of the screen.
     - Optional: **A/P aging bucket 5 name** - a description of the fifth aging bucket, such as 121+.
     - Optional: **A/P aging bucket 5 days** - enter 999 for the number of days which an invoice cannot exceed to be included in the fifth bucket.
@@ -291,9 +292,9 @@ After company records are added, the values of several G/L options must be desig
 
 6. Enter data for the following fields:
 
-- Optional: **Suspense cost center/account** - the cost center number (3+4,n) and  the account number (5+4,n) used for the suspense total.
-- Optional: **Ret. earnings cost cntr/account** - the cost center number (3+4,n)  and the account number (5+4,n) used for the retained earnings total.
-- Optional: **Profit/loss cost cntr/account** - the cost center number (3+4,n) and  the account number (5+4,n) used for the net profit/loss total.
+    - Optional: **Suspense cost center/account** - the cost center number (3+4,n) and  the account number (5+4,n) used for the suspense total.
+    - Optional: **Ret. earnings cost cntr/account** - the cost center number (3+4,n)  and the account number (5+4,n) used for the retained earnings total.
+    - Optional: **Profit/loss cost cntr/account** - the cost center number (3+4,n) and  the account number (5+4,n) used for the net profit/loss total.
 
 7. Press &lt;Enter&gt; when data entry is complete. The *Record added* message appears at  the bottom of the Company Maintenance screen.
 
@@ -348,7 +349,7 @@ After executing the Company A/P One Time Maintenance application (under the dire
 
 2. If necessary, enter *?* for the Bank code field and press &lt;Enter&gt; to display a list of the previously added bank records on the Bank Selection screen.
 
-If desired, 1 (Select request) can be entered in the selection column to display, edit or delete a bank record, or the user can press &lt;F3&gt; to redisplay the Bank Maintenance screen.
+    If desired, 1 (Select request) can be entered in the selection column to display, edit or delete a bank record, or the user can press &lt;F3&gt; to redisplay the Bank Maintenance screen.
 
 3. If necessary, press &lt;F9&gt; (Go to 'Add' mode) to display the Bank Maintenance (Add) screen.
 
