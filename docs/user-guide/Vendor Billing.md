@@ -39,20 +39,20 @@ The instructions below describe using the Build Vendor Invoice application to cr
    - Option 2 (Build Vendor Invoice) from the Vendor Billing screen or
    - Option 1 (Work With Vendor Invoices) and press &lt;F10&gt; (Create Invoice) when the Work With Vendor Invoices screen appears.
 4. Enter data for the following fields:
-   - *Optional*: Vender # (6a) - the vendor code. If necessary press &lt;F4&gt; to select a vendor code from the Select Vendor Master screen.
-   - *Optional*: Invoice Date (6n) - the invoice date.
-   - *Optional*: Terms (3a) - a terms code. If necessary press &lt;F4&gt; to select a terms code from the Select Terms Description screen.
-   - *Optional*: Due Date (6n) - the due date.
-   - Import Deal # Activity (6n) - a vendor deal number. If necessary press &lt;F4&gt; to select a deal number from the Select Deal screen. The This is a mixed vendor deal. A separate invoice will created for each vendor message appears when a mixed vendor deal is selected.
-   - Import Item Level Details for Deal? (1a) - Y (yes) to import item level information or N (no) to create a single line summary of the deal activity.
-   - Include Items with Zero Accrual $ ? (1a) - Y (yes) to import item level information for items with no accumulated amounts.
-   - *Optional*: Start Date and End Date (6n) - dates to limit the invoice to amounts accumulated during a designated date range.
+   - *Optional*: **Vender #** (6a) - the vendor code. If necessary press &lt;F4&gt; to select a vendor code from the Select Vendor Master screen.
+   - *Optional*: **Invoice Date** (6n) - the invoice date.
+   - *Optional*: **Terms** (3a) - a terms code. If necessary press &lt;F4&gt; to select a terms code from the Select Terms Description screen.
+   - *Optional*: **Due Date** (6n) - the due date.
+   - **Import Deal # Activity** (6n) - a vendor deal number. If necessary press &lt;F4&gt; to select a deal number from the Select Deal screen. The This is a mixed vendor deal. A separate invoice will created for each vendor message appears when a mixed vendor deal is selected.
+   - **Import Item Level Details for Deal?** (1a) - Y (yes) to import item level information or N (no) to create a single line summary of the deal activity.
+   - **Include Items with Zero Accrual $ ?** (1a) - Y (yes) to import item level information for items with no accumulated amounts.
+   - *Optional*: **Start Date** and **End Date** (6n) - dates to limit the invoice to amounts accumulated during a designated date range.
 5. Press &lt;Enter&gt; when data entry is complete.
 6. Press &lt;F10&gt; (Create Invoice) and press &lt;Enter&gt; to confirm. The Edit Vendor Invoice screen appears if a single invoice is created.
 7. Enter data for the following fields:
-   - *Optional*: M E S S A G E S (35,A) - text which will print at the bottom of the invoice.
-   - *Optional*: Terms (3,a) - a terms code.
-   - *Optional*: Due Date (6,n) - the due date.
+   - *Optional*: **M E S S A G E S** (35,A) - text which will print at the bottom of the invoice.
+   - *Optional*: **Terms** (3,a) - a terms code.
+   - *Optional*: **Due Date** (6,n) - the due date.
 8. To edit the bill to address, either:
     - Press &lt;F4&gt; (Search for Alternate Billing Address) an select it from the Select Address Book Entry screen, or
     - Press &lt;F8&gt; (Unlock Address) and enter the address.
@@ -69,16 +69,16 @@ The instructions below describe using the Build Vendor Invoice application to cr
    - Option 2 (Build Vendor Invoice) from the Vendor Billing screen or
    - Option 1 (Work With Vendor Invoices) and press &lt;F10&gt; (Create Invoice) when the Work With Vendor Invoices screen appears.
 4. Enter data for the following fields:
-   - Vendor # (6a) - the vendor code. If necessary press &lt;F4&gt; to select a vendor code from the Select Vendor Master screen.
-   - Optional: Invoice Date (6n) - the invoice date.
-   - Optional: Terms (3a) - a terms code. If necessary press &lt;F4&gt; to select a terms code from the Select Terms Description screen.
-   - Optional: Due Date (6n) - the due date.
+   - **Vendor #** (6a) - the vendor code. If necessary press &lt;F4&gt; to select a vendor code from the Select Vendor Master screen.
+   - *Optional*: **Invoice Date** (6n) - the invoice date.
+   - *Optional*: **Terms** (3a) - a terms code. If necessary press &lt;F4&gt; to select a terms code from the Select Terms Description screen.
+   - *Optional*: **Due Date** (6n) - the due date.
 5. Press &lt;Enter&gt; when data entry is complete.
 6. Press &lt;F10&gt; (Create Invoice) and press &lt;Enter&gt; when prompted to confirm.
 7. Enter data for the following fields:
-   - *Optional*: M E S S A G E S (35,A) - text which will print at the bottom of the invoice.
-   - *Optional*: Terms (3,a) - a terms code.
-   - *Optional*: Due Date (6,n) - the due date.
+   - *Optional*: **M E S S A G E S** (35,A) - text which will print at the bottom of the invoice.
+   - *Optional*: **Terms** (3,a) - a terms code.
+   - *Optional*: **Due Date** (6,n) - the due date.
 8. To edit the bill to address, either:
     - Press &lt;F4&gt; (Search for Alternate Billing Address) an select it from the Select Address Book Entry screen, or
     - Press &lt;F8&gt; (Unlock Address) and enter the address.
