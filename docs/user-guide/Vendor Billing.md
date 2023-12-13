@@ -104,13 +104,17 @@ The instructions below describe using the Work With Vendor Invoices application 
 
 When using the Work With Vendor Invoices screen, the following restrictor fields can be used:
 
-  -  **Vendor#** (6,a) - enter a vendor code and press &lt;Enter&gt; to limit the list to include only the invoices of the desired vendor. If necessary, press &lt;F4&gt; to select a vendor code from the Select Vendor Master screen.
-  - **Invoice** (6,n) - enter an invoice number, press &lt;Field Exit&gt; and press &lt;Enter&gt;.
-The list is redisplayed beginning with this invoice number.
-  - **Date** (6,n) - enter a date and press &lt;Field Exit&gt; to display only the invoices the date entered.
-  - **Printed** (6,n) - enter a date and press &lt;Field Exit&gt; to display only the invoices printed on the date entered.
-  - **Status** (1,a) - enter O (Open), P (Printed) or X (Exported) and press &lt;Field Exit&gt; to display only the invoices of the status entered.
-  - **Amount** (11.2,n) -enter an amount to display only the invoices with an equal total amount.
+- **Vendor#** (6,a) - enter a vendor code and press &lt;Enter&gt; to limit the list to include only the invoices of the desired vendor. If necessary, press &lt;F4&gt; to select a vendor code from the Select Vendor Master screen.
+  
+- **Invoice** (6,n) - enter an invoice number, press &lt;Field Exit&gt; and press &lt;Enter&gt;. The list is redisplayed beginning with this invoice number.
+  
+- **Date** (6,n) - enter a date and press &lt;Field Exit&gt; to display only the invoices the date entered.
+  
+- **Printed** (6,n) - enter a date and press &lt;Field Exit&gt; to display only the invoices printed on the date entered.
+  
+- **Status** (1,a) - enter O (Open), P (Printed) or X (Exported) and press &lt;Field Exit&gt; to display only the invoices of the status entered.
+  
+- **Amount** (11.2,n) -enter an amount to display only the invoices with an equal total amount.
 
 1. To edit the invoice details, locate the desired invoice in the screen’s list (use the restrictor fields or &lt;Page Downt&gt; if necessary), and enter 2 (Edit) in the selection column next to the vendor code, and press &lt;Enter&gt;. The VR Invoice screen appears.
 
