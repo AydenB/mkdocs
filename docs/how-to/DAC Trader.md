@@ -20,6 +20,8 @@ Within your mailbox, you will find your EDI files. These files will be available
 
 To receive notifications and updates, it's essential to set up your email address. You can do this from the SETTINGS menu. Multiple email addresses are supported, just separate them with a semicolon. user@domain.com; user2@domain.com.
 
+Email Subject can also be defined. The default subject is EDI.
+
 ## Navigation
 
 - **MAILBOX:** Use this menu to download your EDI files.
