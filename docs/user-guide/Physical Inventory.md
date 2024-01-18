@@ -13,6 +13,7 @@ Refer to the DAC Default System Options document for information about the **Con
 Read completely through these steps, and contact CDR support personnel if you have any questions *before* proceeding with the data entry described below.
 
 **Step 1**: Verify that DAC is used to:
+
 - Assign all items to locations.
 - Post all customer invoices and credit memos.
 - Receive all the purchase orders which have been received in the warehouse.
@@ -22,6 +23,7 @@ Read completely through these steps, and contact CDR support personnel if you ha
 **Step 2**: Print an Inventory Evaluation Report. It is recommended that you mark the report Before Inventory, and retain this report for accounting purposes. Refer to Printing Inventory Evaluation Reports below for additional information.
 
 **Step 3**: Use one of the following to print count sheets if Cipher Lab or Telxon units are not used to enter the first inventory count:
+
 - The Print Count Sheets application. Refer to Printing Physical Count Worksheets below for detailed instructions.
 - The Cycle Count Sheets application. Refer to Printing Cycle Count Worksheets below for detailed instructions.
 - A custom query count sheet report if available.
@@ -42,7 +44,7 @@ Read completely through these steps, and contact CDR support personnel if you ha
 
 **Caution: Do not proceed with Step 6 until completing Step 5.** If users do not place the system in Physical Inventory mode, remote orders cannot be used to create inventory batches.
 
-Step 6: Users who do not use Cipher Lab or Telxon units for physical inventory must skip this step and proceed with Step 9.
+**Step 6**: Users who do not use Cipher Lab or Telxon units for physical inventory must skip this step and proceed with Step 9.
 
 Use Cipher Lab or Telxon units to enter and transmit (send) the inventory counts as remote orders, but note the following:
 
@@ -96,9 +98,9 @@ Use the Work With Inventory Batches application 1) to correct the item counts of
 
 Select option 3 (Physical Inventory Guide) from the Physical Inventory Menu screen. The Physical Inventory Guide screen appears.
 
-Important: After completing Step 8, Cipher Lab and Telxon users must proceed to Step 10.
+**Important: After completing Step 8, Cipher Lab and Telxon users must proceed to Step 10.**
 
-**Step 9**: Use the Work With Inventory Batches application 1) to enter the first inventory count taken of the physical inventory if Cipher Lab or Telxon units are not used, or 2) to enter additional counts regardless of how the first count was entered.
+**Step 9**: Use the Work With Inventory Batches application 1) to enter the first inventory count taken of the physical inventory if Cipher Lab or Telxon units **are not** used, or 2) to enter additional counts regardless of how the first count was entered.
 
 Select option 2 (Work With Physical Inventory Count Batches) from the Physical Inventory Menu screen. The Work With Inventory Batch screen appears.
 
@@ -116,7 +118,7 @@ Enter data for the following fields to enter an inventory batch record for each 
 
  **Caution**: If a value is entered for the **U/M** field of an item, that value will appear as the default value of the **U/M** field for the next item, regardless of what the next item's standard selling unit may be. The system will only revert to using standard selling units when the user leaves the **U/M** field blank.
 
- Note: If more than one inventory batch record is entered for the same item with the same unit of measure, the quantities will be added together.
+ >Note: If more than one inventory batch record is entered for the same item with the same unit of measure, the quantities will be added together.
 
  Press &lt;Enter&gt; when data entry for an item is complete.
 
@@ -152,19 +154,19 @@ When the *The previous cycle was accepted. You may now begin counting for the ne
 
 **Step 11**: If desired, use Step 9 and Step 10 to enter a second, third or fourth inventory count. Users are not required to enter more than one inventory count. After reviewing the variance data appearing on the physical count worksheets described above, users may continue the physical inventory process below without entering any other counts.
 
-Any additional counts entered after the first count should be limited to only those items for which significant variances appear after entering the first count.
+*Any additional counts entered after the first count should be limited to only those items for which significant variances appear after entering the first count.*
 
 **Step 12**: The Physical Inventory Guide is next used to create a backup copy of the DAC Item Balance files, then update the on-hand quantities with the final count entered and accepted.
 
  Select option 3 (Physical Inventory Guide) from the Physical Inventory Menu screen. The Physical Inventory Guide screen appears.
 
- Enter 2 for the Accept count as-is field, and press &lt;Enter&gt;.
+ Enter 2 for the **Accept count** as-is field, and press &lt;Enter&gt;.
 
  When the This option will update your inventory with the counts from the cycles you have accepted message appears, enter Y for the OK? field (1,a) and press&lt;Enter&gt; to confirm.
 
  When the Should on-hand balances for uncounted items be set to zero? message appears, enter Y or N for the OK? field (1,a) and press &lt;Enter&gt; to confirm.
 
-If Y is entered for the OK? field above, users have the option of clearing quantities of all uncounted items, or selecting uncounted items by warehouse area, pick region or location to clear quantities before continuing.
+If Y is entered for the **OK?** field above, users have the option of clearing quantities of all uncounted items, or selecting uncounted items by warehouse area, pick region or location to clear quantities before continuing.
 
  When the Your live inventory has been updated with your accepted counts message appears, press &lt;Enter&gt; to confirm.
 
