@@ -10,7 +10,7 @@ We realized that to get the overall experience right we needed to start from scr
 
 ## Key features
 
-Let's start with an example documentation page shown below and we'll showcase some of the new features on the site. ![Dacumentation](./images/DACumentation.png)
+Let's start with an example documentation page shown below and we'll showcase some of the new features on the site. ![Dacumentation](./Docs/images/DACumentation.png)
 
 ## Readablity
 
