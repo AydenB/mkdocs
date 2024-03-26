@@ -1048,13 +1048,151 @@ The instructions which follow describe using the A/P Invoice Posting screen to e
 
 ### Posting An Invoice Batch
 
+After an invoice batch is added, and all necessary editing is completed, it is posted 
+to create vouchers for each invoice and credit memo included in the batch. Refer 
+to [Adjusting A Posted Invoice](#adjusting-a-posted-invoice) for information about applying a credit or debit to a posted invoice (and its corresponding voucher).
+
+Refer to [Working With Accounts Payable Reports](#working-with-accounts-payable-reports) for information about printing invoice journal reports.
+
+1. Select option 1 (Invoice Entry/Update) from the Accounts Payable screen. The 
+A/P Invoice Posting (Enter) screen appears.
+
+2. Press &lt;F8&gt; (Select batch). The Batch Selection screen appears with the unposted 
+invoice batches listed by invoice batch number. Refer to [Editing An Invoice Batch](#editing-an-invoice-batch) for information about using the restrictor fields at the top of the screen to locate the desired invoice batch.
+
+    Refer to [Editing An Invoice Batch](#editing-an-invoice-batch) for information about using the P=Print Edit List option to print a detailed report of the invoices of a batch.
+
+3. Locate the desired batch (use &lt;Page Down&gt; if necessary), and enter 1 (Select) in 
+the selection column next to its batch number.
+
+4. Press &lt;Enter&gt;. The A/P Invoice Posting (Enter) screen appears with the posting 
+date, control total and batch number of the desired invoice batch.
+
+5. If necessary, users can change the following values of the selected invoice batch:
+    - Posting date - the date that the invoice batch will be posted.
+    - Control total - the total amount due for all the invoices of the batch.
+
+6. Press &lt;Enter&gt;. The A/P Invoice Posting (Add) screen appears.
+
+7. Press &lt;F4&gt; (Invoice review). The Invoice Review screen appears with the 
+invoices previously added to the batch.
+ 
+    If the values of the Control total and Batch Total fields are identical, continue 
+with step 8; otherwise make a note of the value of the Batch Total field and press 
+&lt;F3&gt; (Exit). The A/P Invoice Posting (Add) screen appears.
+ Press &lt;F3&gt; (Exit). The A/P Invoice Posting (Enter) screen appears.
+
+    Enter the correct value for the Control total field (and the Posting date field if 
+necessary), and press &lt;Enter&gt;. The A/P Invoice Posting (Add) screen appears 
+with the new control total entered for the Control field.
+ 
+    Press &lt;F4&gt; (Invoice review). The Invoice Review screen appears.
+
+8. Press &lt;F4&gt; (Post batch). The A/P Invoice Posting (Enter) screen appears, and the 
+following reports (see below) are printed:
+   - A/P-G/L Trans Register
+   - Invoice Entry Edit List (optional)
+   - A/P Invoice Transaction Register
+
 #### A/P-G/L Trans Register
+
+It is strongly recommended that users retain the A/P-G/L Transaction Register for 
+future reference when data entry errors occur. Before filing the posting control 
+report, verify that the:
+
+- Correct cost center numbers and G/L account numbers were debited and 
+credited. Note: The Cost Center and G/L Account # headings (see above) will 
+be different if other values are entered for the Cost cntr hdr and Account 
+header fields, respectively, of the Company Maintenance (G/L) screen. Refer 
+to Working With Company G/L Options for additional information.
+- Final totals for debits and credits are equal. If not, contact CDR support 
+personnel immediately
 
 #### Invoice Entry Edit List
 
 #### A/P Invoice Transaction Register
 
+>Note: The Cost Center and G/L Account # headings (see above) will be 
+different if other values are entered for the Cost cntr hdr and Account 
+header fields, respectively, of the Company Maintenance (G/L) screen. Refer 
+to [Working With Company G/L Options](#working-with-company-gl-options) for additional information
+
+9. If necessary, users can repeat the previous instructions (beginning with step 2) 
+to continue posting invoice batches, or press &lt;F3&gt; (Exit). The Accounts Payable 
+screen appears.
+
+    Refer to the following sections for information about processing the payment of 
+vendor invoices:
+- [Working With Payments](#working-with-payments) - payments are made with system-generated checks using the Auto Payment Selection application.
+- [Working With Manual Payments](#working-with-manual-payments) - the Process Manual Payments application is used after making payments with manually-written checks.
+- [Working With EFT Payments](#working-with-eft-payments) - payments are made with electronic funds transfers using the Process EFT Payments application.
+
 ### Adjusting A Posted Invoice
+
+The Debit/Credit Maintenance application is used to credit and debit vendor invoices which are posted, but not yet paid. Refer to Adding A Credit Memo for information about adjusting posted and unposted vendor invoices.
+
+Adjustments made (as described below) are:
+- Automatically applied to the corresponding vouchers of the posted invoices.
+- Appear on the A/P Debit/Credit G/L Journal Register, but not the A/P-G/L Transaction Register.
+- Appear on the A/P Invoice Inquiry screen.
+
+The instructions which follow also describe using the A/P DR/CR Maintenance 
+screen to override a posted invoice’s discount amount which is then applied to the 
+corresponding voucher.
+
+1. Select option 2 (Debit/Credit Maintenance) from the Accounts Payable screen. 
+The DR/CR Vendor Selection screen appears with the vendors listed by alpha 
+code.
+
+    Before adjusting a vendor’s invoice, the following options can be used:
+   - 5=Inquiry - the Vendor Inquiry screen appears. The user can review but not change the vendor information that appears on this screen. Refer to [Working With Vendor Inquiry](#working-with-vendor-inquiry) for additional information.
+   - N=Notes - the Entity Notes Maint (A/P) screen appears. Additional 
+information concerning the use of this screen is included in the instructions 
+below.
+
+    During the course of adjusting posted invoices, the following fields can be used to 
+locate the vendor of the desired invoice:
+   - Alpha name - enter an alpha code and press <Enter> to redisplay the list 
+beginning with the designated vendor.
+   - Code - enter a vendor code and press <Enter> to redisplay the list beginning 
+with the designated vendor.
+
+2. Enter 1 (Select) in the selection column next to the vendor for whom the invoice 
+adjustment will be made. If necessary, press <Page Down>, or use the Alpha 
+name and Code fields to locate the desired vendor.
+
+3. Press <Enter>. The DR/CR Invoice Selection screen appears with the designated 
+vendor’s posted invoices (and credit memos).
+
+    Only posted invoices and posted credit memos appear on the DR/CR Invoice Selection screen. Invoices which have been entered but not yet posted do not appear. If an adjustment was previously entered for a posted invoice of the designated vendor, the value of the adjustment is included in the calculation of the Invoice amt field of the invoice. Refer to [Working With Invoice Voucher Inquiry](#working-with-invoice-voucher-inquiry) for information about viewing the amount of an invoice adjustment on the A/P Invoice Inquiry screen.
+ 
+4. Enter 1 (Select) in the selection column next to the voucher number of the desired 
+invoice (press <Page Down> if necessary), and press <Enter>. The A/P DR/CR 
+Maintenance screen appears.
+
+    >Note: No more than one adjustment can be made to an item of an invoice using the Debit/Credit Maintenance application. If additional debit or credit adjustments must be made for a previously adjusted item of an invoice, users can enter invoices or credit memos, respectively, to make the necessary adjustments.
+
+5. To enter a credit adjustment, enter the amount for the Adj amt (7.2,n) field, and 
+press <Field Minus> (not <Field Exit>). 
+
+    >Note: A letter appears (such as J, K and L when 1, 2 and 3 are entered, respectively) or a combination of characters appear (such as 1} when 10 is entered), but it is converted to a negative number when data entry is complete. As illustrated below, 2} appears after entering 20 and pressing <Field Minus>.
+
+    To enter a debit adjustment, enter the amount for the Adj amt (7.2,n) field, and press <Field Exit>.
+
+6. If necessary, enter the cost center number which is used when posting the adjustment for the Cost Center (3+4,n) field. 
+    >Note: The Cost Center field name will be different if another value is entered for the Cost cntr hdr field of the Company Maintenance (G/L) screen. Refer to [Working With Company G/L Options](#working-with-company-gl-options) for additional information.
+ 
+7. If necessary, enter the account number which is used when posting the adjustment for the G/L Account # (5+4,n) field. Refer to [Working With A/P Item Records](#working-with-ap-item-records) for information about the G/L Account # field. Note: The G/L Account # field name will be different if another value is entered for the Account header field of the Company Maintenance (G/L) screen. Refer to [Working With Company G/L Options](#working-with-company-gl-options) for additional information.
+
+8. If necessary, users may be able to change the value of the Discount (1,a) field which defaults from the Discount allowed field of the A/P item record. Refer to [Working With A/P Item Records](#working-with-ap-item-records) for additional information. Refer to[ Working With Company A/P Options](#working-with-company-ap-options) for information about the Allow discount override field which designates if the value of the Discount field can be changed when 
+processing invoice batches.
+
+9. If an amount appears for the Discount field, it must be deleted to allow the A/P System to calculate the correct discount amount.
+
+10.  Press <Enter> when data entry is complete. The A/P DR/CR Maintenance screen is redisplayed with new amounts for the Inv total, Adj amt and Ext amt fields. New amounts may also appear for the Disc avail and Discount fields.
+
+11.  Press <Y> when prompted to confirm. The A/P Debit/Credit G/L Journal Register is spooled for printing, and the DR/CR Invoice Selection screen appears.
+
 
 #### A/P Debit/Credit G/L Journal Register
 
