@@ -10,7 +10,7 @@ After selecting option 11 (Accounts Payable) of the DAC Main Operations Menu scr
 
 Users can press &lt;F3&gt; to redisplay the Main Operations Menu screen.
 
-Refer to the [Accounts Payable Quick Reference Guide](<../quick-refrence-guide/Accounts Payable QRG.md>) for an overview of the use of the Accounts Payable System.
+Refer to the [Accounts Payable Quick Reference Guide](&lt;../quick-refrence-guide/Accounts Payable QRG.md&gt;) for an overview of the use of the Accounts Payable System.
 
 For information about transferring purchase orders to Accounts Payable, and the report which is printed when transfers occur, refer to Transferring Purchase Orders To Accounts Payable of the Purchasing document.
 
@@ -22,24 +22,24 @@ The steps below are followed to create the necessary records before the Accounts
 
 - The cost center number(s) and General Ledger account numbers are combined using the Work With Cost Center application.
 
->Note: The General Ledger System is used by selecting option 22 (General Ledger) of the Accounts Payable screen, or by selecting option 12 (General Ledger) of the DAC Main Operations Menu screen.
+&gt;Note: The General Ledger System is used by selecting option 22 (General Ledger) of the Accounts Payable screen, or by selecting option 12 (General Ledger) of the DAC Main Operations Menu screen.
 
 **Step 1**: Use the Work With System Options application to make any necessary changes to the value of the default system option record fields related to Accounts Payable. Refer to the DAC Default System Options document for information about the A/P Interface Active? and A/P Terms Positions Used fields of the SYS005 default system option, and the Accounts Payable Active? field of the SYS015 default system option.
 
 **Step 2**: Use the Company Maintenance screens to add preliminary data, such as name and address, of the company. Multiple companies must be set up if users track retained earnings or net profit and loss for more than one entity, such as multiple warehouses or divisions. Refer to Working With Company Records for additional information.
->Note: This step is not necessary if the company records were previously added using the General Ledger System.
+&gt;Note: This step is not necessary if the company records were previously added using the General Ledger System.
 
-**Step 3**: Use the User Profile Maintenance screen to designate the names of A/P users, and with which company each user works. Refer to Working With User Profile Records for additional information. >Note: This step is not necessary if the user profile records were previously added using the General Ledger System.
+**Step 3**: Use the User Profile Maintenance screen to designate the names of A/P users, and with which company each user works. Refer to Working With User Profile Records for additional information. &gt;Note: This step is not necessary if the user profile records were previously added using the General Ledger System.
 
 **Step 4**: Sign off the DAC system, then sign back on.
 
 **Step 5**: Use the Company Maintenance (A/P) screen to add company A/P data, such as the aging method used by a company. Refer to Working With Company A/POptions for additional information.
 
 **Step 6**: Use the Company Maintenance (G/L) screen to add company G/L data if General Ledger account numbers are used. Refer to Working With Company G/L Options for additional information.
->Note: This step is not necessary if the company G/L options were previously added using the General Ledger System.
+&gt;Note: This step is not necessary if the company G/L options were previously added using the General Ledger System.
 
 **Step 7**: Use the Period Date Maintenance screen to add period date data. Refer to [Working With Period Date Records](#working-with-period-date-records) for additional information.
->Note: This step is not necessary if the period date records were previously added using the General Ledger System
+&gt;Note: This step is not necessary if the period date records were previously added using the General Ledger System
 
 **Step 8**: Use the Period Date Inquiry screen to verify the starting and ending dates of the periods (also referred to as months) of the user’s fiscal year. Refer to Displaying Period Date Records for additional information.
 
@@ -58,13 +58,13 @@ The steps below are followed to create the necessary records before the Accounts
 **Step 15**: Use the Work With A/P Options screen to designate various defaults (company, terms, bank and pay date) and A/P related options. Refer to Working With A/P Options for additional information.
 
 **Step 16**: Use the Vendor Maintenance screen to add data concerning recurring payments. Refer to [Working With Recurring Invoice Records](#working-with-recurring-invoice-records) for additional information.
->Note: The Special Item application (option 4 of the A/P File Maintenance screen) and Entity application (option 10 of the A/P File Maintenance screen) are no longer used due to system upgrades.
+&gt;Note: The Special Item application (option 4 of the A/P File Maintenance screen) and Entity application (option 10 of the A/P File Maintenance screen) are no longer used due to system upgrades.
 
-Refer to the [Accounts Payable Quick Reference Guide](<../quick-refrence-guide/Accounts Payable QRG.md>) for an overview of the use of the Accounts Payable System
+Refer to the [Accounts Payable Quick Reference Guide](&lt;../quick-refrence-guide/Accounts Payable QRG.md&gt;) for an overview of the use of the Accounts Payable System
 
 ## Accounts Payable and General Ledger Account Numbers
 
-If the DAC [General Ledger](<General Ledger.md>) (G/L) System is used, credit and debit journal entries are created when invoice batches are posted and payments are processed.
+If the DAC [General Ledger](&lt;General Ledger.md&gt;) (G/L) System is used, credit and debit journal entries are created when invoice batches are posted and payments are processed.
 
 ### Posting invoice batches
 
@@ -77,7 +77,7 @@ Refer to Working With Company A/P Options for additional information.
 The various G/L account numbers which are debited when invoice batches are posted are designated by a user-named field (see below) of the A/P item records. Refer to Working With A/P Item Records for additional information
 ![Alt text](../images/AP_ItemInquiry.png)
 
->Note: The specific name of this A/P item record field is designated by the value of the **Account header** field (see below) of a company’s G/L options. Refer to Working With Company G/L Options for additional information.
+&gt;Note: The specific name of this A/P item record field is designated by the value of the **Account header** field (see below) of a company’s G/L options. Refer to Working With Company G/L Options for additional information.
 
 ![Alt text](../images/AP_CompanyMaintenanceGL.png)
 
@@ -106,7 +106,7 @@ Refer to Working With Company A/P Options for additional information. The G/L ac
 
     ![Alt text](../images/AP_BankMaintenance.png)
 
->Note: The specific names of these bank record fields are designated by the values of the Cost cntr hdr and Account header fields of a company’s G/L options (as described above)
+&gt;Note: The specific names of these bank record fields are designated by the values of the Cost cntr hdr and Account header fields of a company’s G/L options (as described above)
 
 - **Discount account** field (see below) of the company A/P options.
 
@@ -118,7 +118,7 @@ When payments are processed, a single credit journal entry is created in G/L (fo
 Refer to [Working With Company A/P Options](#working-with-ap-options) for information about the:
 
 - **Pmt jrnl entry method** field which is used to designate if a single debit journal entry is created for each payment of a batch, or for the entire batch when printing checks.
-    >Note: A single debit journal entry is created for each manual check and each EFT processed.
+    &gt;Note: A single debit journal entry is created for each manual check and each EFT processed.
 
 - Dates used for debit and credit journal entries when processing payments.
 
@@ -173,7 +173,7 @@ The Company Maintenance screen is used to add at least one company record before
     - Optional: **Fax number** (10,n) - the company’s area code and telephone number for fax transmission\
 
 7. Enter Y (yes) for the **G/L interface** (1,a) field to designate that Accounts Payable data is transferred automatically to General Ledger. If the DAC General Ledger System is not used, enter N (no).
-    > Note: If the General Ledger System is not used, but chart of account numbers that are created using the General Ledger System are used, Y must be entered for the **G/L interface** field.
+    &gt; Note: If the General Ledger System is not used, but chart of account numbers that are created using the General Ledger System are used, Y must be entered for the **G/L interface** field.
 
 8. Press &lt;Enter&gt; when prompted to confirm. The Record added message appears at the bottom of the Company Maintenance screen.
 
@@ -195,7 +195,7 @@ Refer to [Selecting The Default Company](#selecting-the-default-company) for inf
 - **User** (10,a) - the username which the user enters to sign on the system.\
 - **User name** (30,a) - the user’s name.\
 - **Cmp** (3,a) - a company code designating the user’s default company. If necessary, enter ? and press &lt;Enter&gt; to select a company code from the Company Selection screen.\
-    >Note: If the value of the **Cmp** field is later changed in the user profile record of a user who is currently signed on, that user must sign off and sign on before the change takes affect.
+    &gt;Note: If the value of the **Cmp** field is later changed in the user profile record of a user who is currently signed on, that user must sign off and sign on before the change takes affect.
 
 1. Press &lt;Enter&gt; and &lt;F9&gt; (Go to 'Change' mode) when data entry is complete. The User Profile Maintenance (Change) screen appears.
 2. To delete a user profile record, enter 4 (Delete request) in the selection column of the desired record, and press &lt;Enter&gt;. Press &lt;Page Down&gt; or use the User restrictor field at the top of the screen to locate the desired record.
@@ -244,10 +244,10 @@ If necessary, the Select Alternative Company application can be used before work
     - Optional: **A/P aging bucket 3 days** - the number of days which an invoice cannot exceed to be included in the third bucket.
     - Optional: **A/P aging bucket 4 name** - a description of the fourth aging bucket, such as 91 - 120.
     - Optional: **A/P aging bucket 4 days** - the number of days which an invoice cannot exceed to be included in the fourth bucket.
-        > Note: When using the Vendor Account Inquiry application to display four columns of aging figures, the amount calculate for the fourth bucket is combined with the fifth bucket, and displayed in the far right column of the screen.
+        &gt; Note: When using the Vendor Account Inquiry application to display four columns of aging figures, the amount calculate for the fourth bucket is combined with the fifth bucket, and displayed in the far right column of the screen.
     - Optional: **A/P aging bucket 5 name** - a description of the fifth aging bucket, such as 121+.
     - Optional: **A/P aging bucket 5 days** - enter 999 for the number of days which an invoice cannot exceed to be included in the fifth bucket.
-        >Note: When using the Vendor Account Inquiry application to display four columns of aging figures, the amount calculate for the fifth bucket is combined with the fourth bucket, and displayed in the far right column of the screen.
+        &gt;Note: When using the Vendor Account Inquiry application to display four columns of aging figures, the amount calculate for the fifth bucket is combined with the fourth bucket, and displayed in the far right column of the screen.
 The values of the A/P aging fields are used to produce the A/P cash forecast report (entitled Vendor Aging Summary), and used to calculate the aging figures which appear on the Vendor Account Inquiry (Display) screen.
 7. Enter Y (yes) for the **Allow discount override** field to enable the user to changethe values of the **Discount** and fields of the A/P Invoice Posting (Add) and (Change) screens, and the **Discount** field of the Payment Detail Maintenance screen. Refer to Adding An Invoice Batch, Adding A Payment Batch, Working With Manual Payments, and Working With EFT Payments for additional information.
 8. Enter Y (yes) for the **Allow detail payment change** field to enable changing the amount of a payment when selecting invoices for payment.
@@ -480,11 +480,11 @@ The instructions given below, which describe adding and deleting a vendor record
     - **Critical payment** (1,a) - the default value of N (no) designates that payments to the vendor need not be made in a timely manner. Enter Y (yes) to designate otherwise. This field is not required for using DAC directly, but provided for the informational purposes of the user. If the vendor record was copied from the Purchasing System’s vendor record, no value appears for this field, and must be entered by the A/P user if necessary.
 
     - Optional:  **Minimum order value** (11.2,n) - designates the minimum dollar value which must be purchased from the vendor. This field is not required for using DAC directly, but provided for the informational purposes of the user. If the vendor record was copied from the Purchasing System’s vendor record, no value appears for this field, and must be entered by the A/P user if necessary.
-    > Note: If a value is entered for the **Minimum order value** field, a higher value must be entered for the **Maximum order value field** (see below).
+    &gt; Note: If a value is entered for the **Minimum order value** field, a higher value must be entered for the **Maximum order value field** (see below).
 
     - Optional: **Maximum order value** (11.2,n) - designates the maximum dollar value which can be purchased from the vendor. This field is not required for using DAC directly, but provided for the informational purposes of the user. If the vendor record was copied from the Purchasing System’s vendor record, no value appears for this field, and must be entered by the A/P user if necessary.
 
-    > Note: A value must be entered for the **Maximum order value** field if a value is entered for the **Minimum order value** field (see above).
+    &gt; Note: A value must be entered for the **Maximum order value** field if a value is entered for the **Minimum order value** field (see above).
 9. Press &lt;Enter&gt; when data entry is complete. The Vendor Maintenance KEY SCREEN screen appears with the *Record added* message.
 
 10. Press &lt;F3&gt; to exit. The Vendor Maintenance screen appears.
@@ -537,7 +537,7 @@ Minimum order value (11.2,n) ___________________
 
 Maximum order value (11.2,n) ___________________
 
-> Note: Data entry is strongly recommended, or required by the system, for the fields displayed in bold type above.
+&gt; Note: Data entry is strongly recommended, or required by the system, for the fields displayed in bold type above.
 The data entered for the fields marked above with an asterisk (*) is copied from the Purchasing System vendor's record.
 
 ### Working with A/P Item Records
@@ -563,7 +563,7 @@ Refer to [Working With Accounts Payable Reports](#working-with-accounts-payable-
 3. Enter an item code for the **Item code** (15,a) field. To add an A/P item record for each of the G/L accounts that will be debited during invoice posting, users may enter the chart of account numbers for the **Item code** field. For example, if 890 is the G/L account number for bank charges, 890 would be entered for the **Item code** field of the corresponding A/P item record.
 
     To add an A/P item record for transferring purchase orders to Accounts Payable, enter INVENTORY and an item category number for the **Item code** field. Valid values are INVENTORY01 through INVENTORY99.
-    >Note: Though an A/P item record should be added for every item category number used by the distributor, a single A/P item record can be added by using the value of INVENTORY without a category number for the **Item code** field.
+    &gt;Note: Though an A/P item record should be added for every item category number used by the distributor, a single A/P item record can be added by using the value of INVENTORY without a category number for the **Item code** field.
 
     To use any PO off invoice deduction (5) type of vendor deal, enter VRDEAL5 for the **Item code** field. To use any item allow-OI deduction (4) type of vendor deal, enter VRDEAL4 for the **Item Code** field. Refer to Adding PO Off Invoice Deduction Deals and Adding Item Allow-OI Deduction Deals of the Vendor Receivables document for additional information.  
 
@@ -572,7 +572,7 @@ Refer to [Working With Accounts Payable Reports](#working-with-accounts-payable-
     Refer to Printing An Accounts Payable Item List to review examples of A/P item records.
 
 4. Press &lt;Enter&gt;. The Item Maintenance Details screen appears.  
-    >Note: **The G/L Account** # field name will be different if another value is entered for the **Account header** field of the Company Maintenance (G/L) screen. Refer to Working With Company G/L Options for additional information.
+    &gt;Note: **The G/L Account** # field name will be different if another value is entered for the **Account header** field of the Company Maintenance (G/L) screen. Refer to Working With Company G/L Options for additional information.
 
 5. To delete the A/P item record, press &lt;F11&gt; (Delete). The Item Maintenance screen appears without the deleted A/P item record.
 
@@ -629,13 +629,13 @@ Refer to the DAC Default System Options document for information about the A/P r
         If *BP* is entered for the **A/P Check Date** field, the default value of the **A/P Check Version** field on the A/P Check Print Prompt screen is 1 which designates that one check is printed per vendor. Refer to [Printing Checks And Check Register](#printing-checks-and-check-register) for information about the **A/P Check Version** field.
 
         When printing checks, users can change the default value of the **A/P Check Version** field to 2 which designates that one check is printed for each voucher of each vendor.
-        >Note: If 2 is entered for the **A/P Check Version** field, multiple reference lines cannot be printed on a check stub. Refer to [Printing Multiple Reference Lines](#printing-multiple-refrence-lines) for additional information.
+        &gt;Note: If 2 is entered for the **A/P Check Version** field, multiple reference lines cannot be printed on a check stub. Refer to [Printing Multiple Reference Lines](#printing-multiple-refrence-lines) for additional information.
 
     - *PD* - the value of the **Pay Date** field is used for posting payments to the payment journal, and is printed on checks. Refer to [Adding A Payment Batch](#adding-a-payment-batch) for information about the **Pay Date** field of the A/P Payment Selection screen. Refer also to [Adding An Invoice Batch](#adding-an-invoice-batch) for information about the **Pay date** field of the A/P Invoice Posting (Add) screen.
 
         If PD is entered for the **A/P Check Date** field, the default value of the **A/P Check Version** field is 3 on the A/P Check Print Prompt screen which designates that one check will be printed per vendor per pay date. Refer to [Printing Checks And Check Register](#printing-checks-and-check-register) for information about the **A/P Check Version** field.  
 
-    > Note: The value of the **Pay Date** field is used for posting payments to the payment journal, regardless of the value entered for the **A/P Check Date** field, when payments are made with either hand-written checks or electronic funds transfers (EFTs). Refer to Working With Manual Payments and Working With EFT Payments for information about the Check date and Selection Date fields, respectively.
+    &gt; Note: The value of the **Pay Date** field is used for posting payments to the payment journal, regardless of the value entered for the **A/P Check Date** field, when payments are made with either hand-written checks or electronic funds transfers (EFTs). Refer to Working With Manual Payments and Working With EFT Payments for information about the Check date and Selection Date fields, respectively.
 
 9. If using General Ledger custom reports, 22 can be entered for the **G/L Custom Report Heading** (2,a) field to print one or two additional lines of text with the report headings. Refer to Working With G/L Report Records of the General Ledger document for information about using the **1** and **2** fields of the G/L ReportMaintenance screen when defining a custom report. If the **G/L Custom Report Heading** field is left blank, or 11 is entered, the report heading will include the company name, but not the additional text.  
 
@@ -742,7 +742,7 @@ The values of the following fields (listed in alphabetical order) are system-gen
 
 - **G/L Account** - the account number that is debited when posting the invoice. Refer to [Working With A/P Item Records](#working-with-ap-item-records) for information about the **G/L Account** field.
   
-    > Note: The G/L Account field name will be different if another value is entered for the Account header field of the Company Maintenance (G/L) screen. Refer to [Working With Company G/L Options](#working-with-company-gl-options) for additional information.
+    &gt; Note: The G/L Account field name will be different if another value is entered for the Account header field of the Company Maintenance (G/L) screen. Refer to [Working With Company G/L Options](#working-with-company-gl-options) for additional information.
 
 - **Inv.** - vendor’s invoice number.
 
@@ -777,7 +777,7 @@ Refer to Working With Vendor Invoices above for detailed information about the f
 2. Enter a date for the Posting date field to designate the posting date of the invoice batch.
 
 3. Enter an amount for the Control total field to designate the total amount due for all the invoices that will be added to the batch. If the total amount is not known, an estimate of the total must be entered to continue. The actual total amount can be changed after all the invoices are added.
-   >Note: Zero cannot be entered for the Control total field.
+   &gt;Note: Zero cannot be entered for the Control total field.
 
 4. Press &lt;Enter&gt;. The A/P Invoice Posting (Add) screen appears.
 
@@ -828,7 +828,7 @@ Refer to Working With Vendor Invoices above for detailed information about the f
      - &lt;F3&gt; to exit without posting the batch.
      - &lt;F4&gt; to post the batch. Refer to Posting An Invoice Batch for additional information.
 
-    >Note: If necessary, press &lt;F4&gt; (Invoice review) *before* entering any values for another invoice; otherwise, the data must be re-entered after reviewing the other invoices of the batch.
+    &gt;Note: If necessary, press &lt;F4&gt; (Invoice review) *before* entering any values for another invoice; otherwise, the data must be re-entered after reviewing the other invoices of the batch.
 
 #### Calculating An A/P Allowance
 
@@ -840,11 +840,11 @@ When including an allowance, enter data for the following fields as described be
 
 - **Qty** (7,n) - enter the number, and press &lt;Field Minus&gt; (not &lt;Field Exit&gt;).
   
-    >Note: A letter appears ((such as *J*, *K* and *L* when *1*, *2* and *3* are entered, respectively) or a combination of characters appear (such as *1*)  when *10* is entered), but it is converted to a number when data entry is complete.
+    &gt;Note: A letter appears ((such as *J*, *K* and *L* when *1*, *2* and *3* are entered, respectively) or a combination of characters appear (such as *1*)  when *10* is entered), but it is converted to a number when data entry is complete.
 
 - **Price** (7.2,n) - enter the number, and press &lt;Field Exit&gt; (not &lt;Field Minus&gt;).
 
-    >Note: The amount appears as a positive number, but a negative number appears for the Ext Amt field when data entry is complete.
+    &gt;Note: The amount appears as a positive number, but a negative number appears for the Ext Amt field when data entry is complete.
 
 #### Printing Multiple Refrence Lines
 
@@ -978,7 +978,7 @@ The instructions which follow describe using the A/P Invoice Posting screen to e
 
 3. Enter the amount of the credit memo for the **Control total** (11.2,n) field, and press &lt;Field Minus&gt; (not &lt;Field Exit&gt;).
 
-    >Note: A letter appears (such as J, K and L when 1, 2 and 3 are entered, respectively) or a combination of characters appear (such as 1} when 10 is entered), but it is converted to a negative number when data entry is complete.
+    &gt;Note: A letter appears (such as J, K and L when 1, 2 and 3 are entered, respectively) or a combination of characters appear (such as 1} when 10 is entered), but it is converted to a negative number when data entry is complete.
 
 4. Press &lt;Enter&gt;. The A/P Invoice Posting (Add) screen appears.
 
@@ -1024,15 +1024,15 @@ The instructions which follow describe using the A/P Invoice Posting screen to e
 
 14. To enter the amount of the credit memo for **Price** (7.2,n) field, enter the number, and press &lt;Field Exit&gt; (not &lt;Field Minus&gt;).
 
-    >Note: The amount appears as a positive number, but a negative number appears for the **Ext Amt** field when data entry is complete.
+    &gt;Note: The amount appears as a positive number, but a negative number appears for the **Ext Amt** field when data entry is complete.
 
 15. If necessary, enter the cost center number which is used when posting the credit memo for the **Cost Center** (3+4,n) field.
 
-    >Note: The **Cost Center** field name will be different if another value is entered for the **Cost cntr hdr** field of the Company Maintenance (G/L) screen. Refer to [Working With Company G/L Options](#working-with-company-gl-options) for additional information.
+    &gt;Note: The **Cost Center** field name will be different if another value is entered for the **Cost cntr hdr** field of the Company Maintenance (G/L) screen. Refer to [Working With Company G/L Options](#working-with-company-gl-options) for additional information.
 
 16. If necessary, enter the account number which is used when posting the credit memo for the **G/L Account** # (5+4,n) field. Refer to [Working With A/P Item Records](#working-with-ap-item-records) for information about the **G/L Account** # field.
 
-    >Note: The **G/L Account** # field name will be different if another value is entered for the **Account header** field of the Company Maintenance (G/L) screen. Refer to [Working With Company G/L Options](#working-with-company-gl-options) for additional information.
+    &gt;Note: The **G/L Account** # field name will be different if another value is entered for the **Account header** field of the Company Maintenance (G/L) screen. Refer to [Working With Company G/L Options](#working-with-company-gl-options) for additional information.
 
 17. If necessary, users may be able to change the value of the **Discount** (1,a) field which defaults from the **Discount allowed** field of the A/P item record. Refer to [Working With A/P Item Records](#working-with-ap-item-records) for additional information. Refer to [Working With Company A/P Options](#working-with-ap-options) for information about the Allow discount override field which designates *if* the value of the **Discount** field can be changed when processing invoice batches.
 
@@ -1062,7 +1062,7 @@ The instructions which follow describe using the A/P Invoice Posting screen to e
 
 After vouchers are created, the Auto Payment Selection application (option 4 of the Accounts Payable screen) is primarily used to add, edit (if necessary) and accept batches of vouchers for which system-generated checks will be printed. Refer to [Working With Manual Payments](#working-with-manual-payments) and [Working With EFT Payments](#working-with-eft-payments) for information about entering data concerning hand-written checks and electronic fund transfers, respectively.
 
->Note: Credit memos are handled by the A/P System in the same manner as invoices; therefore, references to “vouchers” refers to those created for credit memos as well as invoices.
+&gt;Note: Credit memos are handled by the A/P System in the same manner as invoices; therefore, references to “vouchers” refers to those created for credit memos as well as invoices.
 
 Before adding payment batches, the Edit Voucher Pay Date application can be used to change the pay date, due date and payment type of a posted invoice’s voucher.
 
@@ -1086,6 +1086,141 @@ The A/P Invoice Selection screen appears after pressing &lt;F6&gt; (Add invoice)
 The Invoice Pay Date Maintenance screen is used to change the due date, pay date and payment type of a voucher.
 
 ### Adding A Payment Batch
+
+After vouchers are created, the Auto Payment Selection application (option 4 of the Accounts Payable screen) is primarily used to add, edit (if necessary) and accept batches of vouchers for which system-generated checks will be printed.
+
+The instructions which follow describe:
+
+- Adding a payment batch of vouchers for which system-generated checks will be printed.
+- Deleting a voucher from a payment batch.
+- Making partial payments by changing the payment and discount amounts of a voucher prior to accepting the payment batch.
+- Saving or accepting the payment batch.
+
+Refer to [Adjusting A Posted Invoice](#adjusting-a-posted-invoice) for information about making adjustments and overriding a posted invoice’s discount before it is paid. Refer to [Editing A Payment Batch](#editing-a-payment-batch) for information about applying a credit memo to an invoice.
+
+A voucher can only be selected for including in a payment batch under the following circumstances:
+
+- The payment type of the voucher must be P which designates that the Auto Payment Selection application will be used to process the payment with a system-generated check. Refer to [Adding An Invoice Batch](#adding-an-invoice-batch) for information about the Payment type field. Refer to [Editing A Voucher](#editing-a-voucher) for information about changing the payment type after an invoice batch is posted.
+  
+- The value of Y (yes) must be entered for the Allow payment field of the vendor’s record. Refer to Working With Vendor Records for additional information.
+- The holding status of the voucher (invoice) is not H (held). Refer to [Working With Vendor Account Inquiry](#working-with-vendor-account-inquiry) for information about changing and displaying the holding status of a voucher.
+  
+A voucher cannot be selected for including in more than one payment batch simultaneously. Users must delete a voucher from one payment batch, or delete the entire batch, before selecting the voucher to be included to a different batch. Refer to [Editing A Payment Batch](#editing-a-payment-batch) for information about deleting an entire payment batch. 
+
+Before adding a payment batch, users can print a cash requirements report, a cash forecast report, and an open credits report. Refer to [Working With Accounts Payable Reports](#acc) for additional information
+
+1. Select option 4 (Auto Payment Selection) from the Accounts Payable screen. The 
+Auto Payment Selection (Enter) screen appears.
+
+2. Enter data for the following fields:
+   
+   - **Bank** (6,a) - a bank code to designate the bank through which checks are processed. The value of the Bank field defaults from the value of the Default bank code field of the A/P Options. Refer to [Working With A/P Options](#working-with-ap-options) for additional information. The voucher for a vendor’s invoice will not be selected if this bank code is not entered in the Bank code field of the vendor record. Refer to [Working With Vendor Records](#working-with-vendor-records) for additional information.
+   -**Select thru date** (6,n) - a pay date used for selecting vouchers. Only vouchers with a pay date equal or earlier than this date can be selected for the payment batch. Refer to [Adding An Invoice Batch](#adding-an-invoice-batch) for information about the Pay date field. Refer to [Editing A Voucher](#editing-a-voucher) for information about changing a voucher’s pay date.
+   - **Vendor** (6,a) - a vendor code to limit the vouchers to those of a single vendor. If necessary, enter *?* and press &lt;Enter&gt; to select a vendor code from the Vendor Select screen. If the Vendor field is left blank, a payment batch will be created for all vendors for whom any invoice balance exists and to whom payment is due.
+   - **Sort Option** (1,n) - enter 1 to use the vendors' codes, or 2 to use the first ten characters of the vendors' names to designate how the vouchers are sorted to appear on the A/P Payment Selection screen.
+
+3. Press &lt;Enter&gt; when data entry is complete. The A/P Payment Selection screen appears with the selected vouchers in vendor code order.
+
+The value which appears for the Batch field, is automatically generated by the Accounts Payable System, and used by A/P to identify and track each batch of payments. Other values which appear at the top of this screen include:
+
+   - Sel date - the selection date of the payment batch.
+   - Optional: Per - the period in which the payment batch’s selection date falls. A value appears for the Per field only if PD is entered for the A/P Check Date field of the A/P Options. Refer to [Working With A/P Options](#working-with-ap-options) for additional information.
+   - Vendor - the vendor code, if previously entered for the Vendor field at the Auto Payment Selection (Enter) screen, designating a single vendor whose vouchers are included in the batch.
+   - Payments - the total amount that would be paid for the entire payment batch if cash discounts were excluded when checks were printed.
+   - Bank - the bank code previously entered for the Bank field at the Auto Payment Selection (Enter) screen.
+   - Check count - the number of checks that will be printed for the payment batch.
+   - Optional: Disc - the total of the cash discounts of the vouchers of the payment batch.
+   - Net - the total amount that will be paid for the entire payment batch when checks are printed.
+
+The following values appear for each voucher selected for the payment batch:
+   - Vendor - the vendor code designating the vendor for whom the voucher was created.
+   - Voucher - the voucher number which was automatically generated when the invoice was added.
+   - Reference - the text entered when the invoice was added. Refer to [Adding An Invoice Batch](#adding-an-invoice-batch) for information about the Ref field.
+   - Name - the name of the vendor.
+   - Pay Date - the date by which the distributor intends to pay the vendor. If PD is entered for the A/P Check Date field of the A/P Options, and the pay date of a voucher and the selection date of the batch (Sel date field) fall in different periods, the value of the Pay Date field is highlighted. Refer to [Reconciling Pay Dates And Periods](#reconciling-pay-dates-and-periods) for information about processing a payment batch when Pay Date fields are highlighted. If BP is entered for the A/P Check Date field of the A/P Options, the pay date of all the selected vouchers appears equal to the batch’s selection date (Sel date field). The actual value of the vouchers’ pay date is not changed when the vouchers are selected. Refer to [Working With A/P Options](#working-with-ap-options) for additional information about the A/P Check Date field.
+   - Payment amt - the amount that would be paid if cash discounts were excluded when checks were printed.
+   - Optional: Discount amt - the cash discount for which the distributor qualifies.
+   - Net Amt. - the amount that will be paid when checks are printed. 
+
+Refer to [Editing A Payment Batch](#editing-a-payment-batch) for information about using the F6 (Add invoice) function key to add a voucher, which was not selected by the A/P system, to the payment batch.
+  
+4. To make a partial payment or change the discount amount of a voucher prior to accepting the payment batch, locate the desired voucher (use &lt;Page Down&gt; if necessary), and enter 8 (Details) in the selection column next its vendor code.
+   
+Press &lt;Enter&gt;. The Payment Detail Maintenance screen appears.
+
+The following values appear for the voucher:
+- Invoice payment - the total payment due for the invoice. This amount does not include any cash discounts.
+- Total payments - the amount that would be paid if cash discounts were excluded when checks were printed.
+- Optional: Total discounts - the cash discount for which the distributor qualifies.
+- Net Amount - the amount that will be paid when checks are printed. This value can change,as described below.
+
+If necessary, change the value of the Payment field to designate the amount of the partial payment. Users may also be able to change (or delete) the value of the Discount field to designate the amount of the cash discount for which the distributor qualifies. Refer to [Working With Company A/P Options](#working-with-company-ap-options) for information about the Allow discount override field which designates if the value of the Discount field can be changed when processing payment batches.
+
+Press &lt;Enter&gt;. As illustrated below, the value of the Total payments, Total discounts and Net Amount fields at the top of the Payment Detail Maintenance screen may change. Also, the Invoice total not equal to total payments message may appear when changes are made to the value of the Payment and Discount fields.
+
+Press &lt;F3&gt; (Exit) when changes are completed. The A/P Payment Selection screen appears.
+
+The following values which appear for each voucher may be changed:
+- Payment amt - the amount that would be paid if cash discounts were excluded when checks were printed.
+- Optional: Discount amt - the cash discount for which the distributor qualifies.
+- Net Amt. - the amount that will be paid when checks are printed.
+
+The value of the Payments, Disc and Net fields at the top of the A/P Payment Selection screen may also change when users make a partial payment or change the discount amount of a voucher.
+
+5. To delete a voucher from the payment batch, locate the desired voucher (use &lt;Page Down&gt; if necessary), and enter 4 (Delete) in the selection column next to its vendor code. Note: When a voucher is deleted from a payment batch, its corresponding vendor invoice is not deleted from the A/P system.
+   
+Press &lt;Enter&gt;. The screen’s list is redisplayed without the deleted voucher.
+ As illustrated above, the value of the Payments, Check count, Disc and Net 
+fields at the top of the A/P Payment Selection screen may change when a voucher 
+is deleted from a payment batch.
+ Refer to Editing A Payment Batch for information about using the F6 (Add 
+invoice) function key to apply a credit memo to an invoice. Note: If PD is entered 
+for the A/P Check Date field of the A/P Options, a credit memo cannot be 
+applied to an invoice unless the vouchers of both have the same pay date. Refer to 
+Working With A/P Options for information about the A/P Check Date field.
+1. To save the payment batch without accepting it, press &lt;F3&gt; (Exit); otherwise, 
+press &lt;F4&gt; (Accept batch) and refer to Accepting A Payment Batch for 
+information about the A/P Payment Check Date Edit Report. The Auto Payment 
+Selection (Enter) screen appears.
+ AP4310R DISPLAY CREATIVE DATA RESEARCH 5/10/00 17:18:40 
+ JTIPPIN A/P PAYMENT SELECTION QPADEV0003 
+ Batch 329 Sel date 5/15/00 Per Vendor Payments 976.67 
+ Bank FNB Check count 2 Disc 73.17 Net 903.50 
+ Type options, press Enter. 
+ 4=Delete 8=Details 
+ 
+ ? Vendor Voucher Reference Pay Date Payment amt Discount amt 
+ 12300 1218 000335 5/10/00 731.67 73.17 
+ Name R.J.R. Net Amt. - 658.50 
+ 62640 2000142 Invoice 3265 5/01/00 245.00 
+ Name DANDY CONFECTIONS Net Amt. - 245.00 
+ 
+ F3=Exit F4=Accept batch F6=Add invoice 
+ AP4310R DISPLAY CREATIVE DATA RESEARCH 5/10/00 17:17:57 
+ JTIPPIN A/P PAYMENT SELECTION QPADEV0003 
+ Batch 329 Sel date 5/15/00 Per Vendor Payments 1476.67 
+ Bank FNB Check count 3 Disc 123.17 Net 1353.50 
+ Type options, press Enter. 
+ 4=Delete 8=Details 
+ 
+ ? Vendor Voucher Reference Pay Date Payment amt Discount amt 
+ 12300 1218 000335 5/10/00 731.67 73.17 
+ Name R.J.R. Net Amt. - 658.50 
+ 4 18346 2000053 5/15/00 500.00 50.00 
+ Name ALEX FOODS INC. Net Amt. - 450.00 
+ 62640 2000142 Invoice 3265 5/01/00 245.00 
+ Name DANDY CONFECTIONS Net Amt. - 245.00 
+ 
+ F3=Exit F4=Accept batch F6=Add invoice 
+Accounts Payable (Rev. 7/09/13) 112
+7. Press &lt;F3&gt; (Exit). The Accounts Payable screen appears.
+The vouchers of a saved payment batch cannot be included in another payment 
+batch. If necessary, users can delete a voucher from one payment batch, as previously 
+described, before adding it to another batch. Note: When a voucher is deleted from a 
+payment batch, its corresponding vendor invoice is not deleted from the A/P system.
+Refer to Editing A Payment Batch for information about changing a saved payment 
+batch. Refer to Working With Invoice Voucher Inquiry for information about 
+displaying the payment details of vendor invoices.
 
 #### Reconciling Pay Dates And Periods
 

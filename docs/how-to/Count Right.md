@@ -12,5 +12,3 @@ Now that the inventory batch has been created and the cycle count sheet has prin
 
 ## Posting the count sheet
 Once the user has completed their count and released the file back to DAC. You will resume posting the cycle count as normal. Navigate to the Inventory Batch Entry menu: 4, 1, 1. Use a 2 to edit the batch, and then &lt;F10&gt; to post the batch. 
-
-
