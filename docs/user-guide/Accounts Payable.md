@@ -1146,8 +1146,7 @@ code.
 
     Before adjusting a vendor’s invoice, the following options can be used:
    - 5=Inquiry - the Vendor Inquiry screen appears. The user can review but not change the vendor information that appears on this screen. Refer to [Working With Vendor Inquiry](#working-with-vendor-inquiry) for additional information.
-   - N=Notes - the Entity Notes Maint (A/P) screen appears. Additional 
-information concerning the use of this screen is included in the instructions 
+   - N=Notes - the Entity Notes Maint (A/P) screen appears. Additional information concerning the use of this screen is included in the instructions 
 below.
 
     During the course of adjusting posted invoices, the following fields can be used to 
