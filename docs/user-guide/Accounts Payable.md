@@ -234,7 +234,9 @@ If necessary, the Select Alternative Company application can be used before work
      - P designates that A/P aging is based on the posting date. For example, if the posting date is November 1 with 30-day terms, the invoice is considered 31 days past due on December 2.
 
     The aging method is used to produce the A/P cash forecast report (entitled Vendor Aging Summary), and used to calculate the aging figures which appear on the Vendor Account Inquiry (Display) screen.
+
 5. Enter the number of days past the date on which an invoice no longer has a remaining balance for the **Days to hold closed A/P** (3,n) field. The recommended value is 30. It designates how long invoice records and payment records remain in the A/P current files. After this time elapses, the records are automatically saved in A/P history files when the Month End Close application is used.
+   
 6. Enter data for the following fields as necessary:
     - **A/P aging bucket 1 name** - a description of the first aging bucket, such as Current.
     - **A/P aging bucket 1 days** - the number of days which an invoice cannot exceed to be included in the first bucket.
@@ -249,29 +251,33 @@ If necessary, the Select Alternative Company application can be used before work
     - Optional: **A/P aging bucket 5 days** - enter 999 for the number of days which an invoice cannot exceed to be included in the fifth bucket.
         &gt;Note: When using the Vendor Account Inquiry application to display four columns of aging figures, the amount calculate for the fifth bucket is combined with the fourth bucket, and displayed in the far right column of the screen.
 The values of the A/P aging fields are used to produce the A/P cash forecast report (entitled Vendor Aging Summary), and used to calculate the aging figures which appear on the Vendor Account Inquiry (Display) screen.
-7. Enter Y (yes) for the **Allow discount override** field to enable the user to changethe values of the **Discount** and fields of the A/P Invoice Posting (Add) and (Change) screens, and the **Discount** field of the Payment Detail Maintenance screen. Refer to Adding An Invoice Batch, Adding A Payment Batch, Working With Manual Payments, and Working With EFT Payments for additional information.
-8. Enter Y (yes) for the **Allow detail payment change** field to enable changing the amount of a payment when selecting invoices for payment.
-9. Enter *1* for the **Number of leader checks** field to designate that the first check loaded in the printer is used when checks are printed. If a single check is “wasted” every time checks are printed, enter *2* for this field. If the first two checks are not used every time checks are printed, enter *3* for this field.
-10. Enter one of the following values for the Inv jrnl entry method field:
 
-    - *B* designates that a single credit journal entry is created in General Ledger for the entire batch when an invoice batch is posted in Accounts Payable. Refer to Adding An Invoice Batch for information about using the Posting date field to post entries to the General Ledger.
+7. Enter Y (yes) for the **Allow discount override** field to enable the user to changethe values of the **Discount** and fields of the A/P Invoice Posting (Add) and (Change) screens, and the **Discount** field of the Payment Detail Maintenance screen. Refer to Adding An Invoice Batch, Adding A Payment Batch, Working With Manual Payments, and Working With EFT Payments for additional information.
+
+8. Enter Y (yes) for the **Allow detail payment change** field to enable changing the amount of a payment when selecting invoices for payment.
+
+9. Enter *1* for the **Number of leader checks** field to designate that the first check loaded in the printer is used when checks are printed. If a single check is “wasted” every time checks are printed, enter *2* for this field. If the first two checks are not used every time checks are printed, enter *3* for this field.
+
+10.  Enter one of the following values for the Inv jrnl entry method field:
+-
+     - *B* designates that a single credit journal entry is created in General Ledger for the entire batch when an invoice batch is posted in Accounts Payable. Refer to Adding An Invoice Batch for information about using the Posting date field to post entries to the General Ledger.
     - *I* designates that a credit journal entry is created in General Ledger for each invoice when an invoice batch is posted. Refer to Adding An Invoice Batch for information about using the Inv date field to post entries to the General Ledger.
 
-11. Enter one of the following values for the Pmt jrnl entry method field:
+1.  Enter one of the following values for the Pmt jrnl entry method field:
     - *B* designates that a single debit journal entry is created in General Ledger for the entire batch when a payment batch is posted in Accounts Payable.
     - *C* designates that a debit journal entry is created in General Ledger for each payment when a payment batch is posted.\
 
     Refer to [Working With A/P Options](#working-with-company-ap-options) for information about using the A/P Check field to designate which date is used for posting entries to the General Ledger.
 
-12. Optional: Enter *Y* (yes) for the Reprint check numbers on preprinted checks field to print check numbers on checks that are pre-numbered, and verify that the correct check is being printed on the correct form.
-13. If *Y* (yes) is entered for the G/L interface field of the company’s record, data may be entered for the following fields:
+2.  Optional: Enter *Y* (yes) for the Reprint check numbers on preprinted checks field to print check numbers on checks that are pre-numbered, and verify that the correct check is being printed on the correct form.
+3.  If *Y* (yes) is entered for the G/L interface field of the company’s record, data may be entered for the following fields:
     - **A/P account number** - the cost center number and the liability account number which are credited when invoices are posted and debited when payments are made. Refer to Posting An Invoice Batch and Printing Checks And Check Register for additional information. The cost center number entered for the **A/P account number** field is also used as the default value when adding recurring invoice records and adding invoice batches. Refer to Working With Recurring Invoice Records and Adding An Invoice Batch for additional information.
     - **Discount account** - the cost center number and the expense or income account number used for crediting discounts when payments are made.
 
     Refer to Working With Company Records for additional information about the **G/L interface** field. Refer also to Working With A/P Item Records for information about the **G/L Account** # field, and to Working With Bank Records for information about the **Cost Center** and **G/L Account** # fields.
 
-14. Press &lt;Enter&gt; when data entry is complete. The *Record added* message appears at the bottom of the Company Maintenance screen.
-15. Press &lt;F3&gt; to exit. The A/P File Maintenance screen appears.
+4.  Press &lt;Enter&gt; when data entry is complete. The *Record added* message appears at the bottom of the Company Maintenance screen.
+5.  Press &lt;F3&gt; to exit. The A/P File Maintenance screen appears.
 
 ### Working With Company G/L Options
 
@@ -1353,15 +1359,16 @@ the payment batch before accepting it.
 
 The instructions below describe using the Edit Voucher Pay Date application to change the pay date, due date and payment type of a posted invoice’s voucher. If the voucher which is edited is included in an existing payment batch, one of these processes must also be followed:
 
-- The voucher must be deleted from the payment batch, and then added to it or added to another batch. Refer to Reconciling Pay Dates And Periods (see Procedure 2) for an example of this process.
+-   
+  - The voucher must be deleted from the payment batch, and then added to it or added to another batch. Refer to Reconciling Pay Dates And Periods (see Procedure 2) for an example of this process.
 
-- The entire payment batch containing the voucher must be deleted, and a new batch containing the voucher must be added. Refer to [Editing A Payment Batch](#editing-a-payment-batch) for additional information about this process.
+  - The entire payment batch containing the voucher must be deleted, and a new batch containing the voucher must be added. Refer to [Editing A Payment Batch](#editing-a-payment-batch) for additional information about this process.
   
-1. Select option 8 (Edit Voucher Pay Date) from the Accounts Payable screen. The 
-Invoice Pay Date Maintenance Prompt Screen screen appears.
-1. Enter the number of the desired voucher for the Voucher Number (7,n) field.
-2. Enter R for the Voucher Type (2,a) field.
-3. Press <Enter>. The Invoice Pay Date Maintenance screen appears, unless one of 
+1. Select option 8 (Edit Voucher Pay Date) from the Accounts Payable screen. The Invoice Pay Date Maintenance Prompt Screen screen appears.
+   
+2. Enter the number of the desired voucher for the Voucher Number (7,n) field.
+3. Enter R for the Voucher Type (2,a) field.
+4. Press <Enter>. The Invoice Pay Date Maintenance screen appears, unless one of 
 the following messages is displayed:
 - Voucher has not been posted. Refer to Editing An Invoice Batch for 
 information about changing the pay date, due date and payment type of an 
