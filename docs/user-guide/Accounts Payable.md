@@ -1,6 +1,6 @@
 # Accounts Payable
 
-Before “getting started” with DAC Accounts Payable (A/P) System, users should refer to the Introduction of the Getting Started document for information about DAC data, screens and menus.
+Before “getting started” with DAC Accounts Payable (A/P) System, users should refer to the [Introduction of the Getting Started](getting-started.md/#introduction) document for information about DAC data, screens and menus.
 
 ![Alt text](../images/AP_mainmenu.png)
 
@@ -10,61 +10,62 @@ After selecting option 11 (Accounts Payable) of the DAC Main Operations Menu scr
 
 Users can press &lt;F3&gt; to redisplay the Main Operations Menu screen.
 
-Refer to the [Accounts Payable Quick Reference Guide](&lt;../quick-refrence-guide/Accounts Payable QRG.md&gt;) for an overview of the use of the Accounts Payable System.
+Refer to the [Accounts Payable Quick Reference Guide](./../quick-refrence-guide/Accounts%20Payable%20QRG.md) for an overview of the use of the Accounts Payable System.
 
-For information about transferring purchase orders to Accounts Payable, and the report which is printed when transfers occur, refer to Transferring Purchase Orders To Accounts Payable of the Purchasing document.
+For information about transferring purchase orders to Accounts Payable, and the report which is printed when transfers occur, refer to [Transferring Purchase Orders To Accounts Payable](purchasing.md/#transferring-purchase-orders-to-accounts-payable) of the Purchasing document.
 
 ## Getting started with Accounts Payable
 
 The steps below are followed to create the necessary records before the Accounts Payable System is used. If the DAC General Ledger System is used (or only the General Ledger account numbers are used), the steps below must not be taken until:
 
-- The cost center number(s) and General Ledger account numbers are defined. Refer to the General Ledger document for information about using the G/L File Maintenance applications to add cost center and G/L account records.
+- The cost center number(s) and General Ledger account numbers are defined. Refer to the [General Ledger](<General Ledger.md>)document for information about using the G/L File Maintenance applications to add cost center and G/L account records.
 
 - The cost center number(s) and General Ledger account numbers are combined using the Work With Cost Center application.
 
-&gt;Note: The General Ledger System is used by selecting option 22 (General Ledger) of the Accounts Payable screen, or by selecting option 12 (General Ledger) of the DAC Main Operations Menu screen.
+    >Note: The General Ledger System is used by selecting option 22 (General Ledger) of the Accounts Payable screen, or by selecting option 12 (General Ledger) of the DAC Main Operations Menu screen.
 
-**Step 1**: Use the Work With System Options application to make any necessary changes to the value of the default system option record fields related to Accounts Payable. Refer to the DAC Default System Options document for information about the A/P Interface Active? and A/P Terms Positions Used fields of the SYS005 default system option, and the Accounts Payable Active? field of the SYS015 default system option.
+**Step 1**: Use the Work With System Options application to make any necessary changes to the value of the default system option record fields related to Accounts Payable. Refer to the [DAC Default System Options](<DAC Default System Options.md>) document for information about the A/P Interface Active? and A/P Terms Positions Used fields of the SYS005 default system option, and the Accounts Payable Active? field of the SYS015 default system option.
 
-**Step 2**: Use the Company Maintenance screens to add preliminary data, such as name and address, of the company. Multiple companies must be set up if users track retained earnings or net profit and loss for more than one entity, such as multiple warehouses or divisions. Refer to Working With Company Records for additional information.
-&gt;Note: This step is not necessary if the company records were previously added using the General Ledger System.
+**Step 2**: Use the Company Maintenance screens to add preliminary data, such as name and address, of the company. Multiple companies must be set up if users track retained earnings or net profit and loss for more than one entity, such as multiple warehouses or divisions. Refer to [Working With Company Records](#working-with-company-records) for additional information.
+    >Note: This step is not necessary if the company records were previously added using the General Ledger System.
 
-**Step 3**: Use the User Profile Maintenance screen to designate the names of A/P users, and with which company each user works. Refer to Working With User Profile Records for additional information. &gt;Note: This step is not necessary if the user profile records were previously added using the General Ledger System.
+**Step 3**: Use the User Profile Maintenance screen to designate the names of A/P users, and with which company each user works. Refer to [Working With User Profile Records](#working-with-user-profile-records) for additional information. 
+>Note: This step is not necessary if the user profile records were previously added using the General Ledger System.
 
 **Step 4**: Sign off the DAC system, then sign back on.
 
-**Step 5**: Use the Company Maintenance (A/P) screen to add company A/P data, such as the aging method used by a company. Refer to Working With Company A/POptions for additional information.
+**Step 5**: Use the Company Maintenance (A/P) screen to add company A/P data, such as the aging method used by a company. Refer to [Working With Company A/P Options](#working-with-company-ap-options) for additional information.
 
-**Step 6**: Use the Company Maintenance (G/L) screen to add company G/L data if General Ledger account numbers are used. Refer to Working With Company G/L Options for additional information.
-&gt;Note: This step is not necessary if the company G/L options were previously added using the General Ledger System.
+**Step 6**: Use the Company Maintenance (G/L) screen to add company G/L data if General Ledger account numbers are used. Refer to [Working With Company G/L Options](#working-with-company-gl-options) for additional information.
+>Note: This step is not necessary if the company G/L options were previously added using the General Ledger System.
 
 **Step 7**: Use the Period Date Maintenance screen to add period date data. Refer to [Working With Period Date Records](#working-with-period-date-records) for additional information.
-&gt;Note: This step is not necessary if the period date records were previously added using the General Ledger System
+>Note: This step is not necessary if the period date records were previously added using the General Ledger System
 
-**Step 8**: Use the Period Date Inquiry screen to verify the starting and ending dates of the periods (also referred to as months) of the user’s fiscal year. Refer to Displaying Period Date Records for additional information.
+**Step 8**: Use the Period Date Inquiry screen to verify the starting and ending dates of the periods (also referred to as months) of the user’s fiscal year. Refer to [Displaying Period Date Records](#displaying-period-date-records) for additional information.
 
-**Step 9**: Use the Period Status Inquiry screen to verify the A/P open status for the periods of the user’s fiscal year. Refer to Displaying Period Status Records for additional information.
+**Step 9**: Use the Period Status Inquiry screen to verify the A/P open status for the periods of the user’s fiscal year. Refer to [Displaying Period Status Records](#displaying-period-status-records) for additional information.
 
 **Step 10**: Contact CDR support personnel who will assist users with the execution of the Company A/P One Time Maintenance application.
 
-**Step 11**: Use the Bank Maintenance screen to add bank data. Refer to Working With Bank Records for additional information.
+**Step 11**: Use the Bank Maintenance screen to add bank data. Refer to [Working With Bank Records](#working-with-bank-records) for additional information.
 
-**Step 12**: Use the Vendor Terms Maintenance screen to add terms data. Refer to Working With Terms Records for additional information.
+**Step 12**: Use the Vendor Terms Maintenance screen to add terms data. Refer to [Working With Terms Records](#working-with-terms-records) for additional information.
 
-**Step 13**: Use the Vendor Maintenance screen to add vendor data. Refer to Working With Vendor Records for additional information.
+**Step 13**: Use the Vendor Maintenance screen to add vendor data. Refer to [Working With Vendor Records](#working-with-vendor-records) for additional information.
 
-**Step 14**: Use the Item Maintenance screen to add A/P item data. Refer to Working With A/P Item Records for additional information.
+**Step 14**: Use the Item Maintenance screen to add A/P item data. Refer to [Working With A/P Item Records](#working-with-ap-item-records) for additional information.
 
-**Step 15**: Use the Work With A/P Options screen to designate various defaults (company, terms, bank and pay date) and A/P related options. Refer to Working With A/P Options for additional information.
+**Step 15**: Use the Work With A/P Options screen to designate various defaults (company, terms, bank and pay date) and A/P related options. Refer to [Working With A/P Options](#working-with-ap-options) for additional information.
 
 **Step 16**: Use the Vendor Maintenance screen to add data concerning recurring payments. Refer to [Working With Recurring Invoice Records](#working-with-recurring-invoice-records) for additional information.
-&gt;Note: The Special Item application (option 4 of the A/P File Maintenance screen) and Entity application (option 10 of the A/P File Maintenance screen) are no longer used due to system upgrades.
+>Note: The Special Item application (option 4 of the A/P File Maintenance screen) and Entity application (option 10 of the A/P File Maintenance screen) are no longer used due to system upgrades.
 
-Refer to the [Accounts Payable Quick Reference Guide](&lt;../quick-refrence-guide/Accounts Payable QRG.md&gt;) for an overview of the use of the Accounts Payable System
+Refer to the [Accounts Payable Quick Reference Guide](<../quick-refrence-guide/Accounts Payable QRG.md>) for an overview of the use of the Accounts Payable System
 
 ## Accounts Payable and General Ledger Account Numbers
 
-If the DAC [General Ledger](&lt;General Ledger.md&gt;) (G/L) System is used, credit and debit journal entries are created when invoice batches are posted and payments are processed.
+If the DAC [General Ledger](<General Ledger.md>) (G/L) System is used, credit and debit journal entries are created when invoice batches are posted and payments are processed.
 
 ### Posting invoice batches
 
@@ -72,17 +73,15 @@ The General Ledger account number which is credited when invoice batches are pos
 
 ![Alt text](../images/AP_CompanyMaintenanceAP.png)
 
-Refer to Working With Company A/P Options for additional information.
-
-The various G/L account numbers which are debited when invoice batches are posted are designated by a user-named field (see below) of the A/P item records. Refer to Working With A/P Item Records for additional information
+The various G/L account numbers which are debited when invoice batches are posted are designated by a user-named field (see below) of the A/P item records. Refer to [Working With A/P Item Records](#working-with-ap-item-records) for additional information
 ![Alt text](../images/AP_ItemInquiry.png)
 
-&gt;Note: The specific name of this A/P item record field is designated by the value of the **Account header** field (see below) of a company’s G/L options. Refer to Working With Company G/L Options for additional information.
+>Note: The specific name of this A/P item record field is designated by the value of the **Account header** field (see below) of a company’s G/L options. Refer to [Working With Company G/L Options](#working-with-company-gl-options) for additional information.
 
 ![Alt text](../images/AP_CompanyMaintenanceGL.png)
 
 When invoice batches are posted, a single debit journal entry is created in G/L for each detail line of an invoice.
-Refer to Working With Company A/P Options for information about the:
+Refer to [Working With Company A/P Options](#working-with-company-ap-options) for information about the:
 
 - **Inv jrnl entry method** field which is used to designate if a single credit journal entry is created for each invoice of a batch, or for the entire batch.
 
@@ -100,25 +99,25 @@ The General Ledger account number which is debited when payments are processed i
 
 ![Alt text](../images/AP_CompanyMaintenanceAP.png)
 
-Refer to Working With Company A/P Options for additional information. The G/L account numbers which are credited when payments are processed (also referred to as the cash account number and the discount number) are designated by the following fields:
+Refer to [Working With Company A/P Options](#working-with-company-ap-options) for additional information. The G/L account numbers which are credited when payments are processed (also referred to as the cash account number and the discount number) are designated by the following fields:
 
-- **Cost Center** and **G/L Account** # fields (see below) of the bank records. Refer to Working With Bank Records for additional information.
+- **Cost Center** and **G/L Account** # fields (see below) of the bank records. Refer to [Working With Bank Records](#working-with-bank-records) for additional information.
 
     ![Alt text](../images/AP_BankMaintenance.png)
 
-&gt;Note: The specific names of these bank record fields are designated by the values of the Cost cntr hdr and Account header fields of a company’s G/L options (as described above)
+>Note: The specific names of these bank record fields are designated by the values of the Cost cntr hdr and Account header fields of a company’s G/L options (as described above)
 
 - **Discount account** field (see below) of the company A/P options.
 
     ![Alt text](../images/AP_CompanyMaintenanceAP.png)
-Refer to Working With Company A/P Options for additional information.
+Refer to [Working With Company A/P Options](#working-with-ap-options) for additional information.
 
 When payments are processed, a single credit journal entry is created in G/L (for both the cash account number and the discount number) for each individual payment (printed check, manually-written check and EFT transaction).
 
 Refer to [Working With Company A/P Options](#working-with-ap-options) for information about the:
 
 - **Pmt jrnl entry method** field which is used to designate if a single debit journal entry is created for each payment of a batch, or for the entire batch when printing checks.
-    &gt;Note: A single debit journal entry is created for each manual check and each EFT processed.
+    >Note: A single debit journal entry is created for each manual check and each EFT processed.
 
 - Dates used for debit and credit journal entries when processing payments.
 
@@ -195,7 +194,7 @@ Refer to [Selecting The Default Company](#selecting-the-default-company) for inf
 - **User** (10,a) - the username which the user enters to sign on the system.\
 - **User name** (30,a) - the user’s name.\
 - **Cmp** (3,a) - a company code designating the user’s default company. If necessary, enter ? and press &lt;Enter&gt; to select a company code from the Company Selection screen.\
-    &gt;Note: If the value of the **Cmp** field is later changed in the user profile record of a user who is currently signed on, that user must sign off and sign on before the change takes affect.
+    >Note: If the value of the **Cmp** field is later changed in the user profile record of a user who is currently signed on, that user must sign off and sign on before the change takes affect.
 
 1. Press &lt;Enter&gt; and &lt;F9&gt; (Go to 'Change' mode) when data entry is complete. The User Profile Maintenance (Change) screen appears.
 2. To delete a user profile record, enter 4 (Delete request) in the selection column of the desired record, and press &lt;Enter&gt;. Press &lt;Page Down&gt; or use the User restrictor field at the top of the screen to locate the desired record.
@@ -249,7 +248,7 @@ If necessary, the Select Alternative Company application can be used before work
         &gt; Note: When using the Vendor Account Inquiry application to display four columns of aging figures, the amount calculate for the fourth bucket is combined with the fifth bucket, and displayed in the far right column of the screen.
     - Optional: **A/P aging bucket 5 name** - a description of the fifth aging bucket, such as 121+.
     - Optional: **A/P aging bucket 5 days** - enter 999 for the number of days which an invoice cannot exceed to be included in the fifth bucket.
-        &gt;Note: When using the Vendor Account Inquiry application to display four columns of aging figures, the amount calculate for the fifth bucket is combined with the fourth bucket, and displayed in the far right column of the screen.
+        >Note: When using the Vendor Account Inquiry application to display four columns of aging figures, the amount calculate for the fifth bucket is combined with the fourth bucket, and displayed in the far right column of the screen.
 The values of the A/P aging fields are used to produce the A/P cash forecast report (entitled Vendor Aging Summary), and used to calculate the aging figures which appear on the Vendor Account Inquiry (Display) screen.
 
 7. Enter Y (yes) for the **Allow discount override** field to enable the user to changethe values of the **Discount** and fields of the A/P Invoice Posting (Add) and (Change) screens, and the **Discount** field of the Payment Detail Maintenance screen. Refer to Adding An Invoice Batch, Adding A Payment Batch, Working With Manual Payments, and Working With EFT Payments for additional information.
@@ -312,9 +311,9 @@ In the example below, the field names **Cost Center** and **G/L Account #** appe
 
 After the A/P related options are designated for each company, the periods (also referred to as months) of the user’s fiscal year are defined for each company.
 
-The instructions below must be followed to define the next fiscal year prior to closing the current year. Refer to Closing A Year for additional information.
+The instructions below must be followed to define the next fiscal year prior to closing the current year. Refer to [Closing A Year](#closing-a-year) for additional information.
 
-The instructions below may also be followed to ensure that the correct period is closed before using the Month End Close application. Refer to Closing A Month for additional information.
+The instructions below may also be followed to ensure that the correct period is closed before using the Month End Close application. Refer to [Closing A Month](#closing-a-month) for additional information.
 
 1. Select option 12 (Period Dates) from the A/P File Maintenance screen. The Period Date Maintenance screen appears.
 
@@ -569,7 +568,7 @@ Refer to [Working With Accounts Payable Reports](#working-with-accounts-payable-
 3. Enter an item code for the **Item code** (15,a) field. To add an A/P item record for each of the G/L accounts that will be debited during invoice posting, users may enter the chart of account numbers for the **Item code** field. For example, if 890 is the G/L account number for bank charges, 890 would be entered for the **Item code** field of the corresponding A/P item record.
 
     To add an A/P item record for transferring purchase orders to Accounts Payable, enter INVENTORY and an item category number for the **Item code** field. Valid values are INVENTORY01 through INVENTORY99.
-    &gt;Note: Though an A/P item record should be added for every item category number used by the distributor, a single A/P item record can be added by using the value of INVENTORY without a category number for the **Item code** field.
+    >Note: Though an A/P item record should be added for every item category number used by the distributor, a single A/P item record can be added by using the value of INVENTORY without a category number for the **Item code** field.
 
     To use any PO off invoice deduction (5) type of vendor deal, enter VRDEAL5 for the **Item code** field. To use any item allow-OI deduction (4) type of vendor deal, enter VRDEAL4 for the **Item Code** field. Refer to Adding PO Off Invoice Deduction Deals and Adding Item Allow-OI Deduction Deals of the Vendor Receivables document for additional information.  
 
@@ -578,7 +577,7 @@ Refer to [Working With Accounts Payable Reports](#working-with-accounts-payable-
     Refer to Printing An Accounts Payable Item List to review examples of A/P item records.
 
 4. Press &lt;Enter&gt;. The Item Maintenance Details screen appears.  
-    &gt;Note: **The G/L Account** # field name will be different if another value is entered for the **Account header** field of the Company Maintenance (G/L) screen. Refer to Working With Company G/L Options for additional information.
+    >Note: **The G/L Account** # field name will be different if another value is entered for the **Account header** field of the Company Maintenance (G/L) screen. Refer to Working With Company G/L Options for additional information.
 
 5. To delete the A/P item record, press &lt;F11&gt; (Delete). The Item Maintenance screen appears without the deleted A/P item record.
 
@@ -635,7 +634,7 @@ Refer to the DAC Default System Options document for information about the A/P r
         If *BP* is entered for the **A/P Check Date** field, the default value of the **A/P Check Version** field on the A/P Check Print Prompt screen is 1 which designates that one check is printed per vendor. Refer to [Printing Checks And Check Register](#printing-checks-and-check-register) for information about the **A/P Check Version** field.
 
         When printing checks, users can change the default value of the **A/P Check Version** field to 2 which designates that one check is printed for each voucher of each vendor.
-        &gt;Note: If 2 is entered for the **A/P Check Version** field, multiple reference lines cannot be printed on a check stub. Refer to [Printing Multiple Reference Lines](#printing-multiple-refrence-lines) for additional information.
+        >Note: If 2 is entered for the **A/P Check Version** field, multiple reference lines cannot be printed on a check stub. Refer to [Printing Multiple Reference Lines](#printing-multiple-refrence-lines) for additional information.
 
     - *PD* - the value of the **Pay Date** field is used for posting payments to the payment journal, and is printed on checks. Refer to [Adding A Payment Batch](#adding-a-payment-batch) for information about the **Pay Date** field of the A/P Payment Selection screen. Refer also to [Adding An Invoice Batch](#adding-an-invoice-batch) for information about the **Pay date** field of the A/P Invoice Posting (Add) screen.
 
@@ -783,7 +782,7 @@ Refer to Working With Vendor Invoices above for detailed information about the f
 2. Enter a date for the Posting date field to designate the posting date of the invoice batch.
 
 3. Enter an amount for the Control total field to designate the total amount due for all the invoices that will be added to the batch. If the total amount is not known, an estimate of the total must be entered to continue. The actual total amount can be changed after all the invoices are added.
-   &gt;Note: Zero cannot be entered for the Control total field.
+   >Note: Zero cannot be entered for the Control total field.
 
 4. Press &lt;Enter&gt;. The A/P Invoice Posting (Add) screen appears.
 
@@ -834,7 +833,7 @@ Refer to Working With Vendor Invoices above for detailed information about the f
      - &lt;F3&gt; to exit without posting the batch.
      - &lt;F4&gt; to post the batch. Refer to Posting An Invoice Batch for additional information.
 
-    &gt;Note: If necessary, press &lt;F4&gt; (Invoice review) *before* entering any values for another invoice; otherwise, the data must be re-entered after reviewing the other invoices of the batch.
+    >Note: If necessary, press &lt;F4&gt; (Invoice review) *before* entering any values for another invoice; otherwise, the data must be re-entered after reviewing the other invoices of the batch.
 
 #### Calculating An A/P Allowance
 
@@ -846,11 +845,11 @@ When including an allowance, enter data for the following fields as described be
 
 - **Qty** (7,n) - enter the number, and press &lt;Field Minus&gt; (not &lt;Field Exit&gt;).
   
-    &gt;Note: A letter appears ((such as *J*, *K* and *L* when *1*, *2* and *3* are entered, respectively) or a combination of characters appear (such as *1*)  when *10* is entered), but it is converted to a number when data entry is complete.
+    >Note: A letter appears ((such as *J*, *K* and *L* when *1*, *2* and *3* are entered, respectively) or a combination of characters appear (such as *1*)  when *10* is entered), but it is converted to a number when data entry is complete.
 
 - **Price** (7.2,n) - enter the number, and press &lt;Field Exit&gt; (not &lt;Field Minus&gt;).
 
-    &gt;Note: The amount appears as a positive number, but a negative number appears for the Ext Amt field when data entry is complete.
+    >Note: The amount appears as a positive number, but a negative number appears for the Ext Amt field when data entry is complete.
 
 #### Printing Multiple Refrence Lines
 
@@ -984,7 +983,7 @@ The instructions which follow describe using the A/P Invoice Posting screen to e
 
 3. Enter the amount of the credit memo for the **Control total** (11.2,n) field, and press &lt;Field Minus&gt; (not &lt;Field Exit&gt;).
 
-    &gt;Note: A letter appears (such as J, K and L when 1, 2 and 3 are entered, respectively) or a combination of characters appear (such as 1} when 10 is entered), but it is converted to a negative number when data entry is complete.
+    >Note: A letter appears (such as J, K and L when 1, 2 and 3 are entered, respectively) or a combination of characters appear (such as 1} when 10 is entered), but it is converted to a negative number when data entry is complete.
 
 4. Press &lt;Enter&gt;. The A/P Invoice Posting (Add) screen appears.
 
@@ -1030,15 +1029,15 @@ The instructions which follow describe using the A/P Invoice Posting screen to e
 
 14. To enter the amount of the credit memo for **Price** (7.2,n) field, enter the number, and press &lt;Field Exit&gt; (not &lt;Field Minus&gt;).
 
-    &gt;Note: The amount appears as a positive number, but a negative number appears for the **Ext Amt** field when data entry is complete.
+    >Note: The amount appears as a positive number, but a negative number appears for the **Ext Amt** field when data entry is complete.
 
 15. If necessary, enter the cost center number which is used when posting the credit memo for the **Cost Center** (3+4,n) field.
 
-    &gt;Note: The **Cost Center** field name will be different if another value is entered for the **Cost cntr hdr** field of the Company Maintenance (G/L) screen. Refer to [Working With Company G/L Options](#working-with-company-gl-options) for additional information.
+    >Note: The **Cost Center** field name will be different if another value is entered for the **Cost cntr hdr** field of the Company Maintenance (G/L) screen. Refer to [Working With Company G/L Options](#working-with-company-gl-options) for additional information.
 
 16. If necessary, enter the account number which is used when posting the credit memo for the **G/L Account** # (5+4,n) field. Refer to [Working With A/P Item Records](#working-with-ap-item-records) for information about the **G/L Account** # field.
 
-    &gt;Note: The **G/L Account** # field name will be different if another value is entered for the **Account header** field of the Company Maintenance (G/L) screen. Refer to [Working With Company G/L Options](#working-with-company-gl-options) for additional information.
+    >Note: The **G/L Account** # field name will be different if another value is entered for the **Account header** field of the Company Maintenance (G/L) screen. Refer to [Working With Company G/L Options](#working-with-company-gl-options) for additional information.
 
 17. If necessary, users may be able to change the value of the **Discount** (1,a) field which defaults from the **Discount allowed** field of the A/P item record. Refer to [Working With A/P Item Records](#working-with-ap-item-records) for additional information. Refer to [Working With Company A/P Options](#working-with-ap-options) for information about the Allow discount override field which designates *if* the value of the **Discount** field can be changed when processing invoice batches.
 
@@ -1205,7 +1204,7 @@ processing invoice batches.
 
 After vouchers are created, the Auto Payment Selection application (option 4 of the Accounts Payable screen) is primarily used to add, edit (if necessary) and accept batches of vouchers for which system-generated checks will be printed. Refer to [Working With Manual Payments](#working-with-manual-payments) and [Working With EFT Payments](#working-with-eft-payments) for information about entering data concerning hand-written checks and electronic fund transfers, respectively.
 
-&gt;Note: Credit memos are handled by the A/P System in the same manner as invoices; therefore, references to “vouchers” refers to those created for credit memos as well as invoices.
+>Note: Credit memos are handled by the A/P System in the same manner as invoices; therefore, references to “vouchers” refers to those created for credit memos as well as invoices.
 
 Before adding payment batches, the Edit Voucher Pay Date application can be used to change the pay date, due date and payment type of a posted invoice’s voucher.
 
