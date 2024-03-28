@@ -291,6 +291,7 @@ After company records are added, the values of several G/L options must be desig
 1. Select option 7 (Company) from the A/P File Maintenance screen. The Company Maintenance screen appears.
 
 2. Enter the company code of the desired company and press &lt;Enter&gt;, or enter ? for the Company (3,a) field and press &lt;Enter&gt; to select a company from the Company Selection screen.
+
 3. Press &lt;F15&gt; (G/L). The Company Maintenance (G/L) screen appears.
 
     If the value of the **Company** field is changed (as illustrated above), the Select Alternative Company application must be used before continuing to work with the Company Maintenance (G/L) screen. In this case, press &lt;F3&gt; to exit, and refer toSelecting An Alternative Company for additional information.

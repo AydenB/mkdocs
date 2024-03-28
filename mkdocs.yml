@@ -42,8 +42,11 @@ theme:
     - search.share
     - search.suggest
     - toc.follow
-    
   
+  # custom css lives here font size
+  extra_css:
+  - stylesheets/extra.css
+
   # Page tree
 nav:
   - Home:
