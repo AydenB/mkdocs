@@ -1163,22 +1163,22 @@ below.
 
     During the course of adjusting posted invoices, the following fields can be used to 
 locate the vendor of the desired invoice:
-   - Alpha name - enter an alpha code and press <Enter> to redisplay the list 
+   - Alpha name - enter an alpha code and press &lt;Enter&gt; to redisplay the list 
 beginning with the designated vendor.
-   - Code - enter a vendor code and press <Enter> to redisplay the list beginning 
+   - Code - enter a vendor code and press &lt;Enter&gt; to redisplay the list beginning 
 with the designated vendor.
 
 2. Enter 1 (Select) in the selection column next to the vendor for whom the invoice 
 adjustment will be made. If necessary, press <Page Down>, or use the Alpha 
 name and Code fields to locate the desired vendor.
 
-3. Press <Enter>. The DR/CR Invoice Selection screen appears with the designated 
+3. Press &lt;Enter&gt;. The DR/CR Invoice Selection screen appears with the designated 
 vendor’s posted invoices (and credit memos).
 
     Only posted invoices and posted credit memos appear on the DR/CR Invoice Selection screen. Invoices which have been entered but not yet posted do not appear. If an adjustment was previously entered for a posted invoice of the designated vendor, the value of the adjustment is included in the calculation of the Invoice amt field of the invoice. Refer to [Working With Invoice Voucher Inquiry](#working-with-invoice-voucher-inquiry) for information about viewing the amount of an invoice adjustment on the A/P Invoice Inquiry screen.
  
 4. Enter 1 (Select) in the selection column next to the voucher number of the desired 
-invoice (press <Page Down> if necessary), and press <Enter>. The A/P DR/CR 
+invoice (press <Page Down> if necessary), and press &lt;Enter&gt;. The A/P DR/CR 
 Maintenance screen appears.
 
     >Note: No more than one adjustment can be made to an item of an invoice using the Debit/Credit Maintenance application. If additional debit or credit adjustments must be made for a previously adjusted item of an invoice, users can enter invoices or credit memos, respectively, to make the necessary adjustments.
@@ -1200,7 +1200,7 @@ processing invoice batches.
 
 9. If an amount appears for the Discount field, it must be deleted to allow the A/P System to calculate the correct discount amount.
 
-10.  Press <Enter> when data entry is complete. The A/P DR/CR Maintenance screen is redisplayed with new amounts for the Inv total, Adj amt and Ext amt fields. New amounts may also appear for the Disc avail and Discount fields.
+10.  Press &lt;Enter&gt; when data entry is complete. The A/P DR/CR Maintenance screen is redisplayed with new amounts for the Inv total, Adj amt and Ext amt fields. New amounts may also appear for the Disc avail and Discount fields.
 
 11.  Press <Y> when prompted to confirm. The A/P Debit/Credit G/L Journal Register is spooled for printing, and the DR/CR Invoice Selection screen appears.
 
@@ -1341,25 +1341,25 @@ Below are two procedures which users can follow in order to accept a payment bat
 **Procedure 1**: Use the 4=Delete option to delete the “out-of-period” vouchers from 
 the payment batch before accepting it.
 1. Locate the desired voucher (use <Page Down> if necessary), and enter 4 (Delete) in the selection column next to its vendor code.
-2. Press <Enter>. The screen’s list is redisplayed without the deleted voucher.
+2. Press &lt;Enter&gt;. The screen’s list is redisplayed without the deleted voucher.
     >Note: When a voucher is deleted from a payment batch, its corresponding vendor invoice is not deleted from the A/P system.
 3. If necessary, repeat the previous instructions to continue deleting “out-of-period” vouchers.
-4. To save the payment batch without accepting it, press <F3> (Exit); otherwise, press <F4> (Accept batch) and refer to [Accepting A Payment Batch](#accepting-a-payment-batch) for information about the A/P Payment Check Date Edit Report.
+4. To save the payment batch without accepting it, press &lt;F3&gt; (Exit); otherwise, press &lt;F4&gt; (Accept batch) and refer to [Accepting A Payment Batch](#accepting-a-payment-batch) for information about the A/P Payment Check Date Edit Report.
 
 **Procedure 2**: Use the Edit Voucher Pay Date application to change the pay date of the “out-of-period” vouchers in the payment batch before accepting it. As described below, the vouchers must be deleted from the payment batch, then added to the batch after the pay date is changed.
-1. Press <F3> to exit. The Auto Payment Selection screen appears.
-2. Press <F3> to exit. The Accounts Payable screen appears.
+1. Press &lt;F3&gt;to exit. The Auto Payment Selection screen appears.
+2. Press &lt;F3&gt; to exit. The Accounts Payable screen appears.
 3. Select option 8 (Edit Voucher Pay Date) from the Accounts Payable screen. The Invoice Pay Date Maintenance Prompt Screen screen appears.
 4. Enter the voucher of the desired voucher for the Voucher Number (7,n) field.
 5. Enter R for the Voucher Type (2,a) field.
-6. Press <Enter>. The Invoice Pay Date Maintenance screen appears.
-7. Enter the desired date for the Pay Date (6,n) field, and press <Enter>. 
-8. Press <Enter> when prompted to confirm. The Invoice Pay Date Maintenance Prompt Screen screen appears with the Record changed message.
-9. If necessary, users can repeat the previous instructions to continue editing vouchers, or press <F3> (Exit). The Accounts Payable screen appears.
+6. Press &lt;Enter&gt;. The Invoice Pay Date Maintenance screen appears.
+7. Enter the desired date for the Pay Date (6,n) field, and press &lt;Enter&gt;. 
+8. Press &lt;Enter&gt; when prompted to confirm. The Invoice Pay Date Maintenance Prompt Screen screen appears with the Record changed message.
+9. If necessary, users can repeat the previous instructions to continue editing vouchers, or press &lt;F3&gt; (Exit). The Accounts Payable screen appears.
 10.  Select option 4 (Auto Payment Selection) to select the desired payment batch with the F8 (Select batch) function key and the Batch Selection screen.
 11. When the A/P Payment Selection screen appears, use the 4=Delete option to delete the “out-of-period” vouchers in the payment batch.
-12.  Use the <F6> (Add invoice) function key to add the vouchers with changed pay dates to the payment batch. Refer to [Editing A Payment Batch](#editing-a-payment-batch) for additional information.
-13.  To save the payment batch without accepting it, press <F3> (Exit); otherwise, press <F4> (Accept batch) and refer to [Accepting A Payment Batch](#accepting-a-payment-batch) for information about the A/P Payment Check Date Edit Report.
+12.  Use the &lt;F6&gt; (Add invoice) function key to add the vouchers with changed pay dates to the payment batch. Refer to [Editing A Payment Batch](#editing-a-payment-batch) for additional information.
+13.  To save the payment batch without accepting it, press &lt;F3&gt; (Exit); otherwise, press &lt;F4&gt; (Accept batch) and refer to [Accepting A Payment Batch](#accepting-a-payment-batch) for information about the A/P Payment Check Date Edit Report.
 
 ### Editing A Voucher
 
@@ -1374,7 +1374,7 @@ The instructions below describe using the Edit Voucher Pay Date application to c
 
 3. Enter R for the Voucher Type (2,a) field.
 
-4. Press <Enter>. The Invoice Pay Date Maintenance screen appears, unless one of the following messages is displayed:
+4. Press &lt;Enter&gt;. The Invoice Pay Date Maintenance screen appears, unless one of the following messages is displayed:
    - Voucher has not been posted. Refer to Editing An Invoice Batch for information about changing the pay date, due date and payment type of an invoice before it is posted.
    - Voucher Already Paid. Refer to Working With Invoice Voucher Inquiry for information about displaying the payment details of vendor invoices.
 
@@ -1387,11 +1387,11 @@ The instructions below describe using the Edit Voucher Pay Date application to c
    - M - designates that the Process Manual Payments application will be used to process the payment of the invoice with a manually-written check.
    - E - designates that the Process EFT Payments application will be used to process the payment of the invoice with an electronic funds transfer.
 
-8. Press <Enter> when data entry is complete.
+8. Press &lt;Enter&gt; when data entry is complete.
 
-9. Press <Enter> when prompted to confirm. The Invoice Pay Date Maintenance Prompt Screen screen appears with the Record changed message.
+9. Press &lt;Enter&gt; when prompted to confirm. The Invoice Pay Date Maintenance Prompt Screen screen appears with the Record changed message.
 
-10.  If necessary, users can repeat the previous instructions to continue editing vouchers, or press <F3> (Exit). The Accounts Payable screen appears.
+10.  If necessary, users can repeat the previous instructions to continue editing vouchers, or press &lt;F3&gt; (Exit). The Accounts Payable screen appears.
 
 ### Editing A Payment Batch
 
@@ -1404,33 +1404,33 @@ corresponding vendor invoice is not deleted from the A/P system.
 
 1. Select option 4 (Auto Payment Selection) from the Accounts Payable screen. The Auto Payment Selection (Enter) screen appears.
 
-2. Press <F8> (Select batch). The Batch Selection screen appears with a list of previously created payment batches that have not yet been accepted for payment processing.
+2. Press &lt;F8&gt; (Select batch). The Batch Selection screen appears with a list of previously created payment batches that have not yet been accepted for payment processing.
  
 3. During the course of editing payment batches, the following fields can be used to locate the desired batch:
-   - Batch - enter a batch number and press <Enter> to redisplay the list beginning with the designated batch.
-   - Sel.dt - enter a selection date and press <Enter> to limit the list to batches added with a specific selection date.
-   - Vendor - enter a vendor code and press <Enter> to limit the list to batches added with a specific vendor’s vouchers.
-   - Bank - enter a bank code and press <Enter> to limit the list to batches designated for processing through the specified bank.
-   - Created by - enter a username and press <Enter> to limit the list to batches added by the specified user.
-   - Workstation - enter a job (or terminal) name and press <Enter> to limit the list to batches created by the specified job or at the specified terminal.
-   - Date - enter a date and press <Enter> to limit the list to batches added on the specified date.
+   - Batch - enter a batch number and press &lt;Enter&gt; to redisplay the list beginning with the designated batch.
+   - Sel.dt - enter a selection date and press &lt;Enter&gt; to limit the list to batches added with a specific selection date.
+   - Vendor - enter a vendor code and press &lt;Enter&gt; to limit the list to batches added with a specific vendor’s vouchers.
+   - Bank - enter a bank code and press &lt;Enter&gt; to limit the list to batches designated for processing through the specified bank.
+   - Created by - enter a username and press &lt;Enter&gt; to limit the list to batches added by the specified user.
+   - Workstation - enter a job (or terminal) name and press &lt;Enter&gt; to limit the list to batches created by the specified job or at the specified terminal.
+   - Date - enter a date and press &lt;Enter&gt; to limit the list to batches added on the specified date.
 
-4. To delete an entire payment batch, locate the desired batch (use <Page Down> if necessary) and enter 4 (Delete) in the selection column next to its batch number. Press <Enter>. The screen’s list is redisplayed without the deleted batch.
+4. To delete an entire payment batch, locate the desired batch (use &lt;Page Down&gt; if necessary) and enter 4 (Delete) in the selection column next to its batch number. Press &lt;Enter&gt;. The screen’s list is redisplayed without the deleted batch.
  
-5. To print a detailed report of the vouchers of a batch (see below), enter P (Print Batch) in the selection column next to the batch number of the desired batch, and press <Enter>.
+5. To print a detailed report of the vouchers of a batch (see below), enter P (Print Batch) in the selection column next to the batch number of the desired batch, and press &lt;Enter&gt;.
 
 6. To add a voucher to an existing payment batch, enter 1 (Select) in the selection column next to the batch number of the desired batch.
 
-    Press <Enter>. The Auto Payment Selection screen appears with the batch number of the desired payment batch.
+    Press &lt;Enter&gt;. The Auto Payment Selection screen appears with the batch number of the desired payment batch.
 
-    Press <Enter>. The A/P Payment Selection screen appears with the vouchers previously added to the batch.
+    Press &lt;Enter&gt;. The A/P Payment Selection screen appears with the vouchers previously added to the batch.
 
-    Press <F6> (Add invoice). The A/P Invoice Selection screen appears with a list of all the existing vouchers with payment types of P (payment by system-generated check) and E (EFT payments). Refer to Editing A Voucher for information about changing a voucher’s payment type.
+    Press &lt;F6&gt; (Add invoice). The A/P Invoice Selection screen appears with a list of all the existing vouchers with payment types of P (payment by system-generated check) and E (EFT payments). Refer to Editing A Voucher for information about changing a voucher’s payment type.
  
     During the course of adding vouchers to a payment batch, the following fields can be used to locate the desired voucher:
-   - Voucher - enter a voucher number and press <Enter> to redisplay the list beginning with the designated voucher.
-   - Vendor - enter a vendor code and press <Enter> to limit the list to vouchers of a specific vendor.
-   - Vendor Name - enter a vendor’s name and press <Enter> to limit the list to vouchers of a specific vendor.
+   - Voucher - enter a voucher number and press &lt;Enter&gt; to redisplay the list beginning with the designated voucher.
+   - Vendor - enter a vendor code and press &lt;Enter&gt; to limit the list to vouchers of a specific vendor.
+   - Vendor Name - enter a vendor’s name and press &lt;Enter&gt; to limit the list to vouchers of a specific vendor.
  
     The F6 (Add invoice) function key is used for a variety of reasons including:
      - To add an additional voucher needed to print a check stub containing more than one line of text. Refer to Printing Multiple Reference Lines for additional information.
@@ -1438,10 +1438,10 @@ corresponding vendor invoice is not deleted from the A/P system.
 
     Locate the desired voucher, and enter 1 (Select) in the selection column next to its voucher number.
  
- Press <Enter>. The Voucher number # already exists in batch # message appears if the designated voucher was previously included in an existing payment batch. 
+ Press &lt;Enter&gt;. The Voucher number # already exists in batch # message appears if the designated voucher was previously included in an existing payment batch. 
  
 The Vendor # is not allowed payments message appears if N (no) is entered for the Allow payments field of the vendor’s record.
- If necessary, continue adding vouchers to the payment batch, or press <F3> (Exit). 
+ If necessary, continue adding vouchers to the payment batch, or press &lt;F3&gt; (Exit). 
 The A/P Payment Selection screen appears.
  If the vouchers of a credit memo and the corresponding invoice (see voucher 
 number 2000169 and 2000175 above) are included in the same payment batch, 
@@ -1451,8 +1451,8 @@ vouchers of both have the same pay date. This is not necessary if BP is entered
 for the A/P Check Date field. Refer to Working With A/P Options for information 
 about the A/P Check Date field.
 1. To save the payment batch without accepting it for payment processing, press 
-<F3> (Exit). The Auto Payment Selection (Enter) screen appears.
-1. Press <F3> (Exit). The Accounts Payable screen appears.
+&lt;F3&gt; (Exit). The Auto Payment Selection (Enter) screen appears.
+1. Press &lt;F3&gt; (Exit). The Accounts Payable screen appears.
 
 #### A/P Payment Edit List
 
