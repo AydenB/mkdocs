@@ -780,9 +780,9 @@ The A/P DR/CR Maintenance screen is used to credit and debit vendor invoices whi
 
 ### Adding An Invoice Batch
 
-The instructions which follow describe using the A/P Invoice Posting screen to enter an invoice batch containing vendor invoices. Refer to Adding A Credit Memo below for information about including credit memos in an invoice batch.
+The instructions which follow describe using the A/P Invoice Posting screen to enter an invoice batch containing vendor invoices. Refer to [Adding A Credit Memo](#adding-a-credit-memo) below for information about including credit memos in an invoice batch.
 
-Refer to Working With Vendor Invoices above for detailed information about the fields used in the following instructions.
+Refer to [Working With Vendor Invoices](#working-with-vendor-invoices) above for detailed information about the fields used in the following instructions.
 
 1. Select option 1 (Invoice Entry/Update) from the Accounts Payable screen. The A/P Invoice Posting (Enter) screen appears.
 
@@ -1407,13 +1407,13 @@ corresponding vendor invoice is not deleted from the A/P system.
 2. Press &lt;F8&gt; (Select batch). The Batch Selection screen appears with a list of previously created payment batches that have not yet been accepted for payment processing.
  
 3. During the course of editing payment batches, the following fields can be used to locate the desired batch:
-   - Batch - enter a batch number and press &lt;Enter&gt; to redisplay the list beginning with the designated batch.
-   - Sel.dt - enter a selection date and press &lt;Enter&gt; to limit the list to batches added with a specific selection date.
-   - Vendor - enter a vendor code and press &lt;Enter&gt; to limit the list to batches added with a specific vendor’s vouchers.
-   - Bank - enter a bank code and press &lt;Enter&gt; to limit the list to batches designated for processing through the specified bank.
-   - Created by - enter a username and press &lt;Enter&gt; to limit the list to batches added by the specified user.
-   - Workstation - enter a job (or terminal) name and press &lt;Enter&gt; to limit the list to batches created by the specified job or at the specified terminal.
-   - Date - enter a date and press &lt;Enter&gt; to limit the list to batches added on the specified date.
+   - **Batch** - enter a batch number and press &lt;Enter&gt; to redisplay the list beginning with the designated batch.
+   - **Sel.dt** - enter a selection date and press &lt;Enter&gt; to limit the list to batches added with a specific selection date.
+   - **Vendor** - enter a vendor code and press &lt;Enter&gt; to limit the list to batches added with a specific vendor’s vouchers.
+   - **Bank** - enter a bank code and press &lt;Enter&gt; to limit the list to batches designated for processing through the specified bank.
+   - **Created by** - enter a username and press &lt;Enter&gt; to limit the list to batches added by the specified user.
+   - **Workstation** - enter a job (or terminal) name and press &lt;Enter&gt; to limit the list to batches created by the specified job or at the specified terminal.
+   - **Date** - enter a date and press &lt;Enter&gt; to limit the list to batches added on the specified date.
 
 4. To delete an entire payment batch, locate the desired batch (use &lt;Page Down&gt; if necessary) and enter 4 (Delete) in the selection column next to its batch number. Press &lt;Enter&gt;. The screen’s list is redisplayed without the deleted batch.
  
@@ -1438,41 +1438,176 @@ corresponding vendor invoice is not deleted from the A/P system.
 
     Locate the desired voucher, and enter 1 (Select) in the selection column next to its voucher number.
  
- Press &lt;Enter&gt;. The Voucher number # already exists in batch # message appears if the designated voucher was previously included in an existing payment batch. 
+    Press &lt;Enter&gt;. The Voucher number # already exists in batch # message appears if the designated voucher was previously included in an existing payment batch. 
  
-The Vendor # is not allowed payments message appears if N (no) is entered for the Allow payments field of the vendor’s record.
- If necessary, continue adding vouchers to the payment batch, or press &lt;F3&gt; (Exit). 
-The A/P Payment Selection screen appears.
- If the vouchers of a credit memo and the corresponding invoice (see voucher 
-number 2000169 and 2000175 above) are included in the same payment batch, 
-and PD is entered for the A/P Check Date field of the A/P Options, the credit 
-memo cannot be applied to the invoice when checks are printed unless the 
-vouchers of both have the same pay date. This is not necessary if BP is entered 
-for the A/P Check Date field. Refer to Working With A/P Options for information 
-about the A/P Check Date field.
-1. To save the payment batch without accepting it for payment processing, press 
+    The Vendor # is not allowed payments message appears if N (no) is entered for the Allow payments field of the vendor’s record. 
+    
+    If necessary, continue adding vouchers to the payment batch, or press &lt;F3&gt; (Exit). 
+    The A/P Payment Selection screen appears.
+ 
+    If the vouchers of a credit memo and the corresponding invoice (see voucher number 2000169 and 2000175 above) are included in the same payment batch, and PD is entered for the A/P Check Date field of the A/P Options, the credit memo cannot be applied to the invoice when checks are printed unless the vouchers of both have the same pay date. This is not necessary if BP is entered for the A/P Check Date field. Refer to [Working With A/P Options](#working-with-ap-options) for information about the A/P Check Date field.
+
+7. To save the payment batch without accepting it for payment processing, press 
 &lt;F3&gt; (Exit). The Auto Payment Selection (Enter) screen appears.
-1. Press &lt;F3&gt; (Exit). The Accounts Payable screen appears.
 
-#### A/P Payment Edit List
-
-This is a print file
+8. Press &lt;F3&gt; (Exit). The Accounts Payable screen appears.
 
 ### Accepting A Payment Batch
 
-#### A.P Payment Check Date Edit Report
+After payment batches are entered, and all necessary editing is completed, batches are accepted for payment processing. 
+
+Changes cannot be made to the vouchers that are included in a payment batch after it is accepted. Users must first delete an accepted payment batch in order to edit any of its vouchers, then add and accept a new payment batch containing the vouchers. 
+
+Refer to [Deleting An Accepted Payment Batch](#deleting-an-accepted-payment-batch) for information about deleting a payment batch that is accepted for payment processing.
+
+1.  Select option 4 (Auto Payment Selection) from the Accounts Payable screen. The Auto Payment Selection (Enter) screen appears. 
+
+2.  Press <F8> (Select batch). The Batch Selection screen appears with a list of previously created payment batches. 
+    
+    Refer to [Editing A Payment Batch](#editing-a-payment-batch) for information about using the restrictor fields at the top of the screen to locate the desired payment batch.
+
+    Refer to [Editing An Invoice Batch](#editing-an-invoice-batch) for information about using the P=Print Batch to print a detailed report of the vouchers of a batch. 
+
+
+3.  Locate the desired batch (use <Page Down> if necessary), and enter 1 (Select) in the selection column next to the batch number. 
+
+4.  Press <Enter>. The Auto Payment Selection screen appears with the batch number of the desired payment batch. 
+
+5.  Press <Enter>. The A/P Payment Selection screen appears with the vouchers previously added to the batch.
+
+6.  Press <F4> (Accept batch). The Auto Payment Selection screen appears with the A/P payment batch # has been posted message, and the A/P Payment Check Date Edit Report may print (as noted below).  Payments are not actually posted to the General Ledger until payments are processed. Refer to [Printing Checks And Check Register](#printing-checks-and-check-register), [Working With Manual Payments](#working-with-manual-payments) and [Working With EFT Payments](#working-with-eft-payments) for information about payment processing.
+   
+    The A/P Payment Check Date Edit Report only prints if *PD* is entered for the **A/P Check Date** field of the A/P Options. It is strongly recommended that users closely review this report before printing checks.  
+
+    If *PD* is entered for the **A/P Check Date** field and multiple vouchers with different dates appear on the report for an individual vendor (see voucher number 2000082 and 2000159 above), multiple checks will be printed per pay date. Otherwise, if the vouchers have the same pay date, a single check will be printed. Refer to [Working With A/P Options](#working-with-ap-options) for additional information about the **A/P Check Date** field of the A/P Options.
+
+7.  If necessary, users can repeat the previous instructions (beginning with step 2) to continue accepting batches, or press <F3> (Exit). The Accounts Payable screen appears.
+   
+The vouchers of an accepted payment batch cannot be included in another payment batch. If necessary, users can delete an accepted payment batch before adding one of its vouchers to another batch. Refer to [Deleting An Accepted Payment Batch](#deleting-an-accepted-payment-batch) for information about deleting a payment batch that is accepted for payment processing.
 
 ### Deleting An Accepted Payment Batch
+
+The instructions below describe using the Print Checks application to delete a payment batch after it is accepted for payment processing. Refer to Editing A Payment Batch for information about deleting an unaccepted payment batch. 
+
+1.  Select option 6 (Print Checks) from the Accounts Payable screen. The A/P Check Print Prompt screen appears. 
+
+2.  Press <F8> (Select batch) from the Accounts Payable screen. The Batch Selection screen appears. 
+
+3.  To print a detailed report of the vouchers in the batch (see below), enter P (Print Batch) in the selection column next to the batch number of the desired batch, and press <Enter>. 
+
+4.  Enter 4 (Delete) in the selection column next to the batch number of the desired batch. 
+
+5.  Press <Enter> to delete the batch. 
+
+6.  Press <F3> (Exit). The A/P Check Print Prompt screen appears. 
+  
+7.  Press <F3> (Exit). The Accounts Payable screen appears.
 
 #### A/P Payment Edit List
 
 ## Working With Printed Checks
 
+After payment batches are accepted for payment processing, the Print Checks application is used to print checks and a check register, and to post payments to the General Ledger. Refer to the [A/P Check Forms](AP%20Check%20Forms.md) document for samples of the laser printer check and continuous printer check forms.
+
+When necessary, the Print Checks application can also be used to delete an accepted payment batch. 
+
+> Note: The vouchers of an accepted payment batch are not deleted from the A/P system when the batch is deleted. 
+
+Users can return to the Auto Payment Selection (Enter) screen where the vouchers can be selected for a new payment batch. 
+
+Refer to [Working With A/P Options](#working-with-ap-options) for information about the G/L Acct# on A/P Check Reg field which is used to print General Ledger account numbers on the check 
+register.
+
+The primary screen used to print checks is the A/P Check Print Prompt screen illustrated below.
+
+The value appearing by default, or enterd by the user, for the A/P Check Version field above designates the following:
+-  If  *1* appears, one check will be printed for payment of all the vouchers of each vendor. Users have the option of entering 2 to designate that one check will be printed for each voucher of each vendor. If *2* is entered for the **A/P Check Version** field, multiple reference lines cannot be printed on a check stub. Refer to [Printing Multiple Reference Lines](#printing-multiple-refrence-lines) for additional information.
+
+-  If  *3* appears for the field, one check per vendor will be printed for payment of all the vouchers which have the same pay date, and users cannot change this value.
+
+Refer to [Working With A/P Options](#working-with-ap-options) for information about using the A/P Check Date field to designate the default value of the A/P Check Version field.
+
+Refer to[ Working With Company A/P Options](#working-with-company-ap-options) for information about the **Reprint check numbers on preprinted checks field** which is used to print check numbers on checks that are pre-numbered, and verify that the correct check is being printed on the correct form.
+
 ### Printing Checks And Check Register
+
+The following instructions describe how to process an accepted payment batch for payment with system-generated checks, and how to manually print the spooled check file and check register if they do not print automatically.
+
+*The step-by-step instructions below **must be followed through to completion** to successfully print a valid check register. Users should never end their DAC session **before the check register is printed**. If a vaild check register is not spooled for printing, payments are not posted to the payment journal.*
+
+> It is strongly recommended that users print and review the A/P Pay-G/L Trans Reg report after the A/P Check Register is printed. Refer to [Printing the A/P Payment Transaction Register](#printing-the-ap-payment-transaction-register) for additional information. 
+
+1.  Select option 6 (Print Checks) from the Accounts Payable screen. The A/P Check Print Prompt screen appears. 
+
+2.  To select the desired payment batch for check printing, either:
+    -  Enter the payment batch number, and press <Enter>, or
+    -  Press <F8> (Select batch) to use the Batch Selection screen illustrated below.
+
+    To use the Batch Selection screen, locate the desired batch (use <Page Down> if necessary), enter 1 (Select) in the selection column next to the batch number, and press <Enter>. The *P=Print Batch* option of this screen can be used to print a detailed report of the vouchers in a payment batch before selecting it. Refer to the example of the [A/P Payment Edit list](#ap-payment-edit-list)  in the Deleting An Accepted Payment Batch section of this document.  
+    
+    The A/P Check Print Prompt screen appears with the number of the last printed check for the Last check field.  
+
+3.  Enter data for the following fields as necessary:
+    -  **Check date** - enter the date which will be printed on the checks.
+    -  **Beginning check no.** - enter the number of the first check that will be used if the default value is incorrect.
+    -  **A/P Check Version** - If 1 appears, which designates that one check will be printed for payment of all the vouchers of each vendor, users have the option of entering 2 to designate that one check will be printed for each voucher of each vendor. If 3 appears for the field, one check per vendor will be printed for payment of all the vouchers which have the same pay date, and this value cannot be changed. 
+
+4.  Press <Enter> when data entry is complete.
+
+5.  Enter  Y (yes) for the Confirm field. The check file is spooled for printing, and the A/P Check Print Confirmation screen appears.  
+
+6.  If the check file is automatically sent to a printer previously loaded with check forms, press <Enter> and continue with step 11.  
+
+7.  If the spooled check file must be manually printed, press <F22> (<Shift> plus <F10>). The Work With All Spooled Files screen appears.
+
+    One of the following print file names will appear with a MSGW status on the Work With All Spooled Files screen: AP7440R\$ , ARANPFR\$, APBVPFR\$, ARE1PFR\$, AREPPFR\$ or ARF4PFR\$. 
+
+8.  To print the checks, enter 7 (Messages) in the selection column next to the file’s name (as illustrated above), and press <Enter>. The Additional Message Information screen appears with a Load form type message.  
+
+9.  After confirming that the checks are loaded and aligned in the printer, reply to the message by entering G and pressing <Enter> twice. The Work With All Spooled Files screen appears.
+ 
+10.   Press <F3> to exit. The A/P Check Print Confirmation screen appears with N (no) entered for the Confirm field.  
+    
+>Users should never end their DAC session at the A/P Check Print Confirmation screen - even when the checks have printed successfully. The instructions below must be followed to print the check register, after which the payments are posted to the General Ledger by the A/P System.  
+
+11.   Users have three options when the A/P Check Print Confirmation screen appears:
+      -  If  ***none of the checks*** printed successfully, stop here and refer to [Reprinting All Checks](#reprinting-all-checks) below for additional instructions.
+      -  If  ***some of the checks*** did not print successfully, stop here and refer to [Reprinting Selected Checks](#reprinting-selected-checks) below for additional instructions.
+      -  If  ***all of the checks*** printed successfully, enter Y (yes) for the Confirm field, and continue with step 12 below. The A/P Check Print Prompt screen appears, and several reports (including the check register), are spooled for printing.                               
+                                                                              
+12.  Press <F3> to exit. The Accounts Payable screen appears.
+    
+        The following instructions, which describe how to manually print the check register, are only followed if the register does not automatically print after the checks are printed. 
+
+     1.  To print the check register, enter WRKSPLF on a command line as illustrated above, and press <Enter>. The Work With All Spooled Files screen appears. 
+    
+        One of the following print file names will appear with a MSGW status on the Work With All Spooled Files screen: AREKPFR\$ (illustrated above) or AP7360R\$. 
+
+     2.  To print the check register, enter 7 (Messages) in the selection column next to the file’s name (as illustrated above) and press <Enter>. The Additional Message Information screen appears with a Load form type message.  
+    
+     3.  After confirming that the correct paper is loaded and aligned in the printer, reply to the message by entering G and pressing <Enter> twice. The A/P Check Register is printed (see below), and the Work With All Spooled Files screen appears. 
+
+13.  Press <F3> to exit. The Accounts Payable screen appears.
+
+>  It is strongly recommended that users print and review the A/P Pay-G/L Trans Reg report after the A/P Check Register is printed. Refer to [Printing the A/P Payment Transaction Register](#printing-the-ap-payment-transaction-register) for additional information.
+
+Refer to [Printing The Negative Check Report](#printing-the-negative-check-report) for information about printing the “negative check” report that is spooled when printing checks.
 
 #### A/P Check Register
 
 ### Printing The A/P Payment Transaction Register
+
+The following instructions, which describe how to manually print the A/P Pay-G/L Trans Reg report, are only followed if the report does not automatically print when payments are posted to the payment journal.
+
+***It is strongly recommended that users review the A/P Pay-G/L Trans Reg report. If this posting control report’s final total does not equal zero, contact CDR support personnel immediately to determine why the journal entries posted are not balanced.***  
+
+1.  Enter  WRKSPLF on the command line as illustrated above, and press <Enter>. The Work With All Spooled Files screen appears. 
+  
+2.  Press <Page Down>, or use <F18> (<Shift> plus <F6>) to go to the bottom of the list, to locate the ARAZPFR\$ print file (illustrated above). If the print file name appears with a MSGW status, use 7 (Messages) and reply to the message as necessary.
+
+1.  Enter  6 (Release) in the selection column next to the file’s name (as illustrated above), and press <Enter>.  
+
+1.  Press <F3> to exit. The Accounts Payable screen appears. If the A/P Pay-G/L Trans Reg report’s final total does not equal zero, investigate immediately to determine why the journal entries posted are not balanced.                                                                 
 
 #### A/P Pay-G/L Trans Reg
 
