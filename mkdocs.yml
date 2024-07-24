@@ -109,8 +109,12 @@ nav:
     - Purchasing: quick-refrence-guide/Purchasing QRG.md
     - Voiding Posted Orders: quick-refrence-guide/Voiding Posted Orders.md
   - How To:
+    - CountRight: how-to/Count Right.md
     - Quotes: how-to/QuoteSOP.md 
+    - RecieveRight: how-to/Receive Right.md
     - ShipRight: how-to/shipright.md
+    - Warehouse Putaway: how-to/Warehouse Management PutAway.md
+    - DAC Trader: how-to/DAC Trader.md
   - Tutorial:
     - Admonitions: lorem.md
     - Tooltips: lorem.md
