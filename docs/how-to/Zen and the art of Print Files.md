@@ -16,28 +16,28 @@ The Add Printer wizard then starts. Follow the instructions in the wizard to add
 
 ## Changing Print Files
 ### Using CHGPRTF
-The Change Printer File (CHGPRTF) command changes the attributes of the specified printer device file. It is recommended to use User Object Directives as the CHGPRTF command could be overwritten by a PTF or update. The CHGPRTF is not permanent. The CHGPRTF command allows you to save, hold, print multiple copies and more-https://www.ibm.com/docs/en/i/7.4?topic=ssw_ibm_i_74/cl/chgprtf.html
+The Change Printer File (CHGPRTF) command changes the attributes of the specified printer device file. It is recommended to use User Object Directives as the CHGPRTF command could be overwritten by a PTF or update. The CHGPRTF is not permanent. The CHGPRTF command allows you to save, hold, print multiple copies and more- [IBM Documentation] (https://www.ibm.com/docs/en/i/7.4?topic=ssw_ibm_i_74/cl/chgprtf.html)
 
 ### Using User Object Directives
 User Object Directives allows for persistent print file customizations after updates, PTF's, or system upgrades and should be used instead of the CHGPRTF command. UOD can be accessed from the DAC Main Menu, 1, 4, 7, F8.
 
-  ![alt text](../../site/images/PRT_wrkuod2.png)
+  ![alt text](../images/PRT_wrkuod2.png)
 
 #### Adding a print object in User Object Directives
 If you would like to create a custom print file rules for an object that does not exist, you can use the F10 option to add a new object. *PTF should be used as the user ID to ensure it is ran after a ptf update or DAC upgrade.
 
 After selecting the User ID *PTF and entering the object to be changed, you will use the command CHGPRTF in the DIRECTIVE field and press F4 to prompt. This will present you with the print file options for the specific report. 
-  ![alt text](../../site/images/PRT_editUOD.png)
+  ![alt text](../images/PRT_editUOD.png)
 
 Pressing F4 on the line.
 
-  ![alt text](../../site/images/PRT_chgprtf.png)
+  ![alt text](../images/PRT_chgprtf.png)
 
 From here you can make necessary changes to the print file- Save, Hold, Change default printer, multiple copies, etc.
 
 #### Editing a print object in User Object Directives
 If you would like to change how a current print file is configured you will need to navigate to User Object Directives 1, 4, 7, F8. From here you will need to search or filter for the print file object including the trailing $ in the print object name. Many of these objects can be found in the top left corner of the report. 
-![alt text](../../site/images/PRT_wwUOD.png)
+![alt text](../images/PRT_wwUOD.png)
 
 ## FAQ
 ### Replacing a printer
@@ -74,39 +74,39 @@ User Patti wants their print object DSUFPFR$ to go to their printer P2 while eve
 
 1. Create a new library for the user to store their print files in
   a. Use the command CRTLIB to create a new library for that users print files example: PATTIPRT
-  ![alt text](../site/images/PRT_CreateLib.png)
+  ![alt text](../images/PRT_CreateLib.png)
 
 1. Create a new job description for the user profile to use.  
  
     a. Use WRKUSRPRF and note the current Job description and library. 
-    ![alt text](../site/images/PRT_chgusrprf.png)
+    ![alt text](../images/PRT_chgusrprf.png)
     
     b. Once noted use the command WRKJOBD JOBD(DACUSER), use the option 3 to make a copy of the Job Description for the new user. 
-    ![alt text](../site/images/PRT_wrkjobd.png)
+    ![alt text](../images/PRT_wrkjobd.png)
     
     c. The copy should be named referencing the user- DACUSERPAT 
-    ![alt text](../site/images/PRT_CRTDUPOBJ2.png)
+    ![alt text](../images/PRT_CRTDUPOBJ2.png)
 
 2. Now use this new job description you created in the user's profile. WRKUSRPRF and update Patti's job description to DACUSERPAT
 		
-    ![alt text](../site/images/PRT_changeUserProfile.png)
+    ![alt text](../images/PRT_changeUserProfile.png)
 
 3. Now we need to copy the print file to the new library that was created that the new job description will be using.  
   
     a. Use WRKOBJ *all/DSP8PFR$.  
-        ![alt text](../site/images/PRT_Wrkobj.png)
+        ![alt text](../images/PRT_Wrkobj.png)
     
     b. Use a 3 to copy that object in your users LIBRARY from step 1 (PATTIPRT).
-		![alt text](../site/images/PRT_CRTDUPOBJ2.png)
+		![alt text](../images/PRT_CRTDUPOBJ2.png)
 
 4. Now that Patti has her own print file, we need to change where that print file goes. Use User Object Directives to make the change 1, 4, 7.  
   
     a. Use a 5 next to the user.
-	![alt text](../site/images/PRT_UserOptions.png)
+	![alt text](../images/PRT_UserOptions.png)
   
     b. Make the changes to the printfile- change printer, set to hold, save, etc.
-	![alt text](../site/images/PRT_EditUserObjectDirectives.png)
+	![alt text](../images/PRT_EditUserObjectDirectives.png)
   
     c. Use an X  to execute the changes.
-	![alt text](../site/images/PRT_wrkuod.png)
+	![alt text](../images/PRT_wrkuod.png)
 	
