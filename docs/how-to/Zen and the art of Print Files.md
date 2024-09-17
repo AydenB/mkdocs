@@ -74,39 +74,39 @@ User Patti wants their print object DSUFPFR$ to go to their printer P2 while eve
 
 1. Create a new library for the user to store their print files in
   a. Use the command CRTLIB to create a new library for that users print files example: PATTIPRT
-  ![alt text](../../site/images/PRT_CreateLib.png)
+  ![alt text](../site/images/PRT_CreateLib.png)
 
-2. Create a new job description for the user profile to use.  
+1. Create a new job description for the user profile to use.  
  
     a. Use WRKUSRPRF and note the current Job description and library. 
-    ![alt text](../../site/images/PRT_chgusrprf.png)
+    ![alt text](../site/images/PRT_chgusrprf.png)
     
     b. Once noted use the command WRKJOBD JOBD(DACUSER), use the option 3 to make a copy of the Job Description for the new user. 
-    ![alt text](../../site/images/PRT_wrkjobd.png)
+    ![alt text](../site/images/PRT_wrkjobd.png)
     
     c. The copy should be named referencing the user- DACUSERPAT 
-    ![alt text](../../site/images/PRT_CRTDUPOBJ2.png)
+    ![alt text](../site/images/PRT_CRTDUPOBJ2.png)
 
-3. Now use this new job description you created in the user's profile. WRKUSRPRF and update Patti's job description to DACUSERPAT
+2. Now use this new job description you created in the user's profile. WRKUSRPRF and update Patti's job description to DACUSERPAT
 		
-    ![alt text](../../site/images/PRT_changeUserProfile.png)
+    ![alt text](../site/images/PRT_changeUserProfile.png)
 
-4. Now we need to copy the print file to the new library that was created that the new job description will be using.  
+3. Now we need to copy the print file to the new library that was created that the new job description will be using.  
   
     a. Use WRKOBJ *all/DSP8PFR$.  
-        ![alt text](../../site/images/PRT_Wrkobj.png)
+        ![alt text](../site/images/PRT_Wrkobj.png)
     
     b. Use a 3 to copy that object in your users LIBRARY from step 1 (PATTIPRT).
-		![alt text](../../site/images/PRT_CRTDUPOBJ2.png)
+		![alt text](../site/images/PRT_CRTDUPOBJ2.png)
 
-5. Now that Patti has her own print file, we need to change where that print file goes. Use User Object Directives to make the change 1, 4, 7.  
+4. Now that Patti has her own print file, we need to change where that print file goes. Use User Object Directives to make the change 1, 4, 7.  
   
     a. Use a 5 next to the user.
-	![alt text](../../site/images/PRT_UserOptions.png)
+	![alt text](../site/images/PRT_UserOptions.png)
   
     b. Make the changes to the printfile- change printer, set to hold, save, etc.
-	![alt text](../../site/images/PRT_EditUserObjectDirectives.png)
+	![alt text](../site/images/PRT_EditUserObjectDirectives.png)
   
     c. Use an X  to execute the changes.
-	![alt text](../../site/images/PRT_wrkuod.png)
+	![alt text](../site/images/PRT_wrkuod.png)
 	
