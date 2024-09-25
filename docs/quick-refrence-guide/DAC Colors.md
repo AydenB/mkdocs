@@ -3,7 +3,7 @@
 ### Display Customers for A/R
 DSQXDFR (2,3)  
 <span style="background-color:green">**GREEN**</span>  Customer name - Customer has notes.  
- <span style="background-color:green">**GREEN**</span> Y in Note column - Customer has notes.
+<span style="background-color:green">**GREEN**</span> Y in Note column - Customer has notes.
 ### Display A/R For Inquiry
 DSF0DFR (2,2,5 and 2,3,5)  
 <span style="background-color:green">**GREEN**</span> I under T column - Invoice type order has excluded commissions.
@@ -15,10 +15,10 @@ HWJ4DFR (1,2,1)
 
 ### Work With Orders
 DSJWDFR (3,1)  
- <span style="background-color:blue">**BLUE**</span> Order source - Order has a message: I = Internal (Pick slip) / D = Delivery (Driver Manifest v. C).  
+<span style="background-color:blue">**BLUE**</span> Order source - Order has a message: I = Internal (Pick slip) / D = Delivery (Driver Manifest v. C).  
 <span style="background-color:green">**GREEN**</span> Order number - Order is a Credit Memo order type.  
 <span style="background-color:red">**RED**</span> Order status - Order is locked, and usually indicates someone is editing the order.  
- <span style="background-color:yellow">**YELLOW**</span> P order type - More than two days have passed since the order was picked.
+<span style="background-color:yellow">**YELLOW**</span> P order type - More than two days have passed since the order was picked.
 
 ### Order Entry
  GSSADFR (3,1,F10 and 3,1,2)  
@@ -59,7 +59,7 @@ DSJ8DFR (5,2,5,5)
  Quantity after Lost Qty Last Week - Quanity of lost sales for the item last week. [ not Green ]  
  <span style="background-color:white">**WHITE**</span>
  Net cost - Indicates it is used to calculate cost for POs.  
- White Mfr. list - Indicates it is used to calculate cost for POs.  
+ <span style="background-color:white">**WHITE**</span> Mfr. list - Indicates it is used to calculate cost for POs.  
  <span style="background-color:yellow">**YELLOW**</span>
  S highlighted in yellow and after O/I SELL? - Item selling allowance exists.  
  <span style="background-color:yellow">**YELLOW**</span>
