@@ -34,7 +34,7 @@ The Receive Right Module provides an interface to ProCat's Receive Right. This a
 ### 3.1 Editing Sent Purchase Orders
 
 - If a PO was sent in error to Receive Right, you will need to remove the Receive Right batch and resend the PO.
-- To remove the Receive Right batch. From Work With Receive Right Batches: 5, 8, &lt;F9&gt;, display the batch with 5, &lt;F3&gt;, &lt;F11&gt; to be prompted to delete the batch. You can now resend the PO from Work With Purchase Orders option "T". This only applies before receiving the file.
+- To remove the Receive Right batch. From Work With Receive Right Batches: 5, 8, &lt;F9&gt;, display the batch with 5, &lt;F3&gt;, &lt;F11&gt;, to be prompted to delete the batch. You can now resend the PO from Work With Purchase Orders option "T". This only applies before receiving the file.
 
 ### 3.2 Verifying Changes
 
