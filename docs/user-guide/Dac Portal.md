@@ -10,6 +10,35 @@ DAC Portal enables retail customers to efficiently manage their orders in real-t
 
 ## Features
 
+### Universal Accessibility
+
+DAC Portal is accessible using any device with an internet connection and a web browser.  There is no app to install.
+
+### Hardware and OS Independent
+
+DAC Portal eliminates the need to purchase and manage expensive, dedicated hardware for your customers.  Retailers can use DAC Portal from the device of their choice, such as an Android phone or tablet, iPhone, iPad, Surface, and Mac or Windows desktop systems.
+
+### Consistent, Modern User Experience
+
+DAC Portal is independent of device form-factor.  Retailers have the same experience using the system while walking the floor with a mobile phone or tablet as they do sitting in the back office.
+
+### Flexible Scanning Options
+
+DAC Portal is specifically designed with mobile barcode scanning in mind.  Retailers can choose from a wide variety of inexpensive Bluetooth devices which turn any smart phone or tablet into a portable barcode scanner. Scanning is optional.   DAC Portal can be used without a scanner, allowing the user to hand-key the item number or UPC.  It also provides a convenient product search feature.
+
+### Images
+
+DAC Portal supports the display of product images during the ordering process, helping retailers visually confirm items as they build orders. Images enhance the user experience across all device types, whether on mobile or desktop.
+
+To enable this feature, product images must be uploaded to the following directory on your web server:
+/html/webcon/dacPortal/images
+
+Each image file should be named using the 6-digit item number of the product it represents (e.g., 123456.jpg). This naming convention ensures that the portal can correctly associate and display the image with the corresponding item.
+
+Once uploaded, images will automatically appear throughout the DAC Portal, providing visual context that improves speed and accuracy when placing or reviewing orders.
+
+## Getting Started
+
 ### 1. Logging In
 
 To access DAC Portal, log in using your customer account code and password.
