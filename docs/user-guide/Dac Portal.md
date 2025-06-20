@@ -33,7 +33,7 @@ DAC Portal supports the display of product images during the ordering process, h
 To enable this feature, product images must be uploaded to the following directory on your web server:
 /html/webcon/dacPortal/images
 
-Each image file should be named using the 6-digit item number of the product it represents (e.g., 123456.jpg). This naming convention ensures that the portal can correctly associate and display the image with the corresponding item.
+Each image file should be named using the 6-digit item number of the product it represents and saved as a .JPG (000006.jpg, 123456.jpg). This naming convention ensures that the portal can correctly associate and display the image with the corresponding item.
 
 Once uploaded, images will automatically appear throughout the DAC Portal, providing visual context that improves speed and accuracy when placing or reviewing orders.
 
