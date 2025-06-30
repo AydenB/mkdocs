@@ -7,15 +7,15 @@ This module enables distributors to track the life cycle of convenience store eq
 ## Work with Equipment   
  **Identify your equipment** items using option 1 from the Equipment Menu. This menu is accessed by taking options 10 then 19 and then 9 starting from the main DAC menu. You will press F10 to add an equipment item into the list of equipment available to DAC Equipment Manager. Tip: Use the Type field so you can easily filter the list later by equipment types (e.g. FREEZER, COFFEE, etc). 
 
- ### Equipment Products
+### Equipment Products
 You can identify your products used by each equipment item using option 5 *Work with Equipment Products*. Associating products (items) used by the equipment will help DAC Equipment Manager keep you informed about product sales that the equipment is generating for your company
 
- ### Serial Number Entry
+### Serial Number Entry
  Enter serial numbers in use for each equipment item. There are multiple places to record serial number activity. We will focus first on doing that directly from the Equipment menu since that method is most useful if you are entering information from your existing manual information. Inside option 1 from the Equipment menu if you place an “S” beside an equipment item you can identify that a particular serial number related to that item is being received for the first time, placed at a store, returned from a store, needs repair, or is available again after being repaired. The customer number entry is only needed for placement or return. 
 
 You will be prompted to enter the serial number twice. The two entries must be identical. We do this to catch a keying mistake. If you fail to make matching entries twice in a row you will be returned to the place you started. 
 
- ### Track Serial Numbers
+### Track Serial Numbers
  Work with Equipment Tracking, "T" on an item will show you the history of the items location and status:
   - R = received
   - P = Placed in store
@@ -77,4 +77,5 @@ From the Display Installment Plan menu, function F6 can be used for printing the
 # FAQ and Common Issues
 - Equipment products can be created by classes, this may continually add products that have since been removed. Example- Item 085766 Coffee maker is including items in Prod Class 35. Item 233654 has been removed, but since its in Product Class 35, and Product Class 35 was used to add this item, Item 233654 will return with EOD. 
 
-- running the installment plan job scheduled entry will force a remote order out for the installment plan
+- running the installment plan job scheduled entry will force a remote order out for the installment plan.
+
