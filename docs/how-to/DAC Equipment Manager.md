@@ -3,8 +3,11 @@ This module enables distributors to track the life cycle of convenience store eq
 
 ## DAC Equipment Menu
 10, 19, 9.
+![DAC Equipment Manager Menu](../images/DAC_Equipment_Manager_MainMenu.png)
 
 ## Work with Equipment   
+ ![DAC Equipment Manager WW Equipment](../images/DAC_Equipment_Manager_WWEquipment.png)
+ 
  **Identify your equipment** items using option 1 from the Equipment Menu. This menu is accessed by taking options 10 then 19 and then 9 starting from the main DAC menu. You will press F10 to add an equipment item into the list of equipment available to DAC Equipment Manager. Tip: Use the Type field so you can easily filter the list later by equipment types (e.g. FREEZER, COFFEE, etc). 
 
 ### Equipment Products
