@@ -6,21 +6,21 @@ This module enables distributors to track the life cycle of convenience store eq
 ![DAC Equipment Manager Menu](../images/DAC_Equipment_Manager_MainMenu.png)
 
 ## Work with Equipment   
- ![DAC Equipment Manager WW Equipment](../images/DAC_Equipment_Manager_WWEquipment.png)
+![DAC Equipment Manager WW Equipment](../images/DAC_Equipment_Manager_WWEquipment.png)
  
- **Identify your equipment** items using option 1 from the Equipment Menu. This menu is accessed by taking options 10 then 19 and then 9 starting from the main DAC menu. You will press F10 to add an equipment item into the list of equipment available to DAC Equipment Manager. Tip: Use the Type field so you can easily filter the list later by equipment types (e.g. FREEZER, COFFEE, etc). 
+**Identify your equipment** items using option 1 from the Equipment Menu. This menu is accessed by taking options 10 then 19 and then 9 starting from the main DAC menu. You will press F10 to add an equipment item into the list of equipment available to DAC Equipment Manager. Tip: Use the Type field so you can easily filter the list later by equipment types (e.g. FREEZER, COFFEE, etc). 
 
 ### Equipment Products
 You can identify your products used by each equipment item using option 5 *Work with Equipment Products*. Associating products (items) used by the equipment will help DAC Equipment Manager keep you informed about product sales that the equipment is generating for your company
 
 ### Serial Number Entry
- Enter serial numbers in use for each equipment item. There are multiple places to record serial number activity. We will focus first on doing that directly from the Equipment menu since that method is most useful if you are entering information from your existing manual information. Inside option 1 from the Equipment menu if you place an “S” beside an equipment item you can identify that a particular serial number related to that item is being received for the first time, placed at a store, returned from a store, needs repair, or is available again after being repaired. The customer number entry is only needed for placement or return. 
+Enter serial numbers in use for each equipment item. There are multiple places to record serial number activity. We will focus first on doing that directly from the Equipment menu since that method is most useful if you are entering information from your existing manual information. Inside option 1 from the Equipment menu if you place an “S” beside an equipment item you can identify that a particular serial number related to that item is being received for the first time, placed at a store, returned from a store, needs repair, or is available again after being repaired. The customer number entry is only needed for placement or return. 
 
 You will be prompted to enter the serial number twice. The two entries must be identical. We do this to catch a keying mistake. If you fail to make matching entries twice in a row you will be returned to the place you started. 
 
 ### Track Serial Numbers
  Work with Equipment Tracking, "T" on an item will show you the history of the items location and status:
-- R = received
+- R = Received
 - P = Placed in store
 - C = Returned from store
 - N = Repair
@@ -64,9 +64,9 @@ First create a new non-inventory charge item with the correct Category and Sales
 The Installment charge item will need to be defined in System Option IPP001.
 
 3 job scheduled entries will need to be created. 
-  - Weekly- IPBILLINGW- CALL PGM(HWKCXFR) PARM(' ' 'W')
-  - Monthly- IPBILLINGM- CALL PGM(HWKCXFR) PARM(' ' 'M')
-  - Yearly  - Weekly- IPBILLINGW- CALL PGM(HWKCXFR) PARM(' ' 'Y')
+- Weekly- IPBILLINGW- CALL PGM(HWKCXFR) PARM(' ' 'W')
+- Monthly- IPBILLINGM- CALL PGM(HWKCXFR) PARM(' ' 'M')
+- Yearly  - Weekly- IPBILLINGW- CALL PGM(HWKCXFR) PARM(' ' 'Y')
 
 ### Creating Installment Plan
 Now that the Installment Plan item has been created, defined as the installment item, and configured for weekly/monthly billing in job scheduled entry, we  can create an installment plan with F10.
@@ -80,5 +80,6 @@ From the Display Installment Plan menu, function F6 can be used for printing the
 # FAQ and Common Issues
 - Equipment products can be created by classes, this may continually add products that have since been removed. Example- Item 085766 Coffee maker is including items in Prod Class 35. Item 233654 has been removed, but since its in Product Class 35, and Product Class 35 was used to add this item, Item 233654 will return with EOD. 
 
-- running the installment plan job scheduled entry will force a remote order out for the installment plan.
+- Running the installment plan job scheduled entry will force a remote order out for the installment plan.
 
+- **Deletions** You can use F11 to remove records from 10, 19, 9, 2, and F11. Equipment sold or destroyed can be removed by using 1 Work with Equipment, T to track on serial number you wish to remove, and use the "D" to discontinuue/retire the equipment. You can delete equipment from  1 Work With Equipment by using a '-' on the line. **THIS WILL REMOVE ALL TRACKING AND CAN NOT BE RESTORED.**
