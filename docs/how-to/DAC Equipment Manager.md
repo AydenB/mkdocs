@@ -20,24 +20,24 @@ You will be prompted to enter the serial number twice. The two entries must be i
 
 ### Track Serial Numbers
  Work with Equipment Tracking, "T" on an item will show you the history of the items location and status:
-  - R = received
-  - P = Placed in store
-  - C = Returned from store
-  - N = Repair
-  - A = Available
-  - X = Refurbished
+- R = received
+- P = Placed in store
+- C = Returned from store
+- N = Repair
+- A = Available
+- X = Refurbished
 
 ## Display Customer Equipment
  Display customer equipment option 2 from the DAC Equipment menu will show you the log of equipment and its status tied to the customer. The F1 function key can be used to display current equipment in the store.
 
 ## Print Customer Equipment and Usage  
 Print Equipment option 3 can be used for printing analysis reports or creating CSV files.
-  - F6 Print w/Sales
-    - Date range is required
-    - By Base or Net profit
-    - DMQBPFR$
-  - F8 Print only equipment in store DMROPFR$
-  - F18 Print ALL Equipment by status DPI4PFR$
+- F6 Print w/Sales
+  - Date range is required
+  - By Base or Net profit
+  - DMQBPFR$
+- F8 Print only equipment in store DMROPFR$
+- F18 Print ALL Equipment by status DPI4PFR$
 
 ## Display Equipment Maintenance     
 Display Equipment Maintenance option 4 provides history of the service records for each serial number. This is for helping keep track of maintenance records as well as upcoming maintenance or retiring of the equipment.
