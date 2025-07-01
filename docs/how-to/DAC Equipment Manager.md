@@ -20,6 +20,7 @@ You will be prompted to enter the serial number twice. The two entries must be i
 
 ### Track Serial Numbers
  Work with Equipment Tracking, "T" on an item will show you the history of the items location and status:
+
 - R = Received
 - P = Placed in store
 - C = Returned from store
@@ -32,10 +33,13 @@ You will be prompted to enter the serial number twice. The two entries must be i
 
 ## Print Customer Equipment and Usage  
 Print Equipment option 3 can be used for printing analysis reports or creating CSV files.
+
 - F6 Print w/Sales
+
   - Date range is required
   - By Base or Net profit
   - DMQBPFR$
+  
 - F8 Print only equipment in store DMROPFR$
 - F18 Print ALL Equipment by status DPI4PFR$
 
@@ -64,6 +68,7 @@ First create a new non-inventory charge item with the correct Category and Sales
 The Installment charge item will need to be defined in System Option IPP001.
 
 3 job scheduled entries will need to be created. 
+
 - Weekly- IPBILLINGW- CALL PGM(HWKCXFR) PARM(' ' 'W')
 - Monthly- IPBILLINGM- CALL PGM(HWKCXFR) PARM(' ' 'M')
 - Yearly  - Weekly- IPBILLINGW- CALL PGM(HWKCXFR) PARM(' ' 'Y')
@@ -78,6 +83,7 @@ Now you should have a new installment plan created, the payment schedule has bee
 From the Display Installment Plan menu, function F6 can be used for printing the installment plan information based on status, interval, customer, and even amount. HWKDPFR$
 
 # FAQ and Common Issues
+
 - Equipment products can be created by classes, this may continually add products that have since been removed. Example- Item 085766 Coffee maker is including items in Prod Class 35. Item 233654 has been removed, but since its in Product Class 35, and Product Class 35 was used to add this item, Item 233654 will return with EOD. 
 
 - Running the installment plan job scheduled entry will force a remote order out for the installment plan.
