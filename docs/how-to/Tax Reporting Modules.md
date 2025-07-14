@@ -334,10 +334,38 @@ A single file is created for Cigarette and Tobacco Sales in the CV1COM folder:
 
 The Texas Tax Reporting files can be generated from Build TX Tax File option in the State Tax Reporing Menu accessible from 6, 7, 22, 1.
 
-## Virginia PACY ACT Tax Reporting 
+You have the ability to Edit Non-participating Vendors with the F9 option.
+
+## Virginia PACT ACT Tax Reporting 
+
+The Viginia PACT ACT Tax Report is a single printed report with the filename:
+
+- HWM7PFR$
+
+The Viginia PACT ACT Tax Report can be generated from Print VA PACT Act Report option in the State Tax Reporing Menu accessible from 6, 7, 22, 19, 11.
+
 ## Washington Tax Reporting 
+
+The following files are created for Cigarette and Tobacco Sales in the WATAX folder:
+
+- Cigarettes - WACIG.CSV
+- RYO - WARYO.CSV
+- Smokeless - WASMKLES.CSV
+
 The Washington Tax Reporting reports can be generated from Build WA Tax File option in the State Tax Reporing Menu accessible from 6, 7, 22, 19, 10.
 
+Out-of-state Tax Reporting files will generate when using the 'N' option for the "In State Distributor" field.
+
 ## Wisconsin Tax Reporting 
+The following files are created for Cigarette and Tobacco Sales in the WITAX folder:
+
+- Cigarettes - CIGMMYY.CSV
+- Tobacco - TOBMMYY.CSV
+
 The Wisconsin Tax Reporting reports can be generated from Build WI Tax File option in the State Tax Reporing Menu accessible from 6, 7, 22, 19, 5.
+
+Out-of-state Tax Reporting files will generate when using the 'N' option for the "In State Distributor" field.
+
+You have the ability to Edit Vendor Info with the F8 option.
+You can edit the vendor name with option F18.
 
