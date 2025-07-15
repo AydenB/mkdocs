@@ -43,10 +43,9 @@ theme:
     - search.suggest
     - toc.follow
 # Fancy check box  
-
-  markdown_extensions:
-  - pymdownx.tasklist:
-      clickable_checkbox: true
+markdown_extensions:
+- pymdownx.tasklist:
+    clickable_checkbox: true
 
   # custom css lives here font size
   extra_css:
