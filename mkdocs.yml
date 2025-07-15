@@ -43,6 +43,7 @@ theme:
     - search.suggest
     - toc.follow
 # Fancy check box  
+
 markdown_extensions:
 - pymdownx.tasklist:
     clickable_checkbox: true
