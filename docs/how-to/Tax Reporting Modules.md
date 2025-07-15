@@ -33,7 +33,10 @@ Customers can be excluded from the Alabama Resale Format using F8.
 
 ### Setup
 - [ ] Setup vendor group for Non-Participating Vendors to mark as non-participating. 5, 11.
-- [x] Identify Tax classes that are RYO Tobacco Items. 1, 2, 7. 
+- [ ] Identify Tax classes that are RYO Tobacco Items. 1, 2, 7. 
+- [ ] RYO items need to have ounces defined in UM1 field on those items. 1, 2, 1.
+- [ ] Brand names will need to be defined or first 10 characters of the item description will be used.
+
 
 ## Arkansas Tax Reporting
 
