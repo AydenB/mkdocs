@@ -29,7 +29,11 @@ The following files are created in CV1COM:
 
 The Alabama Tax Reporting reports can be generated from Build AL Tax File option in the State Tax Reporing Menu accessible from 6, 7, 22, 6.
 
-Customers can be excluded from the Alabama Resale Format using F8
+Customers can be excluded from the Alabama Resale Format using F8.
+
+### Setup
+- [ ] Setup vendor group for Non-Participating Vendors to mark as non-participating. 5, 11.
+- [x] Identify Tax classes that are RYO Tobacco Items. 1, 2, 7. 
 
 ## Arkansas Tax Reporting
 
@@ -318,6 +322,12 @@ The Tennesse RAP Tax Reporting files can be generated from Build TN Tax File opt
 Out-of-state Tax Reporting files will generate when using the 'N' option for the "In State Distributor" field.
 
 You have the ability to Define Items for RAP with the F8 option.
+
+Once the TN Reporting module is activated (8n, 3: TN Reporting Active = 1), You will need to define the Distributor ID for TN in SYS054: Distributor ID for TN. 
+
+Setup TN Items for RAP reporting from 6, 7, 22, 7, F8.
+
+Setup NACS Categories from 10, 2, 9, Work with NACS Categories. 
 
 ### Tennessee PACT ACT Reporting
 

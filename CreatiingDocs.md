@@ -8,6 +8,8 @@
 
 these things are dumb < > use this instead ```&lt; &gt;```
 
+Add new "topics" to the mkdocs.yml file
+
 Inefficient documented technology is indistinguishable from magic.
 
 The goal of any documentation is to help people. "Good" documentation is useful. "Bad" documentation confuses readers and might physically harm people or damage equipment.
