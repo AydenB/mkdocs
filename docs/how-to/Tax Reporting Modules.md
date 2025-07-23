@@ -55,6 +55,12 @@ The following files are created in CV1COM:
 
 The Arkansas Tax Reporting reports can be generated from Build AR Tax File option in the State Tax Reporing Menu accessible from 6, 7, 22, 11.
 
+### Setup
+- [ ] Setup vendor group for Non-Participating Vendors to mark as non-participating. 5, 11.
+- [ ] Identify Tax classes that are RYO Tobacco Items. 1, 2, 7. 
+- [ ] RYO items need to have ounces defined in UM1 field on those items. 1, 2, 1.
+- [ ] Brand names will need to be defined or first 10 characters of the item description will be used. Brand codes can be added to an item from 1, 2, 1, and 2 to edit item, F24- Edit Item Extension. Brand codes can be created using F4 in the BRAND field, and then using F10 to Edit the Brand Master File, and F9 to go to "add" mode. 
+
 ## Florida Tax Reporting
 The following files are created in CV1COM:
 
@@ -310,6 +316,23 @@ The Tennesse LDR Tax Reporting files can be generated from Build TN Tax File opt
 Out-of-state Tax Reporting files will generate when using the 'N' option for the "In State Distributor" field.
 
 You have the ability to Define LDR State Manufacturers with the F18 option.
+
+### Setup
+
+Needed PTF's for setup: PTF13060, PTF12801.
+
+System Option SYS045 will also need to be updated
+**TN LDR: SEND ONLY TN SALES** set to *YES.
+**LIMIT DATA SENT FOR TN LDR** set to *YES.
+(*OPTIONAL*) **TN LDR: RETURNS AFFECT STAMPING**
+
+
+- [ ] You must define the tax classes with a TAX TYPE "T": 1, 2, 7. ![Tennessee LDR Tax Reporting Tax Class Setup](../images/TX_TNLDRTaxReportingTaxClassSetup.jpg)
+- [ ] You must define the state brand codes. This information is supplied from the state of TN. The state brand codes must tie to a valid brand code assaigned to the item. Use 1, 2, 20, 10 to edit State Brand Codes.![Tennessee LDR Tax Reporting Brand Codes](../images/TX_TNLDRTaxReportingStateBrandCodes.jpg)
+- [ ] Assaign brand codes to items. Use 1, 2, 1 – Work With Items, Use a ‘2’ to edit the item, and use F24 for Extended Item Information and F4 on the BRAND field to assign the Item Brand Code.  
+- [ ] You must define the appropriate vendors with their Tennessee Manufacturer IDs. This information can be acquired from your contact with the state of TN. From the main DAC menu: 6, 7, 22, 7 - Build TN Tax File Use F18 to add records. ![Tennessee LDR Tax Reporting MFR ID](../images/TX_TNLDRTaxReportingTNMFRID.png)
+- [ ] Create the LDR Tax File from  6, 7, 22, 7, and using VERSION 2. You must enter the warehouse code, dates for invoices, as well as dates for inventory. Enter the applicable value for IN STATE DISTRIBUTOR. The file TNLDRVR.CSV can be found in CV1COM folder. 
+
 
 ### Tennessee RAP Tax Reporting
 
