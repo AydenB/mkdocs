@@ -2,17 +2,17 @@
 
 |       |                           |
 | ----------- | ------------------------------------ |
-| Alabama Tax Reporting       | New York Tax Reporting       |
-| Arkansas Tax Reporting      | Ohio Tax Reporting |
-| Florida Tax Reporting    | Oklahoma Tax Reporting |
-| Georgia Tax Reporting  | Oregon Tax Reporting |
-| Iowa PACT ACT Tax Reporting | Pennsylvania Tax Reporting |
-| Illinois Tax Reporting | Tennessee Tax Reporting |
-| Indiana Tax Reporting | Texas Tax Reporting |
-| Kentucky Tax Reporting | Virginia Pact ACT Tax Reporting |
-| Louisiana Tax Reporting | Washington Tax Reporting |
-| Michigan Tax Reporting | Wisconsin Tax Reporting |
-| Missouri PACT ACT Tax Reporting  | |
+| [Alabama Tax Reporting](#alabama-tax-reporting)      | [New York Tax Reporting](#new-york-tax-reporting)       |
+| [Arkansas Tax Reporting](#arkansas-tax-reporting)      | [Ohio Tax Reporting](#ohio-tax-reporting) |
+| [Florida Tax Reporting](#florida-tax-reporting)    | [Oklahoma Tax Reporting](#oklahoma-tax-reporting) |
+| [Georgia Tax Reporting](#georgia-tax-reporting)  | [Oregon Tax Reporting](#oregon-tax-reporting) |
+| [Iowa PACT ACT Tax Reporting](#iowa-pact-act-tax-reporting) | [Pennsylvania Tax Reporting](#pennsylvania-tax-report) |
+| [Illinois Tax Reporting](#illinois-cigarette-tax-reporting) | [Tennessee Tax Reporting](#tennessee-tax-reporting) |
+| [Indiana Tax Reporting](#indiana-tax-reporting) | [Texas Tax Reporting](#texas-tax-reporting) |
+| [Kentucky Tax Reporting](#kentucky-tax-reporting) | [Virginia Pact ACT Tax Reporting](#virginia-pact-act-tax-reporting) |
+| [Louisiana Tax Reporting](#louisiana-tax-reporting) | [Washington Tax Reporting](#washington-tax-reporting) |
+| [Michigan Tax Reporting](#michigan-tax-reporting) | [Wisconsin Tax Reporting](#wisconsin-tax-reporting) |
+| [Missouri PACT ACT Tax Reporting](#missouri-pact-act-tax-reporting) | |
 
 ## Alabama Tax Reporting
 
@@ -35,8 +35,7 @@ Customers can be excluded from the Alabama Resale Format using F8.
 - [ ] Setup vendor group for Non-Participating Vendors to mark as non-participating. 5, 11.
 - [ ] Identify Tax classes that are RYO Tobacco Items. 1, 2, 7. 
 - [ ] RYO items need to have ounces defined in UM1 field on those items. 1, 2, 1.
-- [ ] Brand names will need to be defined or first 10 characters of the item description will be used.
-
+- [ ] Brand names will need to be defined or first 10 characters of the item description will be used. Brand codes can be added to an item from 1, 2, 1, and 2 to edit item, F24- Edit Item Extension. Brand codes can be created using F4 in the BRAND field, and then using F10 to Edit the Brand Master File, and F9 to go to "add" mode. 
 
 ## Arkansas Tax Reporting
 
