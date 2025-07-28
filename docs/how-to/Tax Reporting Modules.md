@@ -16,6 +16,7 @@
 
 ## Alabama Tax Reporting
 
+### AL Files Created
 The following files are created in CV1COM:
     
 > AL- Alabma, YY- Year, MM- Month
@@ -27,11 +28,13 @@ The following files are created in CV1COM:
 - Sales to Indian Reservations - ALYYMMP5.CSV 
 - AL Tobacco Sales for Resale - ALYYMMTI.CSV 
 
+### Generating AL Tax Report
+
 The Alabama Tax Reporting reports can be generated from Build AL Tax File option in the State Tax Reporing Menu accessible from 6, 7, 22, 6.
 
 Customers can be excluded from the Alabama Resale Format using F8.
 
-### Setup
+### AL Tax Report Setup
 - [ ] Setup vendor group for Non-Participating Vendors to mark as non-participating. 5, 11.
 - [ ] Identify Tax classes that are RYO Tobacco Items. 1, 2, 7. 
 - [ ] RYO items need to have ounces defined in UM1 field on those items. 1, 2, 1.
@@ -39,6 +42,7 @@ Customers can be excluded from the Alabama Resale Format using F8.
 
 ## Arkansas Tax Reporting
 
+### AR Files Created
 The following files are created in CV1COM:
 
 >AR-Arkansas, YY- Year, MM- Month
@@ -53,15 +57,21 @@ The following files are created in CV1COM:
 | City | Quantity | Tobacco Style |
 | State | Invoice Number | Package Quantity |
 
+### Generating AR Tax Report
+
 The Arkansas Tax Reporting reports can be generated from Build AR Tax File option in the State Tax Reporing Menu accessible from 6, 7, 22, 11.
 
 ### Setup
+
 - [ ] Setup vendor group for Non-Participating Vendors to mark as non-participating. 5, 11.
 - [ ] Identify Tax classes that are RYO Tobacco Items. 1, 2, 7. 
 - [ ] RYO items need to have ounces defined in UM1 field on those items. 1, 2, 1.
 - [ ] Brand names will need to be defined or first 10 characters of the item description will be used. Brand codes can be added to an item from 1, 2, 1, and 2 to edit item, F24- Edit Item Extension. Brand codes can be created using F4 in the BRAND field, and then using F10 to Edit the Brand Master File, and F9 to go to "add" mode. 
 
 ## Florida Tax Reporting
+
+### FL Files Created
+
 The following files are created in CV1COM:
 
 >FL-Florida, YY- Year, MM- Month
@@ -69,11 +79,16 @@ The following files are created in CV1COM:
 - Multiple record format - FLYYMM.TXT
 > *Version determined by system option*
 
+### Generating FL Tax Report
 The Florida Tax Reporting reports can be generated from Build FL Tax File option in the State Tax Reporing Menu accessible from 6, 7, 22, 19, 4.
 
 You can use F8 to add Entity ID's by customer.
 
+### FL Tax Report Setup
+
 ## Georgia Tax Reporting
+
+### GA Files Created
 
 The following files are created in CV1COM:
     
@@ -87,39 +102,60 @@ The following files are created in CV1COM:
 | Brand | Address | Cigarette Sticks |
 | Date Sold | City | RYO Units |
 
+### Generating GA Tax Report
 The Georgia Tax Reporting reports can be generated from Build GA Tax File option in the State Tax Reporing Menu accessible from 6, 7, 22, 5.
 
+### GA Tax Report Setup
+
 ## Iowa PACT ACT Tax Reporting
+
+### IA Files Created
 
 The Iowa Pact Act Tax file generates 2 files for cigarette and tobacco sales data in the root directory:
 - Detail- ################.DTL
 - Header- ################.HDR
 
+### Generating IA Tax Report
+
 The Iowa Tax Reporting reports can be generated from Build IA/IL PACT Act File option in the State Tax Reporing Menu accessible from 6, 7, 22, 9.
 
 Additional items can be defined on the report with the F8 option.
 
+### IA Tax Report Setup
+
 ## Illinois Cigarette Tax Reporting
+
+### IL Cigarette Files Created
 
 The following files are created in CV1COM:
 - Illinois Cigarette Data file - ILCIGS.DAT
+
+### Generating IL Cigarette Tax Report
 
 The Illinois Tax Reporting reports can be generated from Build IL Tax File option in the State Tax Reporing Menu accessible from 6, 7, 22, 4. 
 
 Additional items can be defined on the report with the F8 option.
 
+
 ### Illinois Tobacco Tax Reporting
 
+#### IL Tobacco Files Created
 The following files are created in ILTAX folder:
 - Illinois Tobacco Data file - TP-1-IL.CSV
+
+#### Generating IL Tobacco Tax Report
 
 The Illinois Tobacco Tax Reporting reports can be generated from Build Illinois TP-1-IL File option in the State Tax Reporing Menu accessible from 6, 7, 22, 19, 19, 3. You can use F8 to define the tax jurisdiction cross reference.
 
 ### Illinois PACT ACT Tax Reporting
 
+#### IL PACT ACT Files Created
+
 The Illinois PACT ACT Tax Report generates 2 files for cigarette sales data in the root directory:
 - Detail- ################.DTL
 - Header- ################.HDR
+
+#### Generating IL PAC ACT Report
 
 The Illinois Tax Reporting reports can be generated from Build IA/IL PACT Act File option in the State Tax Reporing Menu accessible from 6, 7, 22, 9. You will need to update the state field prior to running the report. 
 
@@ -127,6 +163,8 @@ Additional items to report can be added with the F8 option.
 
 
 ## Indiana Tax Reporting
+
+### IN Files Created
 The following files are created for Cigarette and Tobacco in INTAX folder:
 
 - CIGCT19.CSV 
@@ -140,6 +178,8 @@ The following files are created for Cigarette and Tobacco in INTAX folder:
 - OTPMTSI.CSV 
 - OTPMTSI.XML
 
+### Generating IN Tax Report
+
 The Indiana Tax Reporting reports can be generated from Build KY Tax File option in the State Tax Reporing Menu accessible from 6, 7, 22, 19, 6.
 
 ![Build Tax Files For Indiana](../images/TX_IndianaTaxFile.png)
@@ -148,6 +188,8 @@ The first start and end dates are for the data as well as a start and end date f
 You also have the ability to omit stamp purchases by updating the field to 'N'.
 
 ## Kentucky Tax Reporting
+
+### KY Files Created
 The following files are created for Cigarette and Tobacco in the KYTAX folder:
 >*These files can be copied to the KDOR_Cigarettes and the KDOR_Tobacco templates*
 
@@ -158,11 +200,15 @@ The following files are created for Cigarette and Tobacco in the KYTAX folder:
 - Stamp Purchases - STAMPPUR.CSV 
 - Tobacco Purchases -TOBSAPU.CSV 
 
+### Generating KY Tax Report
+
 The Kentucky Tax Reporting reports can be generated from Build KY Tax File option in the State Tax Reporing Menu accessible from 6, 7, 22, 19, 9.
 
 Tax Jurisdiction Cross Refrence can be defined with option F8.
 
 ## Louisiana Tax Reporting
+
+### LA Files Created
 The following files are created for Cigarette and Tobacco in the LATAX folder:
 >*These files can be copied to the LaTAP_Tobacco_Tax_template file*
 
@@ -170,11 +216,15 @@ The following files are created for Cigarette and Tobacco in the LATAX folder:
 - Cigarette and Tobacco Purchases - CIGTOBPU.CSV 
 - Cigarette and Tobacco Credits - CIGTOBCR.CSV 	
 
+### Generating LA Tax Report
 The Louisiana Tax Reporting reports can be generated from Build LA Tax File option in the State Tax Reporing Menu accessible from 6, 7, 22, 19, 7.
 
 You have the ability to enter Manufacturer Returns with the F8 option.
 
 ## Michigan Tax Reporting
+
+### MI Files Created
+
 The following files are created for Cigarette and Tobacco in the MITAX folder:
 
 - Cigarette Purchases (Receipts) in Michigan - C101A.CSV 	 
@@ -190,22 +240,31 @@ The following files are created for Cigarette and Tobacco in the MITAX folder:
 - Tobacco Product Sales in Michigan from Tax-Unpaid Inventory - T108B.CSV  
 - Other Tobacco Product Sales from Tax-Paid Inventory - T108C.CSV  
 
+### Generating MI Tax Report
 The Michigan Tax Reporting reports can be generated from Build MI Tax File option in the State Tax Reporing Menu accessible from 6, 7, 22, 19, 2.
 
 The Cigarette or Tobacco files can be generated with the Tax type 'C' for Cigarettes or 'T' for Tobacco.
 
 ## Missouri PACT ACT Tax Reporting
+
+### MO Files Created
 The following files are created for Cigarette and Tobacco in the CV1COM folder:
 
 - Cigarettes - MOPACTCG.CSV
 - Tobacco- MOPACTTB.CSV
 
+### Generating MO Tax Report
 The Missouri PACT ACT Tax Reporting reports can be generated from Build MO PACT ACT File option in the State Tax Reporing Menu accessible from 6, 7, 22, 19, 3.
 
 ## New York Tax Reporting 
+
+### NY Files Created
+
 A single file is created for Cigarette and Tobacco sales in the CV1COM folder:
 
 - NYDATA.TXT
+
+### Generating NY Tax Report
 
 The New York Tax Reporting reports can be generated from Build NY Tax File option in the State Tax Reporing Menu accessible from 6, 7, 22, 3.
 
@@ -235,17 +294,23 @@ The Ohio Out of State Cigarette Sales Reporting reports can be generated from Bu
 
 ## Oklahoma Tax Reporting
 
+### OK Files Created
+
 The following files are created for Cigarette and RYO Tobacco Sales in the CV1COM folder:
 
 > OK-Oklahoma, YY- Year, MM- Month
 
 - OKYYMM.CSV
 
+### Generating OK Tax Report
+
 The Oklahoma Tax Reporting reports can be generated from Build OK Tax File option in the State Tax Reporing Menu accessible from 6, 7, 22, 10.
 
 Out-of-state Tax Reporting files will generate when using the 'N' option for the "In State Distributor" field.
 
 ## Oregon Tax Reporting
+
+### OR Files Created
 The following files are created for Tobacco Sales and Purchase in the DACEMAIL folder:
 
 >*The .PDF files are automatically emailed*
@@ -260,10 +325,15 @@ The following files are created for Tobacco Sales and Purchase in the DACEMAIL f
 - ORSCH7A.PDF  
 - ORSCH8A.PDF 
 
+### Generating OR Tax Report
+
 The Oregon Tax Reporting reports can be generated from Build OR Tax File option in the State Tax Reporing Menu accessible from 6, 7, 22, 19, 8.
 
-## Pennsylvania Tax Report
+## Pennsylvania Tax Reporting
 
+### PA Tax Reporting
+
+#### PA Files Created
 The following files are created for Cigarette and Tobacco Sales and Returns in the PATAX folder:
 
 - DAS-95.CSV  -  Details For DAS-95               
@@ -285,27 +355,37 @@ The following files are created for Cigarette and Tobacco Sales and Returns in t
 - REV679ER.CSV - Products Returned To MFR-RYO       
 - REV679ES.CSV - Products Returned To MFR-Smokeless
 
+#### Generating PA Tax Report
+
 The Pennsylvania Tax Reporting reports can be generated from Build PA Tax File option in the State Tax Reporing Menu accessible from 6, 7, 22, 19, 1.
 
 You have the ability to add vendors to the DAS-95 file with the F8 option.
 
 ### PA Consolidated Cigarette Files
 
+#### PA Consolidated Files Created
+
 The following files are created for Cigarette and Tobacco Sales and Returns in the PATAX folder:
 
 - CIGCONS.CSV
 - CIGINV.CSV
+
+#### Generating PA Consolidated Cigarette Report
 
 The Pennsylvania Consolidated Cigarette Files can be generated from Build PA Consolidated Cigarette Files option in the State Tax Reporing Menu accessible from 6, 7, 22, 19, 19, 1.
 
 You have the option to enter Manufacturer Returns to the file with the F7 option.
 
 ## Tennessee Tax Reporting 
+
 ### Tennessee LDR Tax Reporting
 
+#### TN LDR Files Created
 A single file is created for the LDR Report in the CV1COM folder:
 
 - TNLDRV2.CSV
+
+#### Generating TN LDR Tax Report
 
 The Tennesse LDR Tax Reporting files can be generated from Build TN Tax File option in the State Tax Reporing Menu accessible from 6, 7, 22, 7.
 
@@ -317,7 +397,7 @@ Out-of-state Tax Reporting files will generate when using the 'N' option for the
 
 You have the ability to Define LDR State Manufacturers with the F18 option.
 
-### Setup
+#### Setup for TN LDR Tax Reporting
 
 Needed PTF's for setup: PTF13060, PTF12801.
 
@@ -336,9 +416,13 @@ System Option SYS045 will also need to be updated
 
 ### Tennessee RAP Tax Reporting
 
+#### TN RAP Files Created
+
 A single file is created for the RAP Report in the CV1COM folder:
 
 - TNTAXF.CSV
+
+#### Generating the TN RAP Report
 
 The Tennesse RAP Tax Reporting files can be generated from Build TN Tax File option in the State Tax Reporing Menu accessible from 6, 7, 22, 7.
 
@@ -348,7 +432,9 @@ Out-of-state Tax Reporting files will generate when using the 'N' option for the
 
 You have the ability to Define Items for RAP with the F8 option.
 
-Once the TN Reporting module is activated (8n, 3: TN Reporting Active = 1), You will need to define the Distributor ID for TN in SYS054: Distributor ID for TN. 
+#### Setup TN RAP Tax Reporting
+
+Once the TN Reporting module is activated (DAC003 TN Reporting Active= 1), You will need to define the Distributor ID for TN in SYS054: Distributor ID for TN. 
 
 Setup TN Items for RAP reporting from 6, 7, 22, 7, F8.
 
@@ -356,16 +442,28 @@ Setup NACS Categories from 10, 2, 9, Work with NACS Categories.
 
 ### Tennessee PACT ACT Reporting
 
+#### TN PACT ACT Files Created
+
 A single file is created for the Tennessee Pact Act in the CV1COM folder:
 
 - TNPACTV2.CSV
 
+#### Generating TN PACT ACT Report
+
 The Tennesse PACT ACT Reporting files can be generated from Build TN Tax File option in the State Tax Reporing Menu accessible from 6, 7, 22, 8.
 
+#### Setup TN PACT ACT Reporting
+
+
 ## Texas Tax Reporting 
+
+### TX Files Created
+
 A single file is created for Cigarette and Tobacco Sales in the CV1COM folder:
 
 - TXTAXF.DAT
+
+### Generating TX Tax Report
 
 The Texas Tax Reporting files can be generated from Build TX Tax File option in the State Tax Reporing Menu accessible from 6, 7, 22, 1.
 
@@ -373,13 +471,19 @@ You have the ability to Edit Non-participating Vendors with the F9 option.
 
 ## Virginia PACT ACT Tax Reporting 
 
+### VA Files Created
+
 The Viginia PACT ACT Tax Report is a single printed report with the filename:
 
 - HWM7PFR$
 
+### Generating VA Tax Report
+
 The Viginia PACT ACT Tax Report can be generated from Print VA PACT Act Report option in the State Tax Reporing Menu accessible from 6, 7, 22, 19, 11.
 
 ## Washington Tax Reporting 
+
+### WA Files Created
 
 The following files are created for Cigarette and Tobacco Sales in the WATAX folder:
 
@@ -387,15 +491,22 @@ The following files are created for Cigarette and Tobacco Sales in the WATAX fol
 - RYO - WARYO.CSV
 - Smokeless - WASMKLES.CSV
 
+#### Generating WA Tax Report
+
 The Washington Tax Reporting reports can be generated from Build WA Tax File option in the State Tax Reporing Menu accessible from 6, 7, 22, 19, 10.
 
 Out-of-state Tax Reporting files will generate when using the 'N' option for the "In State Distributor" field.
 
 ## Wisconsin Tax Reporting 
+
+### WI Files Created
+
 The following files are created for Cigarette and Tobacco Sales in the WITAX folder:
 
 - Cigarettes - CIGMMYY.CSV
 - Tobacco - TOBMMYY.CSV
+
+### Generating WA Tax Report
 
 The Wisconsin Tax Reporting reports can be generated from Build WI Tax File option in the State Tax Reporing Menu accessible from 6, 7, 22, 19, 5.
 
