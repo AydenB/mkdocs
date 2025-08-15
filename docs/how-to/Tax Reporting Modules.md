@@ -14,6 +14,8 @@
 | [Michigan Tax Reporting](#michigan-tax-reporting) | [Wisconsin Tax Reporting](#wisconsin-tax-reporting) |
 | [Missouri PACT ACT Tax Reporting](#missouri-pact-act-tax-reporting) | |
 
+# State Reporting
+
 ## Alabama Tax Reporting
 
 ### AL Files Created
@@ -23,7 +25,7 @@ The following files are created in CV1COM:
 
 - Schedule D Participating - ALYYMM.CSV 
 - Schedule D Non-Participating - ALYYMMNP.CSV 
-- Sales to National Guard - ÅLYYMMP3.CSV 
+- Sales to National Guard - ALYYMMP3.CSV 
 - Sales to US Government - ALYYMMP4.CSV 
 - Sales to Indian Reservations - ALYYMMP5.CSV 
 - AL Tobacco Sales for Resale - ALYYMMTI.CSV 
@@ -515,3 +517,15 @@ Out-of-state Tax Reporting files will generate when using the 'N' option for the
 You have the ability to Edit Vendor Info with the F8 option.
 You can edit the vendor name with option F18.
 
+
+# System Options
+
+## Common System Options
+SYS054
+![Edit Tax Reporting Options Page 1](../images/SYS054.png)
+![Edit Tax Reporting Options Page 2](../images/SYS0054Pg2.png)
+
+SYS070
+
+![Edit Tax Reporting Options #2](../images/SYS070.png)
+![Edit Tax Reporting Options #2 Page 2](../images/SYS070Pg2.png)
