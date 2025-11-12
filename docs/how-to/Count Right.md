@@ -12,3 +12,7 @@ Now that the inventory batch has been created and the cycle count sheet has prin
 
 ## Posting the count sheet
 Once the user has completed their count and released the file back to DAC. You will resume posting the cycle count as normal. Navigate to the Inventory Batch Entry menu: 4, 1, 1. Use a 2 to edit the batch, and then &lt;F10&gt; to post the batch. 
+
+## FAQ
+Most errors are caused from Cycle Count batch not being created through 4, 1,21, 3, but through 4, 1, 1. Reviewing the BSIZPFR$ or GSK9PFR$ will show the transaction type as 'A'. This is incorrect and should be 'C'.
+![alt text](../images/CR_CycleCountError.png)
