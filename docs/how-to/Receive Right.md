@@ -44,7 +44,7 @@ The Receive Right Module provides an interface to ProCat's Receive Right. This a
 
 ### 4.1 Internal Testing
 
-- Consider testing the Receive Right process internally using a test purchase order.
+- Consider testing the Receive Right process internally using a test purchase order.  
 - Send it through the system but cancel the receiving part (DO NOT USE R TO RECEIVE) to avoid affecting actual inventory.
 - Plan a full-circle test with a small vendor to ensure a smooth process from sending to receiving.
 
@@ -52,3 +52,10 @@ The Receive Right Module provides an interface to ProCat's Receive Right. This a
 
 - Discuss the best timing for sending purchase orders to Receive Right with the purchasing team.
 - Consider sending them at the end of each night for efficient processing.
+
+## FAQ
+Automatically closing Back Orders is in development
+    
+Partials orders will need to be edited to fix the qty of the order to match qty shipped
+    
+To delete a PO batch, use a 5 to get into the batch. Press enter until you get to the display scan details. From there you can &lt;F11&gt; to delete. 
