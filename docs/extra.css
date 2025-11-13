@@ -5,3 +5,7 @@ h2 {
 P {
     font-size: 0.7rem;
 };
+
+a.headerlink {
+  display: none;
+}
