@@ -1,0 +1,4977 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../AP%20Check%20Forms/">
+      
+      
+        <link rel="next" href="../Billing/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../images/cdrLogo.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.0">
+    
+    
+      
+        <title>Billing File Maintenance - Dacumentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.618322db.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#billing-file-maintenance" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Dacumentation" class="md-header__button md-logo" aria-label="Dacumentation" data-md-component="logo">
+      
+  <img src="../../images/cdrLogo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Dacumentation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Billing File Maintenance
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2a7 7 0 0 0-7 7c0 2.38 1.19 4.47 3 5.74V17a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-2.26c1.81-1.27 3-3.36 3-5.74a7 7 0 0 0-7-7M9 21a1 1 0 0 0 1 1h4a1 1 0 0 0 1-1v-1H9z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2a7 7 0 0 1 7 7c0 2.38-1.19 4.47-3 5.74V17a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1v-2.26C6.19 13.47 5 11.38 5 9a7 7 0 0 1 7-7M9 21v-1h6v1a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1m3-17a5 5 0 0 0-5 5c0 2.05 1.23 3.81 3 4.58V16h4v-2.42c1.77-.77 3-2.53 3-4.58a5 5 0 0 0-5-5"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Share" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    
+    
+      
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../.." class="md-tabs__link">
+          
+  
+  
+    
+  
+  Home
+
+        </a>
+      </li>
+    
+  
+
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../Accounts%20Payable/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  User Guides
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../quick-refrence-guide/Accounts%20Payable%20QRG/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Quick Reference
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../how-to/Count%20Right/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  How To
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../lorem/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Tutorial
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Dacumentation" class="md-nav__button md-logo" aria-label="Dacumentation" data-md-component="logo">
+      
+  <img src="../../images/cdrLogo.png" alt="logo">
+
+    </a>
+    Dacumentation
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_1" id="__nav_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Home
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1_1" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../.." class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Intro
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_1_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_1_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Intro
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Accounts%20Payable/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    User Guides
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../quick-refrence-guide/Accounts%20Payable%20QRG/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Quick Reference
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lorem/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    How to
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lorem/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    How to
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    User Guides
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    User Guides
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Accounts%20Payable/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    User Guides
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Accounts%20Receivable/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Accounts Receivable
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../AP%20Check%20Forms/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AP Check Forms
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Billing File Maintenance
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Billing File Maintenance
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#getting-started" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Getting Started
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#working-with-customer-contracts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Working With Customer Contracts
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Working With Customer Contracts">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#adding-customer-contracts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Adding Customer Contracts
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#creating-list-less-contracts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Creating List Less Contracts
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#creating-cost-plus-and-cost-plus-pricing-contracts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Creating Cost Plus and Cost Plus Pricing Contracts
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#creating-cents-off-contracts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Creating Cents Off Contracts
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#creating-cents-plus-contracts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Creating Cents Plus Contracts
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#creating-net-plus-contracts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Creating Net Plus % Contracts
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#creating-fixed-contracts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Creating Fixed Contracts
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#printing-customer-contract-lists" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Printing Customer Contract Lists
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#editing-customer-contracts-records" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Editing Customer Contracts Records
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#deleting-customer-contracts-records" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Deleting Customer Contracts Records
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#holding-and-releasing-customer-contract-records" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Holding and Releasing Customer Contract Records
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#copying-customer-contracts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Copying Customer Contracts
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#working-with-billing-matrix-contracts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Working WIth Billing Matrix Contracts
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Working WIth Billing Matrix Contracts">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#adding-billing-matrix-contract-records" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Adding Billing Matrix Contract Records
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#printing-billing-matrix-contract-lists" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Printing Billing Matrix Contract Lists
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#editing-and-deleting-billing-matrix-contract-records" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Editing and Deleting Billing Matrix Contract Records
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#holding-and-releasing-billing-matrix-contract-records" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Holding and Releasing Billing Matrix Contract Records
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#copying-billing-matrix-contracts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Copying Billing Matrix Contracts
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#working-with-billing-matrix-contracts_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Working with Billing Matrix Contracts
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Working with Billing Matrix Contracts">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#adding-billing-matrix-contract-reocrds" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Adding Billing Matrix Contract Reocrds
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#printing-billing-matrix-contract-lists_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Printing Billing Matrix Contract Lists
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#editing-and-deleting-billing-matrix-cntract-records" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Editing and Deleting Billing Matrix Cntract Records
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#holding-and-releasing-blling-matrix-contract-records" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Holding and REleasing Blling Matrix Contract Records
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#copying-billing-matrix-contracts_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Copying Billing Matrix Contracts
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#working-with-retail-contracts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Working with Retail Contracts
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Working with Retail Contracts">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#retail-profit-calculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Retail Profit Calculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#retail-markup-calculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Retail Markup Calculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#adding-retail-contract-records" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Adding Retail Contract Records
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#priting-retail-contract-lists" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Priting Retail Contract Lists
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#editing-and-deleting-retail-contract-records" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Editing and Deleting Retail Contract Records
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#copying-retail-contracts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Copying Retail Contracts
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#working-with-selling-allowances" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Working With Selling Allowances
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Working With Selling Allowances">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#adding-cents-off-list-less-and-fixed-allowance-records" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Adding Cents Off, List Less and Fixed Allowance Records
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#adding-buy-x-get-y-free-allowance-records" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Adding Buy X Get Y Free Allowance Records
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#adding-super-item-prepacked-allowance-records" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Adding Super Item Prepacked ALlowance Records
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#adding-super-item-non-prepacked-allowance-records" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Adding Super Item Non-Prepacked Allowance Records
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#adding-informational-only-allowance-records" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Adding Informational Only Allowance Records
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#printing-selling-allowance-reports" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Printing Selling Allowance Reports
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sending-selling-allowance-data-to-customers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Sending Selling Allowance Data To Customers
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#working-with-quantity-break-deals" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Working With Quantity Break Deals
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Working With Quantity Break Deals">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#adding-quantity-break-deals" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Adding Quantity Break Deals
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#editing-and-deleting-quantity-break-deals" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Editing And Deleting Quantity Break Deals
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#working-with-rebates" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Working With Rebates
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#working-with-price-inquiry" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Working With Price Inquiry
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#working-with-commissions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Working With Commissions
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Working With Commissions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#printing-a-commission-rate-listing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Printing A Commission Rate Listing
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#printing-a-commission-report" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Printing A Commission Report
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#working-with-minimum-order-charges" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Working With Minimum Order Charges
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Working With Minimum Order Charges">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#adding-minimum-order-charge-records" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Adding minimum Order Charge Records
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#defining-minimum-order-charge-exclusions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Defining Minimum Order Charge Exclusions
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#working-with-special-billing-charges" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Working With Special Billing Charges
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Working With Special Billing Charges">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#adding-special-blling-charges-records" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Adding Special Blling Charges Records
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#printing-a-special-billing-charges-list" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Printing A Special Billing Charges List
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#copying-special-billing-charges" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Copying Special Billing Charges
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#editing-and-deleting-special-blling-charges-records" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Editing and Deleting Special Blling Charges Records
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#working-with-billing-reasons" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Working With Billing Reasons
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#working-with-customer-categories-and-classes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Working WIth Customer Categories and Classes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Working WIth Customer Categories and Classes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#adding-customer-category-and-class-descriptions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Adding Customer Category and Class Descriptions
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#adding-customer-categoryclass-records" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Adding Customer Category/Class Records
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#working-with-customeritem-records" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Working with Customer/Item Records
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Working with Customer/Item Records">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#authorizing-items-for-purchase" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Authorizing Items For Purchase
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#prohibiting-the-purchase-of-items" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Prohibiting The Purchase Of Items
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#excluding-items-from-purchase" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Excluding Items From Purchase
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#copying-customeritem-flags" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Copying Customer/Item Flags
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#updating-customeritem-records" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Updating Customer/Item Records
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#displaying-weekly-totals-of-a-customerss-items" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Displaying Weekly Totals Of A Customers's Items
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#working-with-invoice-and-pick-messages" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Working With Invoice and Pick Messages
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Working With Invoice and Pick Messages">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#using-the-invoice-trailer-report" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Using The Invoice Trailer Report
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#defining-customer-delivery-messages" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Defining Customer Delivery Messages
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#defining-invoice-messages" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Defining Invoice Messages
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#editing-invoice-messages" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Editing Invoice Messages
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#defining-form-messages" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Defining Form Messages
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#working-with-item-messaging" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Working With Item Messaging
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#working-with-line-item-messages" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Working With Line Item Messages
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#working-with-invoice-boxes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Working With Invoice Boxes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Working With Invoice Boxes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#adding-invoice-box-records" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Adding Invoice Box Records
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#defining-invoice-box-headings" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Defining Invoice Box Headings
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#working-with-customer-pick-options" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Working With Customer Pick Options
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#working-with-customer-invoice-options" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Working With Customer Invoice Options
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#working-with-order-header-codes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Working With Order Header Codes
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#working-with-user-options" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Working With User Options
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#working-with-advance-disposal-fees" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Working With Advance Disposal Fees
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Billing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Billing
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Customer%20File%20Maintenance/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Customer File Maintenance
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Dac%20Closing%20Procedures/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    DAC Closing Procedures
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../DAC%20Data%20Library%20Files/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    DAC Data Library Files
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../DAC%20Default%20System%20Options/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    DAC Default System Options
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../DAC%20Report%20Samples/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    DAC Report Samples
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to/DAC%20Trader/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    DACSI Trader Portal
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Dac%20Portal/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    DAC Portal
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../EDI/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    EDI
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Entire%20System%20Save/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entire System Save
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../General%20Ledger/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    General Ledger
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../getting-started/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Getting Started
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Item%20File%20Maintenance/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Item File Maintenance
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Order%20Books/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Order Books
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Outbound%20Email%20and%20Doc%20Distribution/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Outbound Email and Doc Distribution
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Physical%20Inventory/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Physical Inventory
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Picker%20Productivity/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Picker Productivity
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Pre-book%20Orders/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Pre-book Orders
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Purchasing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Purchasing
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Retail%20Shelf%20Labels/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Retail Shelf Labels
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Returns%20Management/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Returns Management
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../RF%20Warehouse%20System/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    RF Warehouse Systems
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Sales%20Analysis%20Reports/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sales Analysis Reports
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../System%20File%20Maintenance/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    System File Maintenance
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tax%20System/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tax System
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Vendor%20Billing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Vendor Billing
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Vendor%20Receivables/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Vendor Receivables
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Vendors/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Vendors
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Warehousing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Warehousing
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Quick Reference
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Quick Reference
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../quick-refrence-guide/Accounts%20Payable%20QRG/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Quick Reference
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../quick-refrence-guide/Accounts%20Receivable%20QRG/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Accounts Receivable
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../quick-refrence-guide/Billing%20Auto/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Billing Auto
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../quick-refrence-guide/Billing%20Manual/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Billing Manual
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../quick-refrence-guide/Closing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Closing
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../quick-refrence-guide/Contracts/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Contracts
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../quick-refrence-guide/Customers/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Customers
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../quick-refrence-guide/DAC%20Colors/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    DAC Colors
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../quick-refrence-guide/DAC%20Symbols/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    DAC Symbols
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../quick-refrence-guide/Global%20Price%20Changing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Global Price Change
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../quick-refrence-guide/Item%20Location%20Quantity/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Item Location Quantity
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../quick-refrence-guide/Item%20QTY%20Method/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Item Quantity Method
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../quick-refrence-guide/Location%20Quantity%20Transfer/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Location Quantity Transfer
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../quick-refrence-guide/New%20General%20Ledger%20Accounts/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    New General Ledger Accounts
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../quick-refrence-guide/Price%20Inquiry/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Price Inquiry
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../quick-refrence-guide/Purchasing%20QRG/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Purchasing
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../quick-refrence-guide/Voiding%20Posted%20Orders/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Voiding Posted Orders
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    How To
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    How To
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to/Count%20Right/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    CountRight
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to/QuoteSOP/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Quotes
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to/Receive%20Right/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    RecieveRight
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to/shipright/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ShipRight
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to/Warehouse%20Management%20PutAway/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Warehouse Putaway
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to/DAC%20Trader/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    DACSI Trader Portal
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to/Zen%20and%20the%20art%20of%20Print%20Files/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Printer and Print files
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to/DAC%20Equipment%20Manager/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    DAC Equipment Manager
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to/Tax%20Reporting%20Modules/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tax Reporting Modules
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tutorial
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Tutorial
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lorem/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    How to
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lorem/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    How to
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#getting-started" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Getting Started
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#working-with-customer-contracts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Working With Customer Contracts
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Working With Customer Contracts">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#adding-customer-contracts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Adding Customer Contracts
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#creating-list-less-contracts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Creating List Less Contracts
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#creating-cost-plus-and-cost-plus-pricing-contracts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Creating Cost Plus and Cost Plus Pricing Contracts
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#creating-cents-off-contracts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Creating Cents Off Contracts
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#creating-cents-plus-contracts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Creating Cents Plus Contracts
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#creating-net-plus-contracts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Creating Net Plus % Contracts
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#creating-fixed-contracts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Creating Fixed Contracts
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#printing-customer-contract-lists" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Printing Customer Contract Lists
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#editing-customer-contracts-records" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Editing Customer Contracts Records
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#deleting-customer-contracts-records" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Deleting Customer Contracts Records
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#holding-and-releasing-customer-contract-records" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Holding and Releasing Customer Contract Records
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#copying-customer-contracts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Copying Customer Contracts
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#working-with-billing-matrix-contracts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Working WIth Billing Matrix Contracts
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Working WIth Billing Matrix Contracts">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#adding-billing-matrix-contract-records" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Adding Billing Matrix Contract Records
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#printing-billing-matrix-contract-lists" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Printing Billing Matrix Contract Lists
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#editing-and-deleting-billing-matrix-contract-records" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Editing and Deleting Billing Matrix Contract Records
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#holding-and-releasing-billing-matrix-contract-records" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Holding and Releasing Billing Matrix Contract Records
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#copying-billing-matrix-contracts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Copying Billing Matrix Contracts
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#working-with-billing-matrix-contracts_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Working with Billing Matrix Contracts
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Working with Billing Matrix Contracts">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#adding-billing-matrix-contract-reocrds" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Adding Billing Matrix Contract Reocrds
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#printing-billing-matrix-contract-lists_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Printing Billing Matrix Contract Lists
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#editing-and-deleting-billing-matrix-cntract-records" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Editing and Deleting Billing Matrix Cntract Records
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#holding-and-releasing-blling-matrix-contract-records" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Holding and REleasing Blling Matrix Contract Records
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#copying-billing-matrix-contracts_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Copying Billing Matrix Contracts
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#working-with-retail-contracts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Working with Retail Contracts
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Working with Retail Contracts">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#retail-profit-calculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Retail Profit Calculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#retail-markup-calculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Retail Markup Calculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#adding-retail-contract-records" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Adding Retail Contract Records
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#priting-retail-contract-lists" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Priting Retail Contract Lists
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#editing-and-deleting-retail-contract-records" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Editing and Deleting Retail Contract Records
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#copying-retail-contracts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Copying Retail Contracts
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#working-with-selling-allowances" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Working With Selling Allowances
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Working With Selling Allowances">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#adding-cents-off-list-less-and-fixed-allowance-records" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Adding Cents Off, List Less and Fixed Allowance Records
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#adding-buy-x-get-y-free-allowance-records" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Adding Buy X Get Y Free Allowance Records
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#adding-super-item-prepacked-allowance-records" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Adding Super Item Prepacked ALlowance Records
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#adding-super-item-non-prepacked-allowance-records" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Adding Super Item Non-Prepacked Allowance Records
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#adding-informational-only-allowance-records" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Adding Informational Only Allowance Records
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#printing-selling-allowance-reports" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Printing Selling Allowance Reports
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sending-selling-allowance-data-to-customers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Sending Selling Allowance Data To Customers
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#working-with-quantity-break-deals" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Working With Quantity Break Deals
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Working With Quantity Break Deals">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#adding-quantity-break-deals" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Adding Quantity Break Deals
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#editing-and-deleting-quantity-break-deals" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Editing And Deleting Quantity Break Deals
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#working-with-rebates" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Working With Rebates
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#working-with-price-inquiry" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Working With Price Inquiry
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#working-with-commissions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Working With Commissions
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Working With Commissions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#printing-a-commission-rate-listing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Printing A Commission Rate Listing
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#printing-a-commission-report" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Printing A Commission Report
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#working-with-minimum-order-charges" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Working With Minimum Order Charges
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Working With Minimum Order Charges">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#adding-minimum-order-charge-records" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Adding minimum Order Charge Records
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#defining-minimum-order-charge-exclusions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Defining Minimum Order Charge Exclusions
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#working-with-special-billing-charges" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Working With Special Billing Charges
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Working With Special Billing Charges">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#adding-special-blling-charges-records" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Adding Special Blling Charges Records
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#printing-a-special-billing-charges-list" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Printing A Special Billing Charges List
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#copying-special-billing-charges" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Copying Special Billing Charges
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#editing-and-deleting-special-blling-charges-records" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Editing and Deleting Special Blling Charges Records
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#working-with-billing-reasons" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Working With Billing Reasons
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#working-with-customer-categories-and-classes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Working WIth Customer Categories and Classes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Working WIth Customer Categories and Classes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#adding-customer-category-and-class-descriptions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Adding Customer Category and Class Descriptions
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#adding-customer-categoryclass-records" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Adding Customer Category/Class Records
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#working-with-customeritem-records" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Working with Customer/Item Records
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Working with Customer/Item Records">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#authorizing-items-for-purchase" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Authorizing Items For Purchase
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#prohibiting-the-purchase-of-items" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Prohibiting The Purchase Of Items
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#excluding-items-from-purchase" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Excluding Items From Purchase
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#copying-customeritem-flags" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Copying Customer/Item Flags
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#updating-customeritem-records" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Updating Customer/Item Records
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#displaying-weekly-totals-of-a-customerss-items" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Displaying Weekly Totals Of A Customers's Items
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#working-with-invoice-and-pick-messages" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Working With Invoice and Pick Messages
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Working With Invoice and Pick Messages">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#using-the-invoice-trailer-report" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Using The Invoice Trailer Report
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#defining-customer-delivery-messages" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Defining Customer Delivery Messages
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#defining-invoice-messages" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Defining Invoice Messages
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#editing-invoice-messages" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Editing Invoice Messages
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#defining-form-messages" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Defining Form Messages
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#working-with-item-messaging" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Working With Item Messaging
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#working-with-line-item-messages" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Working With Line Item Messages
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#working-with-invoice-boxes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Working With Invoice Boxes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Working With Invoice Boxes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#adding-invoice-box-records" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Adding Invoice Box Records
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#defining-invoice-box-headings" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Defining Invoice Box Headings
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#working-with-customer-pick-options" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Working With Customer Pick Options
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#working-with-customer-invoice-options" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Working With Customer Invoice Options
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#working-with-order-header-codes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Working With Order Header Codes
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#working-with-user-options" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Working With User Options
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#working-with-advance-disposal-fees" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Working With Advance Disposal Fees
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="billing-file-maintenance">Billing File Maintenance<a class="headerlink" href="#billing-file-maintenance" title="Permanent link">&para;</a></h1>
+<h2 id="getting-started">Getting Started<a class="headerlink" href="#getting-started" title="Permanent link">&para;</a></h2>
+<h2 id="working-with-customer-contracts">Working With Customer Contracts<a class="headerlink" href="#working-with-customer-contracts" title="Permanent link">&para;</a></h2>
+<h3 id="adding-customer-contracts">Adding Customer Contracts<a class="headerlink" href="#adding-customer-contracts" title="Permanent link">&para;</a></h3>
+<h3 id="creating-list-less-contracts">Creating List Less Contracts<a class="headerlink" href="#creating-list-less-contracts" title="Permanent link">&para;</a></h3>
+<h3 id="creating-cost-plus-and-cost-plus-pricing-contracts">Creating Cost Plus and Cost Plus Pricing Contracts<a class="headerlink" href="#creating-cost-plus-and-cost-plus-pricing-contracts" title="Permanent link">&para;</a></h3>
+<h3 id="creating-cents-off-contracts">Creating Cents Off Contracts<a class="headerlink" href="#creating-cents-off-contracts" title="Permanent link">&para;</a></h3>
+<h3 id="creating-cents-plus-contracts">Creating Cents Plus Contracts<a class="headerlink" href="#creating-cents-plus-contracts" title="Permanent link">&para;</a></h3>
+<h3 id="creating-net-plus-contracts">Creating Net Plus % Contracts<a class="headerlink" href="#creating-net-plus-contracts" title="Permanent link">&para;</a></h3>
+<h3 id="creating-fixed-contracts">Creating Fixed Contracts<a class="headerlink" href="#creating-fixed-contracts" title="Permanent link">&para;</a></h3>
+<h3 id="printing-customer-contract-lists">Printing Customer Contract Lists<a class="headerlink" href="#printing-customer-contract-lists" title="Permanent link">&para;</a></h3>
+<h3 id="editing-customer-contracts-records">Editing Customer Contracts Records<a class="headerlink" href="#editing-customer-contracts-records" title="Permanent link">&para;</a></h3>
+<h3 id="deleting-customer-contracts-records">Deleting Customer Contracts Records<a class="headerlink" href="#deleting-customer-contracts-records" title="Permanent link">&para;</a></h3>
+<h3 id="holding-and-releasing-customer-contract-records">Holding and Releasing Customer Contract Records<a class="headerlink" href="#holding-and-releasing-customer-contract-records" title="Permanent link">&para;</a></h3>
+<h3 id="copying-customer-contracts">Copying Customer Contracts<a class="headerlink" href="#copying-customer-contracts" title="Permanent link">&para;</a></h3>
+<h2 id="working-with-billing-matrix-contracts">Working WIth Billing Matrix Contracts<a class="headerlink" href="#working-with-billing-matrix-contracts" title="Permanent link">&para;</a></h2>
+<h3 id="adding-billing-matrix-contract-records">Adding Billing Matrix Contract Records<a class="headerlink" href="#adding-billing-matrix-contract-records" title="Permanent link">&para;</a></h3>
+<h3 id="printing-billing-matrix-contract-lists">Printing Billing Matrix Contract Lists<a class="headerlink" href="#printing-billing-matrix-contract-lists" title="Permanent link">&para;</a></h3>
+<h3 id="editing-and-deleting-billing-matrix-contract-records">Editing and Deleting Billing Matrix Contract Records<a class="headerlink" href="#editing-and-deleting-billing-matrix-contract-records" title="Permanent link">&para;</a></h3>
+<h3 id="holding-and-releasing-billing-matrix-contract-records">Holding and Releasing Billing Matrix Contract Records<a class="headerlink" href="#holding-and-releasing-billing-matrix-contract-records" title="Permanent link">&para;</a></h3>
+<h3 id="copying-billing-matrix-contracts">Copying Billing Matrix Contracts<a class="headerlink" href="#copying-billing-matrix-contracts" title="Permanent link">&para;</a></h3>
+<h2 id="working-with-billing-matrix-contracts_1">Working with Billing Matrix Contracts<a class="headerlink" href="#working-with-billing-matrix-contracts_1" title="Permanent link">&para;</a></h2>
+<h3 id="adding-billing-matrix-contract-reocrds">Adding Billing Matrix Contract Reocrds<a class="headerlink" href="#adding-billing-matrix-contract-reocrds" title="Permanent link">&para;</a></h3>
+<h3 id="printing-billing-matrix-contract-lists_1">Printing Billing Matrix Contract Lists<a class="headerlink" href="#printing-billing-matrix-contract-lists_1" title="Permanent link">&para;</a></h3>
+<h3 id="editing-and-deleting-billing-matrix-cntract-records">Editing and Deleting Billing Matrix Cntract Records<a class="headerlink" href="#editing-and-deleting-billing-matrix-cntract-records" title="Permanent link">&para;</a></h3>
+<h3 id="holding-and-releasing-blling-matrix-contract-records">Holding and REleasing Blling Matrix Contract Records<a class="headerlink" href="#holding-and-releasing-blling-matrix-contract-records" title="Permanent link">&para;</a></h3>
+<h3 id="copying-billing-matrix-contracts_1">Copying Billing Matrix Contracts<a class="headerlink" href="#copying-billing-matrix-contracts_1" title="Permanent link">&para;</a></h3>
+<h2 id="working-with-retail-contracts">Working with Retail Contracts<a class="headerlink" href="#working-with-retail-contracts" title="Permanent link">&para;</a></h2>
+<h3 id="retail-profit-calculation">Retail Profit Calculation<a class="headerlink" href="#retail-profit-calculation" title="Permanent link">&para;</a></h3>
+<h3 id="retail-markup-calculation">Retail Markup Calculation<a class="headerlink" href="#retail-markup-calculation" title="Permanent link">&para;</a></h3>
+<h3 id="adding-retail-contract-records">Adding Retail Contract Records<a class="headerlink" href="#adding-retail-contract-records" title="Permanent link">&para;</a></h3>
+<h3 id="priting-retail-contract-lists">Priting Retail Contract Lists<a class="headerlink" href="#priting-retail-contract-lists" title="Permanent link">&para;</a></h3>
+<h3 id="editing-and-deleting-retail-contract-records">Editing and Deleting Retail Contract Records<a class="headerlink" href="#editing-and-deleting-retail-contract-records" title="Permanent link">&para;</a></h3>
+<h3 id="copying-retail-contracts">Copying Retail Contracts<a class="headerlink" href="#copying-retail-contracts" title="Permanent link">&para;</a></h3>
+<h2 id="working-with-selling-allowances">Working With Selling Allowances<a class="headerlink" href="#working-with-selling-allowances" title="Permanent link">&para;</a></h2>
+<h3 id="adding-cents-off-list-less-and-fixed-allowance-records">Adding Cents Off, List Less and Fixed Allowance Records<a class="headerlink" href="#adding-cents-off-list-less-and-fixed-allowance-records" title="Permanent link">&para;</a></h3>
+<h3 id="adding-buy-x-get-y-free-allowance-records">Adding Buy X Get Y Free Allowance Records<a class="headerlink" href="#adding-buy-x-get-y-free-allowance-records" title="Permanent link">&para;</a></h3>
+<h3 id="adding-super-item-prepacked-allowance-records">Adding Super Item Prepacked ALlowance Records<a class="headerlink" href="#adding-super-item-prepacked-allowance-records" title="Permanent link">&para;</a></h3>
+<h3 id="adding-super-item-non-prepacked-allowance-records">Adding Super Item Non-Prepacked Allowance Records<a class="headerlink" href="#adding-super-item-non-prepacked-allowance-records" title="Permanent link">&para;</a></h3>
+<h3 id="adding-informational-only-allowance-records">Adding Informational Only Allowance Records<a class="headerlink" href="#adding-informational-only-allowance-records" title="Permanent link">&para;</a></h3>
+<h3 id="printing-selling-allowance-reports">Printing Selling Allowance Reports<a class="headerlink" href="#printing-selling-allowance-reports" title="Permanent link">&para;</a></h3>
+<h3 id="sending-selling-allowance-data-to-customers">Sending Selling Allowance Data To Customers<a class="headerlink" href="#sending-selling-allowance-data-to-customers" title="Permanent link">&para;</a></h3>
+<h2 id="working-with-quantity-break-deals">Working With Quantity Break Deals<a class="headerlink" href="#working-with-quantity-break-deals" title="Permanent link">&para;</a></h2>
+<h3 id="adding-quantity-break-deals">Adding Quantity Break Deals<a class="headerlink" href="#adding-quantity-break-deals" title="Permanent link">&para;</a></h3>
+<h3 id="editing-and-deleting-quantity-break-deals">Editing And Deleting Quantity Break Deals<a class="headerlink" href="#editing-and-deleting-quantity-break-deals" title="Permanent link">&para;</a></h3>
+<h2 id="working-with-rebates">Working With Rebates<a class="headerlink" href="#working-with-rebates" title="Permanent link">&para;</a></h2>
+<h2 id="working-with-price-inquiry">Working With Price Inquiry<a class="headerlink" href="#working-with-price-inquiry" title="Permanent link">&para;</a></h2>
+<h2 id="working-with-commissions">Working With Commissions<a class="headerlink" href="#working-with-commissions" title="Permanent link">&para;</a></h2>
+<h3 id="printing-a-commission-rate-listing">Printing A Commission Rate Listing<a class="headerlink" href="#printing-a-commission-rate-listing" title="Permanent link">&para;</a></h3>
+<h3 id="printing-a-commission-report">Printing A Commission Report<a class="headerlink" href="#printing-a-commission-report" title="Permanent link">&para;</a></h3>
+<h2 id="working-with-minimum-order-charges">Working With Minimum Order Charges<a class="headerlink" href="#working-with-minimum-order-charges" title="Permanent link">&para;</a></h2>
+<h3 id="adding-minimum-order-charge-records">Adding minimum Order Charge Records<a class="headerlink" href="#adding-minimum-order-charge-records" title="Permanent link">&para;</a></h3>
+<h3 id="defining-minimum-order-charge-exclusions">Defining Minimum Order Charge Exclusions<a class="headerlink" href="#defining-minimum-order-charge-exclusions" title="Permanent link">&para;</a></h3>
+<h2 id="working-with-special-billing-charges">Working With Special Billing Charges<a class="headerlink" href="#working-with-special-billing-charges" title="Permanent link">&para;</a></h2>
+<h3 id="adding-special-blling-charges-records">Adding Special Blling Charges Records<a class="headerlink" href="#adding-special-blling-charges-records" title="Permanent link">&para;</a></h3>
+<h3 id="printing-a-special-billing-charges-list">Printing A Special Billing Charges List<a class="headerlink" href="#printing-a-special-billing-charges-list" title="Permanent link">&para;</a></h3>
+<h3 id="copying-special-billing-charges">Copying Special Billing Charges<a class="headerlink" href="#copying-special-billing-charges" title="Permanent link">&para;</a></h3>
+<h3 id="editing-and-deleting-special-blling-charges-records">Editing and Deleting Special Blling Charges Records<a class="headerlink" href="#editing-and-deleting-special-blling-charges-records" title="Permanent link">&para;</a></h3>
+<h2 id="working-with-billing-reasons">Working With Billing Reasons<a class="headerlink" href="#working-with-billing-reasons" title="Permanent link">&para;</a></h2>
+<h2 id="working-with-customer-categories-and-classes">Working WIth Customer Categories and Classes<a class="headerlink" href="#working-with-customer-categories-and-classes" title="Permanent link">&para;</a></h2>
+<h3 id="adding-customer-category-and-class-descriptions">Adding Customer Category and Class Descriptions<a class="headerlink" href="#adding-customer-category-and-class-descriptions" title="Permanent link">&para;</a></h3>
+<h3 id="adding-customer-categoryclass-records">Adding Customer Category/Class Records<a class="headerlink" href="#adding-customer-categoryclass-records" title="Permanent link">&para;</a></h3>
+<h2 id="working-with-customeritem-records">Working with Customer/Item Records<a class="headerlink" href="#working-with-customeritem-records" title="Permanent link">&para;</a></h2>
+<h3 id="authorizing-items-for-purchase">Authorizing Items For Purchase<a class="headerlink" href="#authorizing-items-for-purchase" title="Permanent link">&para;</a></h3>
+<h3 id="prohibiting-the-purchase-of-items">Prohibiting The Purchase Of Items<a class="headerlink" href="#prohibiting-the-purchase-of-items" title="Permanent link">&para;</a></h3>
+<h3 id="excluding-items-from-purchase">Excluding Items From Purchase<a class="headerlink" href="#excluding-items-from-purchase" title="Permanent link">&para;</a></h3>
+<h3 id="copying-customeritem-flags">Copying Customer/Item Flags<a class="headerlink" href="#copying-customeritem-flags" title="Permanent link">&para;</a></h3>
+<h3 id="updating-customeritem-records">Updating Customer/Item Records<a class="headerlink" href="#updating-customeritem-records" title="Permanent link">&para;</a></h3>
+<h3 id="displaying-weekly-totals-of-a-customerss-items">Displaying Weekly Totals Of A Customers's Items<a class="headerlink" href="#displaying-weekly-totals-of-a-customerss-items" title="Permanent link">&para;</a></h3>
+<h2 id="working-with-invoice-and-pick-messages">Working With Invoice and Pick Messages<a class="headerlink" href="#working-with-invoice-and-pick-messages" title="Permanent link">&para;</a></h2>
+<h3 id="using-the-invoice-trailer-report">Using The Invoice Trailer Report<a class="headerlink" href="#using-the-invoice-trailer-report" title="Permanent link">&para;</a></h3>
+<h3 id="defining-customer-delivery-messages">Defining Customer Delivery Messages<a class="headerlink" href="#defining-customer-delivery-messages" title="Permanent link">&para;</a></h3>
+<h3 id="defining-invoice-messages">Defining Invoice Messages<a class="headerlink" href="#defining-invoice-messages" title="Permanent link">&para;</a></h3>
+<h3 id="editing-invoice-messages">Editing Invoice Messages<a class="headerlink" href="#editing-invoice-messages" title="Permanent link">&para;</a></h3>
+<h3 id="defining-form-messages">Defining Form Messages<a class="headerlink" href="#defining-form-messages" title="Permanent link">&para;</a></h3>
+<h3 id="working-with-item-messaging">Working With Item Messaging<a class="headerlink" href="#working-with-item-messaging" title="Permanent link">&para;</a></h3>
+<h3 id="working-with-line-item-messages">Working With Line Item Messages<a class="headerlink" href="#working-with-line-item-messages" title="Permanent link">&para;</a></h3>
+<h2 id="working-with-invoice-boxes">Working With Invoice Boxes<a class="headerlink" href="#working-with-invoice-boxes" title="Permanent link">&para;</a></h2>
+<h3 id="adding-invoice-box-records">Adding Invoice Box Records<a class="headerlink" href="#adding-invoice-box-records" title="Permanent link">&para;</a></h3>
+<h3 id="defining-invoice-box-headings">Defining Invoice Box Headings<a class="headerlink" href="#defining-invoice-box-headings" title="Permanent link">&para;</a></h3>
+<h2 id="working-with-customer-pick-options">Working With Customer Pick Options<a class="headerlink" href="#working-with-customer-pick-options" title="Permanent link">&para;</a></h2>
+<h2 id="working-with-customer-invoice-options">Working With Customer Invoice Options<a class="headerlink" href="#working-with-customer-invoice-options" title="Permanent link">&para;</a></h2>
+<h2 id="working-with-order-header-codes">Working With Order Header Codes<a class="headerlink" href="#working-with-order-header-codes" title="Permanent link">&para;</a></h2>
+<h2 id="working-with-user-options">Working With User Options<a class="headerlink" href="#working-with-user-options" title="Permanent link">&para;</a></h2>
+<h2 id="working-with-advance-disposal-fees">Working With Advance Disposal Fees<a class="headerlink" href="#working-with-advance-disposal-fees" title="Permanent link">&para;</a></h2>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../AP%20Check%20Forms/" class="md-footer__link md-footer__link--prev" aria-label="Previous: AP Check Forms">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                AP Check Forms
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../Billing/" class="md-footer__link md-footer__link--next" aria-label="Next: Billing">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Billing
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["announce.dismiss", "content.action.edit", "content.action.view", "content.code.annotate", "content.code.copy", "content.tooltips", "navigation.footer", "navigation.indexes", "navigation.sections", "navigation.tabs", "navigation.top", "navigation.tracking", "search.highlight", "search.share", "search.suggest", "toc.follow"], "search": "../../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.e71a0d61.min.js"></script>
+      
+    
+  </body>
+</html>
