@@ -1,0 +1,52 @@
+# DAC Calendar Reminder
+
+This guide outlines the steps required to create the new calendar year and verify its accuracy in DAC. It also includes notes on correcting common issues such as Week 53 overlapping into the new year and adding and removing closes for holidays.
+
+## Calendar Records
+Calendar records are added for one year at a time, and must be added for an upcoming year before closing the current year. If you are on a fiscal year, this may have already been completed. DAC Calendar users are expected to create a new calendar for the 2026 year. 
+
+## Verify Current Calendar Format
+Before creating the new year’s calendar, confirm that the format is correct for EOD (End of Day) and EOW (End of Week) processes.
+
+Steps:
+
+Navigate to menu options: 1, 4, 9
+
+Confirm the correct days are marked for when you wish to run EOD and EOW. The example below shows EOD will be ran on Monday - Thursday, and EOW will run on Friday. If changes need to be made, please create a support ticket. 
+
+![alt text](../images/SO_EditCalendarFile.png)
+
+If you operate a day ahead, ensure a “Y” appears on this screen.
+
+## Create New Calendar Year
+Once the current calendar format is confirmed you can generate the new year. 
+
+1. Navigate to menu options: 1, 4, 9. 
+2. Enter the year to be created in the "Create Calendar Records For Year".
+3. Enter a date for the "Specify The Date That Week 1 Will begin on".
+4. Press F10 to generate the new calendar record. 
+
+## Validating Calendar records
+After adding the calendar records for an upcoming year, the Edit Calendar File application is used to make any necessary changes to the closing dates, and designate on which dates closing procedures will be executed. Please review your holiday dates and update the closing records accordingly. 
+
+1. Review the calendar close dates from 1, 4, 10
+2. Restrict the view to the new year- (010126 for Jan 1, 2026).
+3. Page through the entire year and confirm:
+    - EOD, EOW, EOP, EOY values are correct for Holidays and closures. 
+    - There is no unintended week 53.
+
+![alt text](EditCalendarFile53.png)
+
+## Troubleshooting
+
+Week 53:
+Cumulative sales reports only have 52 weeks accounted for. It is recommended that you update your calendars 53 week so that you include the days falling into week 53 into either week 52 or into week 1.
+
+Below is an example of a week 53 being updated so that week 53 is included into week 1. 
+![alt text](EditCalendarFile53.png)
+![alt text](EditCalendarFile53Fix.png)
+
+
+1 4 9 F11 to delete calendar records
+
+1 4 2 CURRENT Before executing end of day processing the first time, users must verify that the value of the Date No. 1 field of the Closing Control Key Record for Current is correct. If the current date is not displayed for the Date No. 1 field, contact CDR support personnel. 
