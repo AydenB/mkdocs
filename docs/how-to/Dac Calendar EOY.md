@@ -39,14 +39,17 @@ After adding the calendar records for an upcoming year, the Edit Calendar File a
 
 ## Troubleshooting
 
-Week 53:
-Cumulative sales reports only have 52 weeks accounted for. It is recommended that you update your calendars 53 week so that you include the days falling into week 53 into either week 52 or into week 1.
+### Week 53:
+Cumulative sales reports only have 52 weeks accounted for. It is recommended that you update your calendar's 53rd week so that you include the days falling into week 53 into either week 52 or into week 1.
 
 Below is an example of a week 53 being updated so that week 53 is included into week 1. 
 ![alt text](EditCalendarFile53.png)
 ![alt text](EditCalendarFile53Fix.png)
 
+### Calendar was created incorectly
+If the days of the week were incorectly entered, you can remove the new calendar file from the menu options:
+1, 4, 9, F11 to delete calendar records
 
-1 4 9 F11 to delete calendar records
+### Reviewing Closing Control Display
+You can review the current closing control file for reviewing your current production date through menu options 1, 4, 2, and "CURRENT" as the key.
 
-1 4 2 CURRENT Before executing end of day processing the first time, users must verify that the value of the Date No. 1 field of the Closing Control Key Record for Current is correct. If the current date is not displayed for the Date No. 1 field, contact CDR support personnel. 
