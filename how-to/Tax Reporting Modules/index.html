@@ -1,0 +1,3338 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../DAC%20Equipment%20Manager/">
+      
+      
+        <link rel="next" href="../../lorem/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../images/cdrLogo.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.0">
+    
+    
+      
+        <title>Tax Reporting Modules - Dacumentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.618322db.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#dac-state-tax-reporting-modules" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Dacumentation" class="md-header__button md-logo" aria-label="Dacumentation" data-md-component="logo">
+      
+  <img src="../../images/cdrLogo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Dacumentation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Tax Reporting Modules
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2a7 7 0 0 0-7 7c0 2.38 1.19 4.47 3 5.74V17a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-2.26c1.81-1.27 3-3.36 3-5.74a7 7 0 0 0-7-7M9 21a1 1 0 0 0 1 1h4a1 1 0 0 0 1-1v-1H9z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2a7 7 0 0 1 7 7c0 2.38-1.19 4.47-3 5.74V17a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1v-2.26C6.19 13.47 5 11.38 5 9a7 7 0 0 1 7-7M9 21v-1h6v1a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1m3-17a5 5 0 0 0-5 5c0 2.05 1.23 3.81 3 4.58V16h4v-2.42c1.77-.77 3-2.53 3-4.58a5 5 0 0 0-5-5"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Share" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    
+    
+      
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../.." class="md-tabs__link">
+          
+  
+  
+    
+  
+  Home
+
+        </a>
+      </li>
+    
+  
+
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../user-guide/Accounts%20Payable/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  User Guides
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../quick-refrence-guide/Accounts%20Payable%20QRG/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Quick Reference
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../Count%20Right/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  How To
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../lorem/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Tutorial
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Dacumentation" class="md-nav__button md-logo" aria-label="Dacumentation" data-md-component="logo">
+      
+  <img src="../../images/cdrLogo.png" alt="logo">
+
+    </a>
+    Dacumentation
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_1" id="__nav_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Home
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1_1" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../.." class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Intro
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_1_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_1_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Intro
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../user-guide/Accounts%20Payable/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    User Guides
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../quick-refrence-guide/Accounts%20Payable%20QRG/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Quick Reference
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lorem/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    How to
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lorem/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    How to
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    User Guides
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    User Guides
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../user-guide/Accounts%20Payable/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    User Guides
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../user-guide/Accounts%20Receivable/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Accounts Receivable
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../user-guide/AP%20Check%20Forms/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AP Check Forms
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../user-guide/Billing%20File%20Maintenance/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Billing File Maintenance
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../user-guide/Billing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Billing
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../user-guide/Customer%20File%20Maintenance/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Customer File Maintenance
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../user-guide/Dac%20Closing%20Procedures/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    DAC Closing Procedures
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../user-guide/DAC%20Data%20Library%20Files/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    DAC Data Library Files
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../user-guide/DAC%20Default%20System%20Options/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    DAC Default System Options
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../user-guide/DAC%20Report%20Samples/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    DAC Report Samples
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../DAC%20Trader/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    DACSI Trader Portal
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../user-guide/Dac%20Portal/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    DAC Portal
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../user-guide/EDI/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    EDI
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../user-guide/Entire%20System%20Save/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entire System Save
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../user-guide/General%20Ledger/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    General Ledger
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../user-guide/getting-started/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Getting Started
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../user-guide/Item%20File%20Maintenance/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Item File Maintenance
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../user-guide/Order%20Books/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Order Books
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../user-guide/Outbound%20Email%20and%20Doc%20Distribution/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Outbound Email and Doc Distribution
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../user-guide/Physical%20Inventory/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Physical Inventory
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../user-guide/Picker%20Productivity/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Picker Productivity
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../user-guide/Pre-book%20Orders/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Pre-book Orders
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../user-guide/Purchasing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Purchasing
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../user-guide/Retail%20Shelf%20Labels/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Retail Shelf Labels
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../user-guide/Returns%20Management/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Returns Management
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../user-guide/RF%20Warehouse%20System/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    RF Warehouse Systems
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../user-guide/Sales%20Analysis%20Reports/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sales Analysis Reports
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../user-guide/System%20File%20Maintenance/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    System File Maintenance
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../user-guide/Tax%20System/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tax System
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../user-guide/Vendor%20Billing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Vendor Billing
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../user-guide/Vendor%20Receivables/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Vendor Receivables
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../user-guide/Vendors/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Vendors
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../user-guide/Warehousing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Warehousing
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Quick Reference
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Quick Reference
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../quick-refrence-guide/Accounts%20Payable%20QRG/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Quick Reference
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../quick-refrence-guide/Accounts%20Receivable%20QRG/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Accounts Receivable
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../quick-refrence-guide/Billing%20Auto/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Billing Auto
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../quick-refrence-guide/Billing%20Manual/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Billing Manual
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../quick-refrence-guide/Closing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Closing
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../quick-refrence-guide/Contracts/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Contracts
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../quick-refrence-guide/Customers/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Customers
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../quick-refrence-guide/DAC%20Colors/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    DAC Colors
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../quick-refrence-guide/DAC%20Symbols/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    DAC Symbols
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../quick-refrence-guide/Global%20Price%20Changing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Global Price Change
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../quick-refrence-guide/Item%20Location%20Quantity/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Item Location Quantity
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../quick-refrence-guide/Item%20QTY%20Method/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Item Quantity Method
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../quick-refrence-guide/Location%20Quantity%20Transfer/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Location Quantity Transfer
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../quick-refrence-guide/New%20General%20Ledger%20Accounts/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    New General Ledger Accounts
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../quick-refrence-guide/Price%20Inquiry/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Price Inquiry
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../quick-refrence-guide/Purchasing%20QRG/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Purchasing
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../quick-refrence-guide/Voiding%20Posted%20Orders/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Voiding Posted Orders
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    How To
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    How To
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Count%20Right/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    CountRight
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../QuoteSOP/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Quotes
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Receive%20Right/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    RecieveRight
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../shipright/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ShipRight
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Warehouse%20Management%20PutAway/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Warehouse Putaway
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../DAC%20Trader/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    DACSI Trader Portal
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Zen%20and%20the%20art%20of%20Print%20Files/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Printer and Print files
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../DAC%20Equipment%20Manager/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    DAC Equipment Manager
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tax Reporting Modules
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tutorial
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Tutorial
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lorem/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    How to
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lorem/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    How to
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="dac-state-tax-reporting-modules">DAC State Tax Reporting Modules<a class="headerlink" href="#dac-state-tax-reporting-modules" title="Permanent link">&para;</a></h1>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="#alabama-tax-reporting">Alabama Tax Reporting</a></td>
+<td><a href="#new-york-tax-reporting">New York Tax Reporting</a></td>
+</tr>
+<tr>
+<td><a href="#arkansas-tax-reporting">Arkansas Tax Reporting</a></td>
+<td><a href="#ohio-tax-reporting">Ohio Tax Reporting</a></td>
+</tr>
+<tr>
+<td><a href="#florida-tax-reporting">Florida Tax Reporting</a></td>
+<td><a href="#oklahoma-tax-reporting">Oklahoma Tax Reporting</a></td>
+</tr>
+<tr>
+<td><a href="#georgia-tax-reporting">Georgia Tax Reporting</a></td>
+<td><a href="#oregon-tax-reporting">Oregon Tax Reporting</a></td>
+</tr>
+<tr>
+<td><a href="#iowa-pact-act-tax-reporting">Iowa PACT ACT Tax Reporting</a></td>
+<td><a href="#pennsylvania-tax-report">Pennsylvania Tax Reporting</a></td>
+</tr>
+<tr>
+<td><a href="#illinois-cigarette-tax-reporting">Illinois Tax Reporting</a></td>
+<td><a href="#tennessee-tax-reporting">Tennessee Tax Reporting</a></td>
+</tr>
+<tr>
+<td><a href="#indiana-tax-reporting">Indiana Tax Reporting</a></td>
+<td><a href="#texas-tax-reporting">Texas Tax Reporting</a></td>
+</tr>
+<tr>
+<td><a href="#kentucky-tax-reporting">Kentucky Tax Reporting</a></td>
+<td><a href="#virginia-pact-act-tax-reporting">Virginia Pact ACT Tax Reporting</a></td>
+</tr>
+<tr>
+<td><a href="#louisiana-tax-reporting">Louisiana Tax Reporting</a></td>
+<td><a href="#washington-tax-reporting">Washington Tax Reporting</a></td>
+</tr>
+<tr>
+<td><a href="#michigan-tax-reporting">Michigan Tax Reporting</a></td>
+<td><a href="#wisconsin-tax-reporting">Wisconsin Tax Reporting</a></td>
+</tr>
+<tr>
+<td><a href="#missouri-pact-act-tax-reporting">Missouri PACT ACT Tax Reporting</a></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h1 id="state-reporting">State Reporting<a class="headerlink" href="#state-reporting" title="Permanent link">&para;</a></h1>
+<h2 id="alabama-tax-reporting">Alabama Tax Reporting<a class="headerlink" href="#alabama-tax-reporting" title="Permanent link">&para;</a></h2>
+<h3 id="al-files-created">AL Files Created<a class="headerlink" href="#al-files-created" title="Permanent link">&para;</a></h3>
+<p>The following files are created in CV1COM:</p>
+<blockquote>
+<p>AL- Alabma, YY- Year, MM- Month</p>
+</blockquote>
+<ul>
+<li>Schedule D Participating - ALYYMM.CSV </li>
+<li>Schedule D Non-Participating - ALYYMMNP.CSV </li>
+<li>Sales to National Guard - ALYYMMP3.CSV </li>
+<li>Sales to US Government - ALYYMMP4.CSV </li>
+<li>Sales to Indian Reservations - ALYYMMP5.CSV </li>
+<li>AL Tobacco Sales for Resale - ALYYMMTI.CSV </li>
+</ul>
+<h3 id="generating-al-tax-report">Generating AL Tax Report<a class="headerlink" href="#generating-al-tax-report" title="Permanent link">&para;</a></h3>
+<p>The Alabama Tax Reporting reports can be generated from Build AL Tax File option in the State Tax Reporing Menu accessible from 6, 7, 22, 6.</p>
+<p>Customers can be excluded from the Alabama Resale Format using F8.</p>
+<h3 id="al-tax-report-setup">AL Tax Report Setup<a class="headerlink" href="#al-tax-report-setup" title="Permanent link">&para;</a></h3>
+<ul class="task-list">
+<li class="task-list-item"><input type="checkbox"/> Setup vendor group for Non-Participating Vendors to mark as non-participating. 5, 11.</li>
+<li class="task-list-item"><input type="checkbox"/> Identify Tax classes that are RYO Tobacco Items. 1, 2, 7. </li>
+<li class="task-list-item"><input type="checkbox"/> RYO items need to have ounces defined in UM1 field on those items. 1, 2, 1.</li>
+<li class="task-list-item"><input type="checkbox"/> Brand names will need to be defined or first 10 characters of the item description will be used. Brand codes can be added to an item from 1, 2, 1, and 2 to edit item, F24- Edit Item Extension. Brand codes can be created using F4 in the BRAND field, and then using F10 to Edit the Brand Master File, and F9 to go to "add" mode. </li>
+</ul>
+<h2 id="arkansas-tax-reporting">Arkansas Tax Reporting<a class="headerlink" href="#arkansas-tax-reporting" title="Permanent link">&para;</a></h2>
+<h3 id="ar-files-created">AR Files Created<a class="headerlink" href="#ar-files-created" title="Permanent link">&para;</a></h3>
+<p>The following files are created in CV1COM:</p>
+<blockquote>
+<p>AR-Arkansas, YY- Year, MM- Month</p>
+</blockquote>
+<ul>
+<li>Cigarette and Tobacco File - AAYYMM.CSV</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Information included in report</th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Permit Number</td>
+<td>Zip Code</td>
+<td>Product Type</td>
+</tr>
+<tr>
+<td>Name</td>
+<td>Product Description</td>
+<td>Tobacco Brand</td>
+</tr>
+<tr>
+<td>Street Address</td>
+<td>Unit</td>
+<td>Tobacco Flavor</td>
+</tr>
+<tr>
+<td>City</td>
+<td>Quantity</td>
+<td>Tobacco Style</td>
+</tr>
+<tr>
+<td>State</td>
+<td>Invoice Number</td>
+<td>Package Quantity</td>
+</tr>
+</tbody>
+</table>
+<h3 id="generating-ar-tax-report">Generating AR Tax Report<a class="headerlink" href="#generating-ar-tax-report" title="Permanent link">&para;</a></h3>
+<p>The Arkansas Tax Reporting reports can be generated from Build AR Tax File option in the State Tax Reporing Menu accessible from 6, 7, 22, 11.</p>
+<h3 id="setup">Setup<a class="headerlink" href="#setup" title="Permanent link">&para;</a></h3>
+<ul class="task-list">
+<li class="task-list-item"><input type="checkbox"/> Setup vendor group for Non-Participating Vendors to mark as non-participating. 5, 11.</li>
+<li class="task-list-item"><input type="checkbox"/> Identify Tax classes that are RYO Tobacco Items. 1, 2, 7. </li>
+<li class="task-list-item"><input type="checkbox"/> RYO items need to have ounces defined in UM1 field on those items. 1, 2, 1.</li>
+<li class="task-list-item"><input type="checkbox"/> Brand names will need to be defined or first 10 characters of the item description will be used. Brand codes can be added to an item from 1, 2, 1, and 2 to edit item, F24- Edit Item Extension. Brand codes can be created using F4 in the BRAND field, and then using F10 to Edit the Brand Master File, and F9 to go to "add" mode. </li>
+</ul>
+<h2 id="florida-tax-reporting">Florida Tax Reporting<a class="headerlink" href="#florida-tax-reporting" title="Permanent link">&para;</a></h2>
+<h3 id="fl-files-created">FL Files Created<a class="headerlink" href="#fl-files-created" title="Permanent link">&para;</a></h3>
+<p>The following files are created in CV1COM:</p>
+<blockquote>
+<p>FL-Florida, YY- Year, MM- Month
+- Single record format - FLYYMMDD.CSV
+- Multiple record format - FLYYMM.TXT
+<em>Version determined by system option</em></p>
+</blockquote>
+<h3 id="generating-fl-tax-report">Generating FL Tax Report<a class="headerlink" href="#generating-fl-tax-report" title="Permanent link">&para;</a></h3>
+<p>The Florida Tax Reporting reports can be generated from Build FL Tax File option in the State Tax Reporing Menu accessible from 6, 7, 22, 19, 4.</p>
+<p>You can use F8 to add Entity ID's by customer.</p>
+<h3 id="fl-tax-report-setup">FL Tax Report Setup<a class="headerlink" href="#fl-tax-report-setup" title="Permanent link">&para;</a></h3>
+<h2 id="georgia-tax-reporting">Georgia Tax Reporting<a class="headerlink" href="#georgia-tax-reporting" title="Permanent link">&para;</a></h2>
+<h3 id="ga-files-created">GA Files Created<a class="headerlink" href="#ga-files-created" title="Permanent link">&para;</a></h3>
+<p>The following files are created in CV1COM:</p>
+<blockquote>
+<p>GA- Georgia, YY- Year, MM- Month
+- Cigarette and RYO Tobacco Sales - GAYYMM.CSV</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>Information included in report</th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>MFG #</td>
+<td>Customer Number</td>
+<td>State</td>
+</tr>
+<tr>
+<td>MFG Name</td>
+<td>Customer Name</td>
+<td>Invoice Number</td>
+</tr>
+<tr>
+<td>Brand</td>
+<td>Address</td>
+<td>Cigarette Sticks</td>
+</tr>
+<tr>
+<td>Date Sold</td>
+<td>City</td>
+<td>RYO Units</td>
+</tr>
+</tbody>
+</table>
+<h3 id="generating-ga-tax-report">Generating GA Tax Report<a class="headerlink" href="#generating-ga-tax-report" title="Permanent link">&para;</a></h3>
+<p>The Georgia Tax Reporting reports can be generated from Build GA Tax File option in the State Tax Reporing Menu accessible from 6, 7, 22, 5.</p>
+<h3 id="ga-tax-report-setup">GA Tax Report Setup<a class="headerlink" href="#ga-tax-report-setup" title="Permanent link">&para;</a></h3>
+<h2 id="iowa-pact-act-tax-reporting">Iowa PACT ACT Tax Reporting<a class="headerlink" href="#iowa-pact-act-tax-reporting" title="Permanent link">&para;</a></h2>
+<h3 id="ia-files-created">IA Files Created<a class="headerlink" href="#ia-files-created" title="Permanent link">&para;</a></h3>
+<p>The Iowa Pact Act Tax file generates 2 files for cigarette and tobacco sales data in the root directory:
+- Detail- ################.DTL
+- Header- ################.HDR</p>
+<h3 id="generating-ia-tax-report">Generating IA Tax Report<a class="headerlink" href="#generating-ia-tax-report" title="Permanent link">&para;</a></h3>
+<p>The Iowa Tax Reporting reports can be generated from Build IA/IL PACT Act File option in the State Tax Reporing Menu accessible from 6, 7, 22, 9.</p>
+<p>Additional items can be defined on the report with the F8 option.</p>
+<h3 id="ia-tax-report-setup">IA Tax Report Setup<a class="headerlink" href="#ia-tax-report-setup" title="Permanent link">&para;</a></h3>
+<h2 id="illinois-cigarette-tax-reporting">Illinois Cigarette Tax Reporting<a class="headerlink" href="#illinois-cigarette-tax-reporting" title="Permanent link">&para;</a></h2>
+<h3 id="il-cigarette-files-created">IL Cigarette Files Created<a class="headerlink" href="#il-cigarette-files-created" title="Permanent link">&para;</a></h3>
+<p>The following files are created in CV1COM:
+- Illinois Cigarette Data file - ILCIGS.DAT</p>
+<h3 id="generating-il-cigarette-tax-report">Generating IL Cigarette Tax Report<a class="headerlink" href="#generating-il-cigarette-tax-report" title="Permanent link">&para;</a></h3>
+<p>The Illinois Tax Reporting reports can be generated from Build IL Tax File option in the State Tax Reporing Menu accessible from 6, 7, 22, 4. </p>
+<p>Additional items can be defined on the report with the F8 option.</p>
+<h3 id="illinois-tobacco-tax-reporting">Illinois Tobacco Tax Reporting<a class="headerlink" href="#illinois-tobacco-tax-reporting" title="Permanent link">&para;</a></h3>
+<h4 id="il-tobacco-files-created">IL Tobacco Files Created<a class="headerlink" href="#il-tobacco-files-created" title="Permanent link">&para;</a></h4>
+<p>The following files are created in ILTAX folder:
+- Illinois Tobacco Data file - TP-1-IL.CSV</p>
+<h4 id="generating-il-tobacco-tax-report">Generating IL Tobacco Tax Report<a class="headerlink" href="#generating-il-tobacco-tax-report" title="Permanent link">&para;</a></h4>
+<p>The Illinois Tobacco Tax Reporting reports can be generated from Build Illinois TP-1-IL File option in the State Tax Reporing Menu accessible from 6, 7, 22, 19, 19, 3. You can use F8 to define the tax jurisdiction cross reference.</p>
+<h3 id="illinois-pact-act-tax-reporting">Illinois PACT ACT Tax Reporting<a class="headerlink" href="#illinois-pact-act-tax-reporting" title="Permanent link">&para;</a></h3>
+<h4 id="il-pact-act-files-created">IL PACT ACT Files Created<a class="headerlink" href="#il-pact-act-files-created" title="Permanent link">&para;</a></h4>
+<p>The Illinois PACT ACT Tax Report generates 2 files for cigarette sales data in the root directory:
+- Detail- ################.DTL
+- Header- ################.HDR</p>
+<h4 id="generating-il-pac-act-report">Generating IL PAC ACT Report<a class="headerlink" href="#generating-il-pac-act-report" title="Permanent link">&para;</a></h4>
+<p>The Illinois Tax Reporting reports can be generated from Build IA/IL PACT Act File option in the State Tax Reporing Menu accessible from 6, 7, 22, 9. You will need to update the state field prior to running the report. </p>
+<p>Additional items to report can be added with the F8 option.</p>
+<h2 id="indiana-tax-reporting">Indiana Tax Reporting<a class="headerlink" href="#indiana-tax-reporting" title="Permanent link">&para;</a></h2>
+<h3 id="in-files-created">IN Files Created<a class="headerlink" href="#in-files-created" title="Permanent link">&para;</a></h3>
+<p>The following files are created for Cigarette and Tobacco in INTAX folder:</p>
+<ul>
+<li>CIGCT19.CSV </li>
+<li>CIGCT19.XML </li>
+<li>CIGMTSI.CSV </li>
+<li>CIGMTS2.CSV </li>
+<li>CIGMTS3.CSV </li>
+<li>CIGNRM.XML </li>
+<li>OTPCT19.CSV </li>
+<li>OTPCT19.XML </li>
+<li>OTPMTSI.CSV </li>
+<li>OTPMTSI.XML</li>
+</ul>
+<h3 id="generating-in-tax-report">Generating IN Tax Report<a class="headerlink" href="#generating-in-tax-report" title="Permanent link">&para;</a></h3>
+<p>The Indiana Tax Reporting reports can be generated from Build KY Tax File option in the State Tax Reporing Menu accessible from 6, 7, 22, 19, 6.</p>
+<p><img alt="Build Tax Files For Indiana" src="../../images/TX_IndianaTaxFile.png" /></p>
+<p>The first start and end dates are for the data as well as a start and end date for including inventory.
+You also have the ability to omit stamp purchases by updating the field to 'N'.</p>
+<h2 id="kentucky-tax-reporting">Kentucky Tax Reporting<a class="headerlink" href="#kentucky-tax-reporting" title="Permanent link">&para;</a></h2>
+<h3 id="ky-files-created">KY Files Created<a class="headerlink" href="#ky-files-created" title="Permanent link">&para;</a></h3>
+<p>The following files are created for Cigarette and Tobacco in the KYTAX folder:</p>
+<blockquote>
+<p><em>These files can be copied to the KDOR_Cigarettes and the KDOR_Tobacco templates</em></p>
+</blockquote>
+<ul>
+<li>Cigarette Inventory Adjustments - CIGINVAJ.CSV &amp; CIGINVAO.CSV </li>
+<li>Beginning Inventory - CIGINVB.CSV </li>
+<li>Ending Inventory - CIGINVE.CSV </li>
+<li>Cigarette Purchases - CIGSAPU.CSV </li>
+<li>Stamp Purchases - STAMPPUR.CSV </li>
+<li>Tobacco Purchases -TOBSAPU.CSV </li>
+</ul>
+<h3 id="generating-ky-tax-report">Generating KY Tax Report<a class="headerlink" href="#generating-ky-tax-report" title="Permanent link">&para;</a></h3>
+<p>The Kentucky Tax Reporting reports can be generated from Build KY Tax File option in the State Tax Reporing Menu accessible from 6, 7, 22, 19, 9.</p>
+<p>Tax Jurisdiction Cross Refrence can be defined with option F8.</p>
+<h2 id="louisiana-tax-reporting">Louisiana Tax Reporting<a class="headerlink" href="#louisiana-tax-reporting" title="Permanent link">&para;</a></h2>
+<h3 id="la-files-created">LA Files Created<a class="headerlink" href="#la-files-created" title="Permanent link">&para;</a></h3>
+<p>The following files are created for Cigarette and Tobacco in the LATAX folder:</p>
+<blockquote>
+<p><em>These files can be copied to the LaTAP_Tobacco_Tax_template file</em></p>
+</blockquote>
+<ul>
+<li>Cigarette and RYO Sales - CIGRYOSA.CSV </li>
+<li>Cigarette and Tobacco Purchases - CIGTOBPU.CSV </li>
+<li>Cigarette and Tobacco Credits - CIGTOBCR.CSV  </li>
+</ul>
+<h3 id="generating-la-tax-report">Generating LA Tax Report<a class="headerlink" href="#generating-la-tax-report" title="Permanent link">&para;</a></h3>
+<p>The Louisiana Tax Reporting reports can be generated from Build LA Tax File option in the State Tax Reporing Menu accessible from 6, 7, 22, 19, 7.</p>
+<p>You have the ability to enter Manufacturer Returns with the F8 option.</p>
+<h2 id="michigan-tax-reporting">Michigan Tax Reporting<a class="headerlink" href="#michigan-tax-reporting" title="Permanent link">&para;</a></h2>
+<h3 id="mi-files-created">MI Files Created<a class="headerlink" href="#mi-files-created" title="Permanent link">&para;</a></h3>
+<p>The following files are created for Cigarette and Tobacco in the MITAX folder:</p>
+<ul>
+<li>Cigarette Purchases (Receipts) in Michigan - C101A.CSV     </li>
+<li>Cigarette Purchases (Wholesalers or Secondary Wholesalers Only) - C101B.CSV  </li>
+<li>Returned Stamped (Tax-Paid) Cigarettes from Michigan Customers - C101C.CSV  </li>
+<li>Out-of-State Cigarette Shipments (Michigan Based Licensees Exports Only) - C103.CSV   </li>
+<li>Cigarette Sales in Michigan from Tax-Unpaid Inventory - C108B.CSV </li>
+<li>Cigarette Sales from Tax-Paid Inventory - C108C.CSV </li>
+<li>Tax-Unpaid Other Tobacco Product Purchases for Michigan (Michigan Based Licensees Only) - T101A.CSV </li>
+<li>Tax-Paid Other Tobacco Product Purchases (Wholesalers Only) - T101B.CSV </li>
+<li>Tax-Paid Other Tobacco Product from Michigan Customers - T101C.CSV </li>
+<li>Out-of-State Other Tobacco Product Shipments (Michigan Based Licensees Exports Only) - T103.CSV   </li>
+<li>Tobacco Product Sales in Michigan from Tax-Unpaid Inventory - T108B.CSV  </li>
+<li>Other Tobacco Product Sales from Tax-Paid Inventory - T108C.CSV  </li>
+</ul>
+<h3 id="generating-mi-tax-report">Generating MI Tax Report<a class="headerlink" href="#generating-mi-tax-report" title="Permanent link">&para;</a></h3>
+<p>The Michigan Tax Reporting reports can be generated from Build MI Tax File option in the State Tax Reporing Menu accessible from 6, 7, 22, 19, 2.</p>
+<p>The Cigarette or Tobacco files can be generated with the Tax type 'C' for Cigarettes or 'T' for Tobacco.</p>
+<h2 id="missouri-pact-act-tax-reporting">Missouri PACT ACT Tax Reporting<a class="headerlink" href="#missouri-pact-act-tax-reporting" title="Permanent link">&para;</a></h2>
+<h3 id="mo-files-created">MO Files Created<a class="headerlink" href="#mo-files-created" title="Permanent link">&para;</a></h3>
+<p>The following files are created for Cigarette and Tobacco in the CV1COM folder:</p>
+<ul>
+<li>Cigarettes - MOPACTCG.CSV</li>
+<li>Tobacco- MOPACTTB.CSV</li>
+</ul>
+<h3 id="generating-mo-tax-report">Generating MO Tax Report<a class="headerlink" href="#generating-mo-tax-report" title="Permanent link">&para;</a></h3>
+<p>The Missouri PACT ACT Tax Reporting reports can be generated from Build MO PACT ACT File option in the State Tax Reporing Menu accessible from 6, 7, 22, 19, 3.</p>
+<h2 id="new-york-tax-reporting">New York Tax Reporting<a class="headerlink" href="#new-york-tax-reporting" title="Permanent link">&para;</a></h2>
+<h3 id="ny-files-created">NY Files Created<a class="headerlink" href="#ny-files-created" title="Permanent link">&para;</a></h3>
+<p>A single file is created for Cigarette and Tobacco sales in the CV1COM folder:</p>
+<ul>
+<li>NYDATA.TXT</li>
+</ul>
+<h3 id="generating-ny-tax-report">Generating NY Tax Report<a class="headerlink" href="#generating-ny-tax-report" title="Permanent link">&para;</a></h3>
+<p>The New York Tax Reporting reports can be generated from Build NY Tax File option in the State Tax Reporing Menu accessible from 6, 7, 22, 3.</p>
+<h2 id="ohio-tax-reporting">Ohio Tax Reporting<a class="headerlink" href="#ohio-tax-reporting" title="Permanent link">&para;</a></h2>
+<h3 id="tax-reporting">Tax Reporting<a class="headerlink" href="#tax-reporting" title="Permanent link">&para;</a></h3>
+<p>The following files are created for Cigarette and Tobacco Sales and Purchases in the OHTAX folder:</p>
+<ul>
+<li>CIGS##########WH1.TXT</li>
+<li>OTP#########.TXT</li>
+</ul>
+<p>The Ohio Tax Reporting reports can be generated from Build OH Tax File option in the State Tax Reporing Menu accessible from 6, 7, 22, 19, 2.</p>
+<p>You have the ability to enter Manufacturer Returns with the F8 option.</p>
+<p>Out-of-state Tax Reporting files will generate when using the 'N' option for the "In State Distributor" field.</p>
+<h3 id="out-of-state-cigarette-sales-reporting">Out Of State Cigarette Sales Reporting<a class="headerlink" href="#out-of-state-cigarette-sales-reporting" title="Permanent link">&para;</a></h3>
+<p>The following files are created for Cigarette and Tobacco Sales and Purchases in the DACEMAIL folder:</p>
+<blockquote>
+<p>XX = State Abbreviation</p>
+</blockquote>
+<ul>
+<li>XXCIGSLS.CSV</li>
+</ul>
+<p>The Ohio Out of State Cigarette Sales Reporting reports can be generated from Build OH Out of State Cigarette Sales option in the State Tax Reporing Menu accessible from 6, 7, 22, 19, 19, 2.</p>
+<h2 id="oklahoma-tax-reporting">Oklahoma Tax Reporting<a class="headerlink" href="#oklahoma-tax-reporting" title="Permanent link">&para;</a></h2>
+<h3 id="ok-files-created">OK Files Created<a class="headerlink" href="#ok-files-created" title="Permanent link">&para;</a></h3>
+<p>The following files are created for Cigarette and RYO Tobacco Sales in the CV1COM folder:</p>
+<blockquote>
+<p>OK-Oklahoma, YY- Year, MM- Month</p>
+</blockquote>
+<ul>
+<li>OKYYMM.CSV</li>
+</ul>
+<h3 id="generating-ok-tax-report">Generating OK Tax Report<a class="headerlink" href="#generating-ok-tax-report" title="Permanent link">&para;</a></h3>
+<p>The Oklahoma Tax Reporting reports can be generated from Build OK Tax File option in the State Tax Reporing Menu accessible from 6, 7, 22, 10.</p>
+<p>Out-of-state Tax Reporting files will generate when using the 'N' option for the "In State Distributor" field.</p>
+<h2 id="oregon-tax-reporting">Oregon Tax Reporting<a class="headerlink" href="#oregon-tax-reporting" title="Permanent link">&para;</a></h2>
+<h3 id="or-files-created">OR Files Created<a class="headerlink" href="#or-files-created" title="Permanent link">&para;</a></h3>
+<p>The following files are created for Tobacco Sales and Purchase in the DACEMAIL folder:</p>
+<blockquote>
+<p><em>The .PDF files are automatically emailed</em></p>
+</blockquote>
+<ul>
+<li>ORSCH1A.CSV </li>
+<li>ORSCH1A.PDF   </li>
+<li>ORSCH2A.PDF  </li>
+<li>ORSCH3A.PDF  </li>
+<li>ORSCH4A.PDF  </li>
+<li>ORSCH5A.PDF  </li>
+<li>ORSCH6A.PDF  </li>
+<li>ORSCH7A.PDF  </li>
+<li>ORSCH8A.PDF </li>
+</ul>
+<h3 id="generating-or-tax-report">Generating OR Tax Report<a class="headerlink" href="#generating-or-tax-report" title="Permanent link">&para;</a></h3>
+<p>The Oregon Tax Reporting reports can be generated from Build OR Tax File option in the State Tax Reporing Menu accessible from 6, 7, 22, 19, 8.</p>
+<h2 id="pennsylvania-tax-reporting">Pennsylvania Tax Reporting<a class="headerlink" href="#pennsylvania-tax-reporting" title="Permanent link">&para;</a></h2>
+<h3 id="pa-tax-reporting">PA Tax Reporting<a class="headerlink" href="#pa-tax-reporting" title="Permanent link">&para;</a></h3>
+<h4 id="pa-files-created">PA Files Created<a class="headerlink" href="#pa-files-created" title="Permanent link">&para;</a></h4>
+<p>The following files are created for Cigarette and Tobacco Sales and Returns in the PATAX folder:</p>
+<ul>
+<li>DAS-95.CSV  -  Details For DAS-95               </li>
+<li>REV1042E.CSV - In State ECIGS-Distributors      </li>
+<li>REV1042R.CSV - In State RYO-Distributors        </li>
+<li>REV1042S.CSV - In State Smokeless-Distributors  </li>
+<li>REV1142.CSV -  Unstampable LittleCigars In PA   </li>
+<li>REV1163.CSV -  Cigarette Sales Into PA-PACT ACT </li>
+<li>REV1164.CSV -  Tobacco Sales Into PA-PACT ACT     </li>
+<li>REV1808.CSV -  In State RYO Sales-NPM             </li>
+<li>REV1808D.CSV - Details For In State RYO Sales-NPM </li>
+<li>REV679A.CSV -  In State Smokeless-Retailers       </li>
+<li>REV679B.CSV -  In State RYO-Retailers             </li>
+<li>REV679C.CSV -  In State ECIGS-Retailers           </li>
+<li>REV679DE.CSV - Out Of State ECIGS-All Custs       </li>
+<li>REV679DR.CSV - Out Of State RYO-All Custs </li>
+<li>REV679DS.CSV - Out Of State Smokeless-All Custs   </li>
+<li>REV679EE.CSV - Products Returned To MFR-ECIGS     </li>
+<li>REV679ER.CSV - Products Returned To MFR-RYO       </li>
+<li>REV679ES.CSV - Products Returned To MFR-Smokeless</li>
+</ul>
+<h4 id="generating-pa-tax-report">Generating PA Tax Report<a class="headerlink" href="#generating-pa-tax-report" title="Permanent link">&para;</a></h4>
+<p>The Pennsylvania Tax Reporting reports can be generated from Build PA Tax File option in the State Tax Reporing Menu accessible from 6, 7, 22, 19, 1.</p>
+<p>You have the ability to add vendors to the DAS-95 file with the F8 option.</p>
+<h3 id="pa-consolidated-cigarette-files">PA Consolidated Cigarette Files<a class="headerlink" href="#pa-consolidated-cigarette-files" title="Permanent link">&para;</a></h3>
+<h4 id="pa-consolidated-files-created">PA Consolidated Files Created<a class="headerlink" href="#pa-consolidated-files-created" title="Permanent link">&para;</a></h4>
+<p>The following files are created for Cigarette and Tobacco Sales and Returns in the PATAX folder:</p>
+<ul>
+<li>CIGCONS.CSV</li>
+<li>CIGINV.CSV</li>
+</ul>
+<h4 id="generating-pa-consolidated-cigarette-report">Generating PA Consolidated Cigarette Report<a class="headerlink" href="#generating-pa-consolidated-cigarette-report" title="Permanent link">&para;</a></h4>
+<p>The Pennsylvania Consolidated Cigarette Files can be generated from Build PA Consolidated Cigarette Files option in the State Tax Reporing Menu accessible from 6, 7, 22, 19, 19, 1.</p>
+<p>You have the option to enter Manufacturer Returns to the file with the F7 option.</p>
+<h2 id="tennessee-tax-reporting">Tennessee Tax Reporting<a class="headerlink" href="#tennessee-tax-reporting" title="Permanent link">&para;</a></h2>
+<h3 id="tennessee-ldr-tax-reporting">Tennessee LDR Tax Reporting<a class="headerlink" href="#tennessee-ldr-tax-reporting" title="Permanent link">&para;</a></h3>
+<h4 id="tn-ldr-files-created">TN LDR Files Created<a class="headerlink" href="#tn-ldr-files-created" title="Permanent link">&para;</a></h4>
+<p>A single file is created for the LDR Report in the CV1COM folder:</p>
+<ul>
+<li>TNLDRV2.CSV</li>
+</ul>
+<h4 id="generating-tn-ldr-tax-report">Generating TN LDR Tax Report<a class="headerlink" href="#generating-tn-ldr-tax-report" title="Permanent link">&para;</a></h4>
+<p>The Tennesse LDR Tax Reporting files can be generated from Build TN Tax File option in the State Tax Reporing Menu accessible from 6, 7, 22, 7.</p>
+<p><img alt="Build Tax File for TN" src="../../images/TX_TNTaxFile.png" /></p>
+<blockquote>
+<p><em>Version 2- LDR must be selected for creating the LDR version of the files.</em></p>
+</blockquote>
+<p>Out-of-state Tax Reporting files will generate when using the 'N' option for the "In State Distributor" field.</p>
+<p>You have the ability to Define LDR State Manufacturers with the F18 option.</p>
+<h4 id="setup-for-tn-ldr-tax-reporting">Setup for TN LDR Tax Reporting<a class="headerlink" href="#setup-for-tn-ldr-tax-reporting" title="Permanent link">&para;</a></h4>
+<p>Needed PTF's for setup: PTF13060, PTF12801.</p>
+<p>System Option SYS045 will also need to be updated
+<strong>TN LDR: SEND ONLY TN SALES</strong> set to <em>YES.
+</em><em>LIMIT DATA SENT FOR TN LDR</em><em> set to </em>YES.
+(<em>OPTIONAL</em>) <strong>TN LDR: RETURNS AFFECT STAMPING</strong></p>
+<ul class="task-list">
+<li class="task-list-item"><input type="checkbox"/> You must define the tax classes with a TAX TYPE "T": 1, 2, 7. <img alt="Tennessee LDR Tax Reporting Tax Class Setup" src="../../images/TX_TNLDRTaxReportingTaxClassSetup.jpg" /></li>
+<li class="task-list-item"><input type="checkbox"/> You must define the state brand codes. This information is supplied from the state of TN. The state brand codes must tie to a valid brand code assaigned to the item. Use 1, 2, 20, 10 to edit State Brand Codes.<img alt="Tennessee LDR Tax Reporting Brand Codes" src="../../images/TX_TNLDRTaxReportingStateBrandCodes.jpg" /></li>
+<li class="task-list-item"><input type="checkbox"/> Assaign brand codes to items. Use 1, 2, 1 – Work With Items, Use a ‘2’ to edit the item, and use F24 for Extended Item Information and F4 on the BRAND field to assign the Item Brand Code.  </li>
+<li class="task-list-item"><input type="checkbox"/> You must define the appropriate vendors with their Tennessee Manufacturer IDs. This information can be acquired from your contact with the state of TN. From the main DAC menu: 6, 7, 22, 7 - Build TN Tax File Use F18 to add records. <img alt="Tennessee LDR Tax Reporting MFR ID" src="../../images/TX_TNLDRTaxReportingTNMFRID.png" /></li>
+<li class="task-list-item"><input type="checkbox"/> Create the LDR Tax File from  6, 7, 22, 7, and using VERSION 2. You must enter the warehouse code, dates for invoices, as well as dates for inventory. Enter the applicable value for IN STATE DISTRIBUTOR. The file TNLDRVR.CSV can be found in CV1COM folder. </li>
+</ul>
+<h3 id="tennessee-rap-tax-reporting">Tennessee RAP Tax Reporting<a class="headerlink" href="#tennessee-rap-tax-reporting" title="Permanent link">&para;</a></h3>
+<h4 id="tn-rap-files-created">TN RAP Files Created<a class="headerlink" href="#tn-rap-files-created" title="Permanent link">&para;</a></h4>
+<p>A single file is created for the RAP Report in the CV1COM folder:</p>
+<ul>
+<li>TNTAXF.CSV</li>
+</ul>
+<h4 id="generating-the-tn-rap-report">Generating the TN RAP Report<a class="headerlink" href="#generating-the-tn-rap-report" title="Permanent link">&para;</a></h4>
+<p>The Tennesse RAP Tax Reporting files can be generated from Build TN Tax File option in the State Tax Reporing Menu accessible from 6, 7, 22, 7.</p>
+<blockquote>
+<p><em>Version 1- RAP must be selected for creating the RAP version of the files.</em></p>
+</blockquote>
+<p>Out-of-state Tax Reporting files will generate when using the 'N' option for the "In State Distributor" field.</p>
+<p>You have the ability to Define Items for RAP with the F8 option.</p>
+<h4 id="setup-tn-rap-tax-reporting">Setup TN RAP Tax Reporting<a class="headerlink" href="#setup-tn-rap-tax-reporting" title="Permanent link">&para;</a></h4>
+<p>Once the TN Reporting module is activated (DAC003 TN Reporting Active= 1), You will need to define the Distributor ID for TN in SYS054: Distributor ID for TN. </p>
+<p>Setup TN Items for RAP reporting from 6, 7, 22, 7, F8.</p>
+<p>Setup NACS Categories from 10, 2, 9, Work with NACS Categories. </p>
+<h3 id="tennessee-pact-act-reporting">Tennessee PACT ACT Reporting<a class="headerlink" href="#tennessee-pact-act-reporting" title="Permanent link">&para;</a></h3>
+<h4 id="tn-pact-act-files-created">TN PACT ACT Files Created<a class="headerlink" href="#tn-pact-act-files-created" title="Permanent link">&para;</a></h4>
+<p>A single file is created for the Tennessee Pact Act in the CV1COM folder:</p>
+<ul>
+<li>TNPACTV2.CSV</li>
+</ul>
+<h4 id="generating-tn-pact-act-report">Generating TN PACT ACT Report<a class="headerlink" href="#generating-tn-pact-act-report" title="Permanent link">&para;</a></h4>
+<p>The Tennesse PACT ACT Reporting files can be generated from Build TN Tax File option in the State Tax Reporing Menu accessible from 6, 7, 22, 8.</p>
+<h4 id="setup-tn-pact-act-reporting">Setup TN PACT ACT Reporting<a class="headerlink" href="#setup-tn-pact-act-reporting" title="Permanent link">&para;</a></h4>
+<h2 id="texas-tax-reporting">Texas Tax Reporting<a class="headerlink" href="#texas-tax-reporting" title="Permanent link">&para;</a></h2>
+<h3 id="tx-files-created">TX Files Created<a class="headerlink" href="#tx-files-created" title="Permanent link">&para;</a></h3>
+<p>A single file is created for Cigarette and Tobacco Sales in the CV1COM folder:</p>
+<ul>
+<li>TXTAXF.DAT</li>
+</ul>
+<h3 id="generating-tx-tax-report">Generating TX Tax Report<a class="headerlink" href="#generating-tx-tax-report" title="Permanent link">&para;</a></h3>
+<p>The Texas Tax Reporting files can be generated from Build TX Tax File option in the State Tax Reporing Menu accessible from 6, 7, 22, 1.</p>
+<p>You have the ability to Edit Non-participating Vendors with the F9 option.</p>
+<h2 id="virginia-pact-act-tax-reporting">Virginia PACT ACT Tax Reporting<a class="headerlink" href="#virginia-pact-act-tax-reporting" title="Permanent link">&para;</a></h2>
+<h3 id="va-files-created">VA Files Created<a class="headerlink" href="#va-files-created" title="Permanent link">&para;</a></h3>
+<p>The Viginia PACT ACT Tax Report is a single printed report with the filename:</p>
+<ul>
+<li>HWM7PFR$</li>
+</ul>
+<h3 id="generating-va-tax-report">Generating VA Tax Report<a class="headerlink" href="#generating-va-tax-report" title="Permanent link">&para;</a></h3>
+<p>The Viginia PACT ACT Tax Report can be generated from Print VA PACT Act Report option in the State Tax Reporing Menu accessible from 6, 7, 22, 19, 11.</p>
+<h2 id="washington-tax-reporting">Washington Tax Reporting<a class="headerlink" href="#washington-tax-reporting" title="Permanent link">&para;</a></h2>
+<h3 id="wa-files-created">WA Files Created<a class="headerlink" href="#wa-files-created" title="Permanent link">&para;</a></h3>
+<p>The following files are created for Cigarette and Tobacco Sales in the WATAX folder:</p>
+<ul>
+<li>Cigarettes - WACIG.CSV</li>
+<li>RYO - WARYO.CSV</li>
+<li>Smokeless - WASMKLES.CSV</li>
+</ul>
+<h4 id="generating-wa-tax-report">Generating WA Tax Report<a class="headerlink" href="#generating-wa-tax-report" title="Permanent link">&para;</a></h4>
+<p>The Washington Tax Reporting reports can be generated from Build WA Tax File option in the State Tax Reporing Menu accessible from 6, 7, 22, 19, 10.</p>
+<p>Out-of-state Tax Reporting files will generate when using the 'N' option for the "In State Distributor" field.</p>
+<h2 id="wisconsin-tax-reporting">Wisconsin Tax Reporting<a class="headerlink" href="#wisconsin-tax-reporting" title="Permanent link">&para;</a></h2>
+<h3 id="wi-files-created">WI Files Created<a class="headerlink" href="#wi-files-created" title="Permanent link">&para;</a></h3>
+<p>The following files are created for Cigarette and Tobacco Sales in the WITAX folder:</p>
+<ul>
+<li>Cigarettes - CIGMMYY.CSV</li>
+<li>Tobacco - TOBMMYY.CSV</li>
+</ul>
+<h3 id="generating-wa-tax-report_1">Generating WA Tax Report<a class="headerlink" href="#generating-wa-tax-report_1" title="Permanent link">&para;</a></h3>
+<p>The Wisconsin Tax Reporting reports can be generated from Build WI Tax File option in the State Tax Reporing Menu accessible from 6, 7, 22, 19, 5.</p>
+<p>Out-of-state Tax Reporting files will generate when using the 'N' option for the "In State Distributor" field.</p>
+<p>You have the ability to Edit Vendor Info with the F8 option.
+You can edit the vendor name with option F18.</p>
+<h1 id="system-options">System Options<a class="headerlink" href="#system-options" title="Permanent link">&para;</a></h1>
+<h2 id="common-system-options">Common System Options<a class="headerlink" href="#common-system-options" title="Permanent link">&para;</a></h2>
+<p>SYS054
+<img alt="Edit Tax Reporting Options Page 1" src="../../images/SYS054.png" />
+<img alt="Edit Tax Reporting Options Page 2" src="../../images/SYS0054Pg2.png" /></p>
+<p>SYS070</p>
+<p><img alt="Edit Tax Reporting Options #2" src="../../images/SYS070.png" />
+<img alt="Edit Tax Reporting Options #2 Page 2" src="../../images/SYS070Pg2.png" /></p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../DAC%20Equipment%20Manager/" class="md-footer__link md-footer__link--prev" aria-label="Previous: DAC Equipment Manager">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                DAC Equipment Manager
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../../lorem/" class="md-footer__link md-footer__link--next" aria-label="Next: How to">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                How to
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["announce.dismiss", "content.action.edit", "content.action.view", "content.code.annotate", "content.code.copy", "content.tooltips", "navigation.footer", "navigation.indexes", "navigation.sections", "navigation.tabs", "navigation.top", "navigation.tracking", "search.highlight", "search.share", "search.suggest", "toc.follow"], "search": "../../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.e71a0d61.min.js"></script>
+      
+    
+  </body>
+</html>
