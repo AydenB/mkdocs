@@ -40,7 +40,7 @@ After adding the calendar records for an upcoming year, the Edit Calendar File a
 ## Troubleshooting
 
 ### Week 53:
-Cumulative sales reports only have 52 weeks accounted for. It is recommended that you update your calendar's 53rd week so that you include the days falling into week 53 into either week 52 or into week 1.
+Cumulative sales reports only have 52 weeks accounted for. It is recommended that you update your calendar's 53rd week so that you include the days falling into week 53 into either week 52 and running EOY on 12/26/25 along with your EOD/EOW/EOP.
 
 Below is an example of a week 53 being updated so that week 53 is included into week 1. 
 ![alt text](EditCalendarFile53.png)
