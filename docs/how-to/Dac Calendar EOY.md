@@ -6,7 +6,7 @@ This guide outlines the steps required to create the new calendar year and verif
 Calendar records are created one year at a time and must exist before closing the current year. If you are on a fiscal year, this may have already been completed. DAC Calendar users are expected to create a new calendar for the 2026 year. 
 
 ## Verify Current Calendar Format
-Before creating the new year’s calendar, confirm that the format is correct for EOD (End of Day) and EOW (End of Week) processes.
+Before creating the new year’s calendar, confirm that the format is correct for EOD (End of Day) and EOW (End of Week), and EOP (End of Period) processes.
 
 **Steps:**
 
@@ -27,7 +27,7 @@ Once the current calendar format is confirmed you can generate the new year.
 4. Press F10 to generate the new calendar record. 
 
 ## Validating Calendar records
-After adding the calendar records for an upcoming year, the Edit Calendar File application is used to make any necessary changes to the closing dates, and designate on which dates closing procedures will be executed. Please review your holiday dates and update the closing records accordingly. 
+After adding the calendar records for an upcoming year, use the Edit Calendar File application to adjust closing dates and designate which dates will run closing procedures. Please review your holiday dates and update the closing records accordingly. 
 
 1. Review the calendar close dates from 1, 4, 10
 2. Restrict the view to the new year- (010126 for Jan 1, 2026).
@@ -39,15 +39,15 @@ After adding the calendar records for an upcoming year, the Edit Calendar File a
 
 ## <B> Troubleshooting </B>
 
-### <B> Week 53:</B>
-Cumulative sales reports only account for 52 weeks. It is recommended that you update your calendar's 53rd week so that you include the days falling into week 53 into week 52 and running EOY on 12/26/25 along with your EOD/EOW/EOP.
+### <B> Week 53</B>
+Cumulative sales reports only account for 52 weeks. It is recommended that you adjust your calendar if a 53rd week occurs. Move the days falling in Week 53 into Week 52, and run EOY on 12/26/25 along with your EOD/EOW/EOP.
 
 Below is an example of a week 53 being updated so that week 53 is included into week 1. 
 ![alt text](EditCalendarFile53.png)
 ![alt text](EditCalendarFile53Fix.png)
 
 ### <B> Calendar was created incorectly </B>
-If the days of the week were incorectly entered, you can remove the new calendar file from the menu options:
+If the days of the week were incorrectly entered, you can remove the new calendar file from the menu options:
 1, 4, 9, F11 to delete calendar records
 
 ### <B> Reviewing Closing Control Display </B>
